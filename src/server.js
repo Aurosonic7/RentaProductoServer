@@ -5,6 +5,8 @@ import cors from './middlewares/cors.js';
 import { helmetMiddleware, limiter } from './middlewares/security.js';
 import { errorHandler, notFoundHandler } from './middlewares/errorHandler.js';
 
+import authRoutes from './routes/auth.routes.js';
+
 //! Crear la instancia de Express
 const server = express();
 
@@ -19,10 +21,8 @@ server.use(cors);
 server.use(express.urlencoded({ extended: true, limit: '50mb' }));
 server.use(express.json({ limit: '50mb' }));
 
-//! Ruta de prueba
-server.get('/', (req, res) => {
-  res.send('API de autenticación');
-});
+//! Rutas
+server.use('/api/auth', authRoutes);
 
 //! Agregar un middleware para manejar errores 404 y 500
 server.use(notFoundHandler);
