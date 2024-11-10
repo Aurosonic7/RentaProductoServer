@@ -57,3 +57,187 @@
 {"level":"info","message":"MySQL initialized","timestamp":"2024-09-17T05:13:47.584Z"}
 {"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-09-17T05:13:47.586Z"}
 {"level":"info","message":"MySQL closed","timestamp":"2024-09-17T05:13:49.096Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-09-17T20:03:18.908Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-09-17T20:03:18.910Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [17/Sep/2024:20:03:57 +0000] \"POST /api/auth/login HTTP/1.1\" 200 201 \"-\" \"vscode-restclient\"","timestamp":"2024-09-17T20:03:57.136Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-09-17T20:05:28.937Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-09-17T20:05:28.938Z"}
+{"level":"error","message":"Error initializing MySQL: AggregateError","timestamp":"2024-09-18T20:02:33.096Z"}
+{"level":"error","message":"MySQL database failed to initialize","reason":{"details":{},"errorCode":"DB_INIT_ERROR","message":"Failed to initialize MySQL","name":"CustomError","statusCode":500},"timestamp":"2024-09-18T20:02:33.098Z"}
+{"level":"info","message":"MySQL closed","timestamp":"2024-09-18T20:02:35.159Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-09-18T20:02:58.987Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-09-18T20:02:58.989Z"}
+{"level":"info","message":"::1 - - [18/Sep/2024:20:03:07 +0000] \"GET /Usuarios/ HTTP/1.1\" 404 41 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/601.2.4 (KHTML, like Gecko) Version/9.0.1 Safari/601.2.4 facebookexternalhit/1.1 Facebot Twitterbot/1.0\"","timestamp":"2024-09-18T20:03:07.304Z"}
+{"level":"info","message":"::1 - - [18/Sep/2024:20:03:07 +0000] \"GET /apple-touch-icon-precomposed.png HTTP/1.1\" 404 41 \"-\" \"com.apple.WebKit.Networking/20619.1.26.31.6 Network/4277.1.6 macOS/15.0\"","timestamp":"2024-09-18T20:03:07.309Z"}
+{"level":"info","message":"::1 - - [18/Sep/2024:20:03:07 +0000] \"GET /apple-touch-icon.png HTTP/1.1\" 404 41 \"-\" \"com.apple.WebKit.Networking/20619.1.26.31.6 Network/4277.1.6 macOS/15.0\"","timestamp":"2024-09-18T20:03:07.319Z"}
+{"level":"info","message":"::1 - - [18/Sep/2024:20:03:07 +0000] \"GET /favicon.ico HTTP/1.1\" 404 41 \"-\" \"com.apple.WebKit.Networking/20619.1.26.31.6 Network/4277.1.6 macOS/15.0\"","timestamp":"2024-09-18T20:03:07.324Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-09-18T20:03:53.477Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-09-18T20:03:53.479Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-09-18T20:03:59.807Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-09-18T20:03:59.813Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [18/Sep/2024:20:04:33 +0000] \"POST /api/auth/login HTTP/1.1\" 200 201 \"-\" \"vscode-restclient\"","timestamp":"2024-09-18T20:04:33.209Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [18/Sep/2024:20:08:31 +0000] \"POST /api/auth/register HTTP/1.1\" 201 46 \"-\" \"vscode-restclient\"","timestamp":"2024-09-18T20:08:31.416Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [18/Sep/2024:20:09:04 +0000] \"POST /api/auth/login HTTP/1.1\" 401 42 \"-\" \"vscode-restclient\"","timestamp":"2024-09-18T20:09:04.969Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [18/Sep/2024:20:09:09 +0000] \"POST /api/auth/login HTTP/1.1\" 401 42 \"-\" \"vscode-restclient\"","timestamp":"2024-09-18T20:09:09.334Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [18/Sep/2024:20:09:16 +0000] \"POST /api/auth/login HTTP/1.1\" 200 201 \"-\" \"vscode-restclient\"","timestamp":"2024-09-18T20:09:16.114Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-09-18T20:09:29.802Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-09-18T20:09:29.804Z"}
+{"level":"info","message":"::1 - - [18/Sep/2024:20:19:58 +0000] \"GET /apple-touch-icon-precomposed.png HTTP/1.1\" 404 41 \"-\" \"com.apple.WebKit.Networking/20619.1.26.31.6 Network/4277.1.6 macOS/15.0\"","timestamp":"2024-09-18T20:19:58.479Z"}
+{"level":"info","message":"::1 - - [18/Sep/2024:20:19:58 +0000] \"GET /Usuarios/ HTTP/1.1\" 404 41 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/601.2.4 (KHTML, like Gecko) Version/9.0.1 Safari/601.2.4 facebookexternalhit/1.1 Facebot Twitterbot/1.0\"","timestamp":"2024-09-18T20:19:58.490Z"}
+{"level":"info","message":"::1 - - [18/Sep/2024:20:19:58 +0000] \"GET /apple-touch-icon.png HTTP/1.1\" 404 41 \"-\" \"com.apple.WebKit.Networking/20619.1.26.31.6 Network/4277.1.6 macOS/15.0\"","timestamp":"2024-09-18T20:19:58.497Z"}
+{"level":"info","message":"::1 - - [18/Sep/2024:20:19:58 +0000] \"GET /favicon.ico HTTP/1.1\" 404 41 \"-\" \"com.apple.WebKit.Networking/20619.1.26.31.6 Network/4277.1.6 macOS/15.0\"","timestamp":"2024-09-18T20:19:58.504Z"}
+{"level":"info","message":"::1 - - [18/Sep/2024:20:25:29 +0000] \"GET /Usuarios/ HTTP/1.1\" 404 41 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/601.2.4 (KHTML, like Gecko) Version/9.0.1 Safari/601.2.4 facebookexternalhit/1.1 Facebot Twitterbot/1.0\"","timestamp":"2024-09-18T20:25:29.861Z"}
+{"level":"info","message":"::1 - - [18/Sep/2024:20:25:29 +0000] \"GET /apple-touch-icon-precomposed.png HTTP/1.1\" 404 41 \"-\" \"com.apple.WebKit.Networking/20619.1.26.31.6 Network/4277.1.6 macOS/15.0\"","timestamp":"2024-09-18T20:25:29.876Z"}
+{"level":"info","message":"::1 - - [18/Sep/2024:20:25:29 +0000] \"GET /apple-touch-icon.png HTTP/1.1\" 404 41 \"-\" \"com.apple.WebKit.Networking/20619.1.26.31.6 Network/4277.1.6 macOS/15.0\"","timestamp":"2024-09-18T20:25:29.880Z"}
+{"level":"info","message":"::1 - - [18/Sep/2024:20:25:29 +0000] \"GET /favicon.ico HTTP/1.1\" 404 41 \"-\" \"com.apple.WebKit.Networking/20619.1.26.31.6 Network/4277.1.6 macOS/15.0\"","timestamp":"2024-09-18T20:25:29.891Z"}
+{"level":"info","message":"MySQL closed","timestamp":"2024-09-18T20:32:15.686Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-09-18T20:32:38.056Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-09-18T20:32:38.058Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-09-18T20:32:44.411Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-09-18T20:32:44.413Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-09-18T20:33:29.394Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-09-18T20:33:29.396Z"}
+{"level":"error","message":"Error initializing MySQL: AggregateError","timestamp":"2024-11-09T20:49:00.649Z"}
+{"level":"error","message":"MySQL database failed to initialize","reason":{"details":{},"errorCode":"DB_INIT_ERROR","message":"Failed to initialize MySQL","name":"CustomError","statusCode":500},"timestamp":"2024-11-09T20:49:00.651Z"}
+{"level":"info","message":"MySQL closed","timestamp":"2024-11-09T20:49:02.074Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-09T20:59:48.171Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-09T20:59:48.173Z"}
+{"level":"info","message":"MySQL closed","timestamp":"2024-11-09T20:59:53.427Z"}
+{"level":"error","message":"Error initializing MySQL: Error: Access denied for user 'usersProd'@'%' to database 'db_rentaproductos'","timestamp":"2024-11-09T22:24:57.644Z"}
+{"level":"error","message":"MySQL database failed to initialize","reason":{"details":{},"errorCode":"DB_INIT_ERROR","message":"Failed to initialize MySQL","name":"CustomError","statusCode":500},"timestamp":"2024-11-09T22:24:57.646Z"}
+{"level":"info","message":"MySQL closed","timestamp":"2024-11-09T22:24:59.601Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-09T22:26:22.264Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-09T22:26:22.265Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-09T22:26:31.928Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-09T22:26:31.930Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-09T22:26:51.799Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-09T22:26:51.801Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-09T22:27:09.008Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-09T22:27:09.010Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-09T22:30:44.790Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-09T22:30:44.792Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-09T22:30:55.736Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-09T22:30:55.737Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-09T22:31:31.983Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-09T22:31:31.985Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-09T22:32:12.590Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-09T22:32:12.592Z"}
+{"level":"info","message":"MySQL closed","timestamp":"2024-11-09T22:43:25.593Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-10T01:07:49.182Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-10T01:07:49.184Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-10T01:09:18.685Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-10T01:09:18.688Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-10T01:09:51.723Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-10T01:09:51.725Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-10T01:10:08.264Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-10T01:10:08.266Z"}
+{"level":"error","message":"Error creating user: execute command denied to user 'usersProd'@'%' for routine 'db_rentaproductos.register_user'","timestamp":"2024-11-10T01:10:27.238Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Nov/2024:01:10:27 +0000] \"POST /api/auth/register HTTP/1.1\" 500 59 \"-\" \"vscode-restclient\"","timestamp":"2024-11-10T01:10:27.241Z"}
+{"level":"error","message":"Error creating user: execute command denied to user 'usersProd'@'%' for routine 'db_rentaproductos.register_user'","timestamp":"2024-11-10T01:10:48.727Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Nov/2024:01:10:48 +0000] \"POST /api/auth/register HTTP/1.1\" 500 59 \"-\" \"vscode-restclient\"","timestamp":"2024-11-10T01:10:48.728Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Nov/2024:01:11:24 +0000] \"POST /api/auth/register HTTP/1.1\" 201 46 \"-\" \"vscode-restclient\"","timestamp":"2024-11-10T01:11:24.044Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-10T01:17:13.150Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-10T01:17:13.153Z"}
+{"level":"error","message":"Error creating user: OUT or INOUT argument 6 for routine db_rentaproductos.register_user is not a variable or NEW pseudo-variable in BEFORE trigger","timestamp":"2024-11-10T01:17:20.301Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Nov/2024:01:17:20 +0000] \"POST /api/auth/register HTTP/1.1\" 500 59 \"-\" \"vscode-restclient\"","timestamp":"2024-11-10T01:17:20.304Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-10T01:17:37.185Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-10T01:17:37.187Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Nov/2024:01:17:38 +0000] \"POST /api/auth/register HTTP/1.1\" 201 46 \"-\" \"vscode-restclient\"","timestamp":"2024-11-10T01:17:38.723Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-10T01:20:47.183Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-10T01:20:47.185Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Nov/2024:01:22:59 +0000] \"POST /api/auth/login HTTP/1.1\" 404 46 \"-\" \"vscode-restclient\"","timestamp":"2024-11-10T01:22:59.217Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Nov/2024:01:23:14 +0000] \"POST /api/auth/login HTTP/1.1\" 404 46 \"-\" \"vscode-restclient\"","timestamp":"2024-11-10T01:23:14.792Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Nov/2024:01:23:15 +0000] \"POST /api/auth/login HTTP/1.1\" 404 46 \"-\" \"vscode-restclient\"","timestamp":"2024-11-10T01:23:15.803Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-10T01:26:23.289Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-10T01:26:23.292Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-10T01:28:21.027Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-10T01:28:21.030Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Nov/2024:01:29:38 +0000] \"POST /api/auth/login HTTP/1.1\" 500 60 \"-\" \"vscode-restclient\"","timestamp":"2024-11-10T01:29:38.573Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-10T01:30:00.126Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-10T01:30:00.127Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Nov/2024:01:30:02 +0000] \"POST /api/auth/login HTTP/1.1\" 500 60 \"-\" \"vscode-restclient\"","timestamp":"2024-11-10T01:30:02.211Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Nov/2024:01:30:07 +0000] \"POST /api/auth/login HTTP/1.1\" 500 60 \"-\" \"vscode-restclient\"","timestamp":"2024-11-10T01:30:07.318Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Nov/2024:01:30:07 +0000] \"POST /api/auth/login HTTP/1.1\" 500 60 \"-\" \"vscode-restclient\"","timestamp":"2024-11-10T01:30:07.945Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Nov/2024:01:30:13 +0000] \"POST /api/auth/login HTTP/1.1\" 500 60 \"-\" \"vscode-restclient\"","timestamp":"2024-11-10T01:30:13.487Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-10T01:37:57.603Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-10T01:37:57.605Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-10T01:38:02.371Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-10T01:38:02.373Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-10T01:38:07.869Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-10T01:38:07.872Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-10T01:38:14.730Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-10T01:38:14.732Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Nov/2024:01:38:24 +0000] \"POST /api/auth/login HTTP/1.1\" 200 202 \"-\" \"vscode-restclient\"","timestamp":"2024-11-10T01:38:24.837Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Nov/2024:01:38:29 +0000] \"POST /api/auth/login HTTP/1.1\" 404 46 \"-\" \"vscode-restclient\"","timestamp":"2024-11-10T01:38:29.682Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Nov/2024:01:38:35 +0000] \"POST /api/auth/login HTTP/1.1\" 401 42 \"-\" \"vscode-restclient\"","timestamp":"2024-11-10T01:38:35.572Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Nov/2024:01:38:38 +0000] \"POST /api/auth/login HTTP/1.1\" 200 202 \"-\" \"vscode-restclient\"","timestamp":"2024-11-10T01:38:38.078Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-10T01:38:45.458Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-10T01:38:45.460Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-10T01:39:24.969Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-10T01:39:24.971Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Nov/2024:01:40:15 +0000] \"POST /api/auth/login HTTP/1.1\" 404 46 \"-\" \"vscode-restclient\"","timestamp":"2024-11-10T01:40:15.771Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-10T01:41:29.794Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-10T01:41:29.797Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-10T01:41:31.538Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-10T01:41:31.539Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Nov/2024:01:41:38 +0000] \"POST /api/auth/login HTTP/1.1\" 401 42 \"-\" \"vscode-restclient\"","timestamp":"2024-11-10T01:41:38.379Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Nov/2024:01:41:41 +0000] \"POST /api/auth/login HTTP/1.1\" 200 202 \"-\" \"vscode-restclient\"","timestamp":"2024-11-10T01:41:41.079Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Nov/2024:01:41:44 +0000] \"POST /api/auth/login HTTP/1.1\" 200 202 \"-\" \"vscode-restclient\"","timestamp":"2024-11-10T01:41:44.034Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Nov/2024:01:41:44 +0000] \"POST /api/auth/login HTTP/1.1\" 200 202 \"-\" \"vscode-restclient\"","timestamp":"2024-11-10T01:41:44.435Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-10T01:43:55.571Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-10T01:43:55.573Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Nov/2024:01:43:58 +0000] \"POST /api/auth/login HTTP/1.1\" 200 202 \"-\" \"vscode-restclient\"","timestamp":"2024-11-10T01:43:58.491Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Nov/2024:01:44:15 +0000] \"POST /api/auth/register HTTP/1.1\" 201 46 \"-\" \"vscode-restclient\"","timestamp":"2024-11-10T01:44:15.750Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Nov/2024:01:44:20 +0000] \"POST /api/auth/register HTTP/1.1\" 400 1459 \"-\" \"vscode-restclient\"","timestamp":"2024-11-10T01:44:20.738Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Nov/2024:01:44:26 +0000] \"POST /api/auth/login HTTP/1.1\" 200 202 \"-\" \"vscode-restclient\"","timestamp":"2024-11-10T01:44:26.828Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Nov/2024:01:44:32 +0000] \"POST /api/auth/login HTTP/1.1\" 401 42 \"-\" \"vscode-restclient\"","timestamp":"2024-11-10T01:44:32.080Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Nov/2024:01:44:35 +0000] \"POST /api/auth/login HTTP/1.1\" 200 203 \"-\" \"vscode-restclient\"","timestamp":"2024-11-10T01:44:35.859Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Nov/2024:01:44:43 +0000] \"POST /api/auth/login HTTP/1.1\" 401 42 \"-\" \"vscode-restclient\"","timestamp":"2024-11-10T01:44:43.658Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Nov/2024:01:44:46 +0000] \"POST /api/auth/login HTTP/1.1\" 200 203 \"-\" \"vscode-restclient\"","timestamp":"2024-11-10T01:44:46.834Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-10T01:45:45.216Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-10T01:45:45.218Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-10T01:46:11.871Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-10T01:46:11.874Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Nov/2024:01:46:17 +0000] \"POST /api/auth/login HTTP/1.1\" 200 203 \"-\" \"vscode-restclient\"","timestamp":"2024-11-10T01:46:17.349Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Nov/2024:01:46:20 +0000] \"POST /api/auth/login HTTP/1.1\" 401 42 \"-\" \"vscode-restclient\"","timestamp":"2024-11-10T01:46:20.003Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Nov/2024:01:46:23 +0000] \"POST /api/auth/login HTTP/1.1\" 404 46 \"-\" \"vscode-restclient\"","timestamp":"2024-11-10T01:46:23.017Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Nov/2024:01:46:28 +0000] \"POST /api/auth/login HTTP/1.1\" 200 203 \"-\" \"vscode-restclient\"","timestamp":"2024-11-10T01:46:28.139Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Nov/2024:01:51:28 +0000] \"POST /api/auth/login HTTP/1.1\" 200 203 \"-\" \"vscode-restclient\"","timestamp":"2024-11-10T01:51:28.250Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Nov/2024:01:51:36 +0000] \"POST /api/auth/login HTTP/1.1\" 200 203 \"-\" \"vscode-restclient\"","timestamp":"2024-11-10T01:51:36.338Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Nov/2024:01:51:36 +0000] \"POST /api/auth/login HTTP/1.1\" 200 203 \"-\" \"vscode-restclient\"","timestamp":"2024-11-10T01:51:36.817Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-10T01:55:49.460Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-10T01:55:49.466Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Nov/2024:02:26:26 +0000] \"POST /api/auth/login HTTP/1.1\" 200 203 \"-\" \"vscode-restclient\"","timestamp":"2024-11-10T02:26:26.333Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-10T03:39:15.583Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-10T03:39:15.585Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Nov/2024:03:39:19 +0000] \"POST /api/auth/login HTTP/1.1\" 200 203 \"-\" \"vscode-restclient\"","timestamp":"2024-11-10T03:39:19.285Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-10T03:39:40.705Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-10T03:39:40.707Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-10T03:40:11.791Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-10T03:40:11.793Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Nov/2024:03:41:06 +0000] \"POST /api/categorias HTTP/1.1\" 400 1460 \"-\" \"vscode-restclient\"","timestamp":"2024-11-10T03:41:06.529Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Nov/2024:03:41:35 +0000] \"POST /api/categorias HTTP/1.1\" 400 1460 \"-\" \"vscode-restclient\"","timestamp":"2024-11-10T03:41:35.419Z"}
+{"level":"error","message":"Error creating category: execute command denied to user 'usersProd'@'%' for routine 'db_rentaproductos.create_categoria'","timestamp":"2024-11-10T03:42:40.908Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Nov/2024:03:42:40 +0000] \"POST /api/categorias HTTP/1.1\" 500 58 \"-\" \"vscode-restclient\"","timestamp":"2024-11-10T03:42:40.911Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Nov/2024:03:43:09 +0000] \"POST /api/auth/login HTTP/1.1\" 200 203 \"-\" \"vscode-restclient\"","timestamp":"2024-11-10T03:43:09.832Z"}
+{"level":"error","message":"Error creating category: execute command denied to user 'usersProd'@'%' for routine 'db_rentaproductos.create_categoria'","timestamp":"2024-11-10T03:43:16.946Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Nov/2024:03:43:16 +0000] \"POST /api/categorias HTTP/1.1\" 500 58 \"-\" \"vscode-restclient\"","timestamp":"2024-11-10T03:43:16.948Z"}
+{"level":"error","message":"Error creating category: execute command denied to user 'usersProd'@'%' for routine 'db_rentaproductos.create_categoria'","timestamp":"2024-11-10T03:43:19.194Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Nov/2024:03:43:19 +0000] \"POST /api/categorias HTTP/1.1\" 500 58 \"-\" \"vscode-restclient\"","timestamp":"2024-11-10T03:43:19.195Z"}
+{"level":"error","message":"Error creating category: execute command denied to user 'usersProd'@'%' for routine 'db_rentaproductos.create_categoria'","timestamp":"2024-11-10T03:43:19.405Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Nov/2024:03:43:19 +0000] \"POST /api/categorias HTTP/1.1\" 500 58 \"-\" \"vscode-restclient\"","timestamp":"2024-11-10T03:43:19.407Z"}
+{"level":"error","message":"Error creating category: execute command denied to user 'usersProd'@'%' for routine 'db_rentaproductos.create_categoria'","timestamp":"2024-11-10T03:43:19.569Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Nov/2024:03:43:19 +0000] \"POST /api/categorias HTTP/1.1\" 500 58 \"-\" \"vscode-restclient\"","timestamp":"2024-11-10T03:43:19.570Z"}
+{"level":"error","message":"Error creating category: execute command denied to user 'usersProd'@'%' for routine 'db_rentaproductos.create_categoria'","timestamp":"2024-11-10T03:43:19.752Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Nov/2024:03:43:19 +0000] \"POST /api/categorias HTTP/1.1\" 500 58 \"-\" \"vscode-restclient\"","timestamp":"2024-11-10T03:43:19.753Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Nov/2024:03:45:08 +0000] \"POST /api/categorias HTTP/1.1\" 201 44 \"-\" \"vscode-restclient\"","timestamp":"2024-11-10T03:45:08.764Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Nov/2024:03:46:13 +0000] \"GET /api/categorias HTTP/1.1\" 200 196 \"-\" \"vscode-restclient\"","timestamp":"2024-11-10T03:46:13.355Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Nov/2024:03:48:59 +0000] \"PUT /api/categorias/1 HTTP/1.1\" 200 49 \"-\" \"vscode-restclient\"","timestamp":"2024-11-10T03:48:59.567Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Nov/2024:03:49:05 +0000] \"GET /api/categorias HTTP/1.1\" 200 196 \"-\" \"vscode-restclient\"","timestamp":"2024-11-10T03:49:05.385Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Nov/2024:03:49:14 +0000] \"PUT /api/categorias/1 HTTP/1.1\" 200 49 \"-\" \"vscode-restclient\"","timestamp":"2024-11-10T03:49:14.433Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Nov/2024:03:49:20 +0000] \"GET /api/categorias HTTP/1.1\" 200 196 \"-\" \"vscode-restclient\"","timestamp":"2024-11-10T03:49:20.803Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Nov/2024:03:49:27 +0000] \"PUT /api/categorias/2 HTTP/1.1\" 200 49 \"-\" \"vscode-restclient\"","timestamp":"2024-11-10T03:49:27.936Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Nov/2024:03:49:33 +0000] \"GET /api/categorias HTTP/1.1\" 200 229 \"-\" \"vscode-restclient\"","timestamp":"2024-11-10T03:49:33.039Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Nov/2024:03:50:58 +0000] \"DELETE /api/categorias/2 HTTP/1.1\" 200 47 \"-\" \"vscode-restclient\"","timestamp":"2024-11-10T03:50:58.787Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Nov/2024:03:51:04 +0000] \"GET /api/categorias HTTP/1.1\" 200 113 \"-\" \"vscode-restclient\"","timestamp":"2024-11-10T03:51:04.220Z"}
+{"level":"info","message":"MySQL closed","timestamp":"2024-11-10T03:51:25.659Z"}

@@ -11,8 +11,7 @@ const registerClientSchema = Joi.object({
   apellido_mat: Joi.string().optional(),
   telefono: Joi.string().optional(),
   email: Joi.string().email().required(),
-  password: Joi.string().required(),
-  avatar: Joi.string().optional().allow(null)
+  password: Joi.string().required()
 });
 
 const hashPassword = async (password) => {
@@ -30,26 +29,19 @@ export const register_user = async (user) => {
       throw new CustomError('Input validation failed', 'VALIDATION_ERROR', 400, { validationError: error.details[0].message });
     }
     user.password = await hashPassword(user.password);
-    const avatar = user.avatar || null;
 
     connection = await mysql.pool.getConnection();
 
-    const query = `CALL register_user(?, ?, ?, ?, ?, ?, ?, @status_message);`;
+    const query = `CALL register_user(?, ?, ?, ?, ?, @status_message);`;
     await connection.query(query, [
       user.nombre,
       user.apellido_pat,
       user.apellido_mat,
-      user.telefono,
       user.email,
-      user.password,
-      avatar
+      user.password
     ]);
     const [output] = await connection.query('SELECT @status_message AS statusMessage');
     const statusMessage = output[0]?.statusMessage;
-    if (statusMessage === 'User created successfully') {
-      const token = jwt.sign({ email: user.email }, process.env.JWT_SECRET, { expiresIn: process.env.JWT_EXPIRES_IN || '1h' });
-      return { statusMessage, token };
-    }
     return { statusMessage };
   } catch (error) {
     logger.error(`Error creating user: ${error.message}`);
@@ -66,17 +58,20 @@ export const login_user = async (user) => {
 
     const query = `CALL login_user(?, @hashed_password, @status_message);`;
     await connection.query(query, [user.email]);
+
     const [output] = await connection.query('SELECT @hashed_password AS hashedPassword, @status_message AS statusMessage');
     const hashedPassword = output[0]?.hashedPassword;
     const statusMessage = output[0]?.statusMessage;
+
     if (statusMessage === 'Email does not exist') return { statusMessage: 'Email does not exist' };
+    
+    // Comparar la contraseña ingresada con la contraseña hasheada almacenada
     const isPasswordValid = await bcrypt.compare(user.password, hashedPassword);
-
     if (!isPasswordValid) return { statusMessage: 'Incorrect password' };
-
+    
+    // Generar el token JWT si la autenticación es exitosa
     const token = jwt.sign({ email: user.email }, process.env.JWT_SECRET, { expiresIn: process.env.JWT_EXPIRES_IN || '1h' });
     return { statusMessage: 'Login successful', token };
-
   } catch (error) {
     logger.error(`Error during login: ${error.message}`);
     throw new CustomError('Database Error', 'DB_ERROR', 500, { originalError: error.message });
