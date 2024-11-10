@@ -73,20 +73,25 @@ export const delete_producto = async (producto_id, imagenPath) => {
   let connection;
   try {
     connection = await mysql.pool.getConnection();
-
     if (imagenPath) {
+      logger.info(`Deleting image at path: ${imagenPath}`);
       try {
         await dbx.filesDeleteV2({ path: imagenPath });
       } catch (error) {
-        logger.error(`Error deleting file from Dropbox: ${error.message}`);
-        throw new CustomError('Dropbox Error', 'DROPBOX_ERROR', 500, { originalError: error.message });
+        if (error.status === 409) { // Código 409 en Dropbox cuando el archivo no existe
+          logger.warn(`File at ${imagenPath} not found in Dropbox, skipping deletion.`);
+        } else {
+          logger.error(`Error deleting file from Dropbox: ${error.message}`);
+          throw new CustomError('Dropbox Error', 'DROPBOX_ERROR', 500, { originalError: error.message });
+        }
       }
     }
-
     const query = `CALL delete_producto(?, @status_message);`;
     await connection.query(query, [producto_id]);
     const [output] = await connection.query('SELECT @status_message AS statusMessage');
-    return output[0].statusMessage;
+    const statusMessage = output[0]?.statusMessage;
+    logger.info(`Delete status message: ${statusMessage}`); 
+    return statusMessage;
   } catch (error) {
     logger.error(`Error deleting product: ${error.message}`);
     throw new CustomError('Database Error', 'DB_ERROR', 500, { originalError: error.message });

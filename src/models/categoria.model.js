@@ -41,8 +41,9 @@ export const update_categoria = async (categoria_id, categoria) => {
     connection = await mysql.pool.getConnection();
     const query = `CALL update_categoria(?, ?, ?, @status_message);`;
     await connection.query(query, [
-      categoria_id, categoria.nombre, 
-      categoria.descripcion
+      categoria_id,
+      categoria.nombre || null,
+      categoria.descripcion || null
     ]);
     const [output] = await connection.query('SELECT @status_message AS statusMessage');
     return output[0]?.statusMessage;
