@@ -13,13 +13,15 @@ export const create_producto = async (req, res) => {
     const imageName = createFileName(nombre, extension);
     const dropboxPath = await uploadToDropbox(file.buffer, imageName);
 
+    // Obtener el enlace directo de Dropbox y guardarlo en la base de datos
+    const imageUrl = await getDropboxImageLink(dropboxPath);
     const statusMessage = await productoModel.create_producto({
       nombre,
       descripcion,
       estado,
       tarifa_renta,
       fecha_adquisicion: new Date(),
-      imagen: dropboxPath,
+      imagen: imageUrl, // Guarda el enlace directo en la base de datos
       usuario_id,
       categoria_id,
     });
@@ -30,7 +32,8 @@ export const create_producto = async (req, res) => {
       return res.status(400).json({ message: statusMessage });
     }
   } catch (error) {
-    return res.status(500).json({ message: `Error al crear el producto: ${error.message}` });
+    logger.error(`Error al crear el producto: ${error.message}`);
+    res.status(500).json({ message: `Error al crear el producto: ${error.message}` });
   }
 };
 

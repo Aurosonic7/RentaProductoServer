@@ -32,7 +32,7 @@ const getDropboxImageLink = async (path) => {
     logger.info(`Generated Dropbox link: ${directLink}`);
     return directLink;
   } catch (error) {
-    logger.error(`Error generating Dropbox link for path ${path}: ${error.message}`);
+    logger.error(`Error generating Dropbox link for path ${path}: ${error.message}`); //! Analizar el error debido a que no se generó el enlace
     return null;
   }
 };
