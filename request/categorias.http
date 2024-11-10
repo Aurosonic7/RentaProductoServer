@@ -1,0 +1,31 @@
+### Agregar una categoria
+POST https://localhost:8443/api/categorias
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNocmlzQGhvdG1haWwuY29tIiwiaWF0IjoxNzMxMjEwMTg5LCJleHAiOjE3MzEyMTM3ODl9.ip3BP2RJaKQJlU8vBjaxh9zh1rLxlsjzcac01-JtQXM
+  
+  {
+    "nombre": "Electrónicos",
+    "descripcion": "Productos electrónicos"
+  }
+
+### Obtener todas las categorias
+GET https://localhost:8443/api/categorias
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNocmlzQGhvdG1haWwuY29tIiwiaWF0IjoxNzMxMjEwMTg5LCJleHAiOjE3MzEyMTM3ODl9.ip3BP2RJaKQJlU8vBjaxh9zh1rLxlsjzcac01-JtQXM
+
+### Actualizar una categoria
+PUT https://localhost:8443/api/categorias/3
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNocmlzQGhvdG1haWwuY29tIiwiaWF0IjoxNzMxMjEwMTg5LCJleHAiOjE3MzEyMTM3ODl9.ip3BP2RJaKQJlU8vBjaxh9zh1rLxlsjzcac01-JtQXM
+
+{
+  "nombre": "Electrodomésticos",
+  "descripcion": "Productos electrodomésticos de última generación"
+}
+
+### Eliminar una categoria
+DELETE https://localhost:8443/api/categorias/3
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNocmlzQGhvdG1haWwuY29tIiwiaWF0IjoxNzMxMjEwMTg5LCJleHAiOjE3MzEyMTM3ODl9.ip3BP2RJaKQJlU8vBjaxh9zh1rLxlsjzcac01-JtQXM
+
+### Obtener una categoria por id
+GET https://localhost:8443/api/categorias/3
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNocmlzQGhvdG1haWwuY29tIiwiaWF0IjoxNzMxMjEwMTg5LCJleHAiOjE3MzEyMTM3ODl9.ip3BP2RJaKQJlU8vBjaxh9zh1rLxlsjzcac01-JtQXM
