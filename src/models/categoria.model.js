@@ -35,7 +35,6 @@ export const get_categorias = async () => {
   }
 };
 
-
 export const update_categoria = async (categoria_id, categoria) => {
   let connection;
   try {
