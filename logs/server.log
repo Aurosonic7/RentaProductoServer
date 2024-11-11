@@ -850,3 +850,6 @@
 {"level":"info","message":"Delete status message: Product deleted successfully","timestamp":"2024-11-11T03:05:02.219Z"}
 {"level":"info","message":"::1 - - [11/Nov/2024:03:05:02 +0000] \"DELETE /api/productos/40 HTTP/1.1\" 200 45 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-11T03:05:02.221Z"}
 {"level":"info","message":"MySQL closed","timestamp":"2024-11-11T03:05:06.797Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-11T04:34:04.681Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-11T04:34:04.682Z"}
+{"level":"info","message":"MySQL closed","timestamp":"2024-11-11T04:34:58.861Z"}

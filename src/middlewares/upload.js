@@ -9,9 +9,7 @@ const ALLOWED_FILE_TYPES = /jpeg|jpg|png/;
 
 // Función para sanitizar el nombre
 const sanitizeName = (name) => {
-  return name
-    ? name.normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-zA-Z0-9]/g, "_").toLowerCase()
-    : 'unknown_name';
+  return name ? name.normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-zA-Z0-9]/g, "_").toLowerCase() : 'unknown_name';
 };
 
 // Crear nombre de archivo con extensión
@@ -25,7 +23,7 @@ const createFileName = (baseName, extension) => {
 const uploadToDropbox = async (fileBuffer, imageName) => {
   const dropboxPath = `/productos/${imageName}`;
   await dbx.filesUpload({ path: dropboxPath, contents: fileBuffer });
-  return dropboxPath; // Retornamos la ruta en Dropbox
+  return dropboxPath;
 };
 
 // Obtener enlace directo desde Dropbox
@@ -56,6 +54,7 @@ const getDropboxImageLink = async (path) => {
   }
 };
 
+// Configuración de multer
 const storage = multer.memoryStorage();
 const fileFilter = (req, file, cb) => {
   const mimetype = ALLOWED_FILE_TYPES.test(file.mimetype);
@@ -64,6 +63,7 @@ const fileFilter = (req, file, cb) => {
   cb(new Error('Solo se permiten imágenes con extensiones JPEG, JPG y PNG'));
 };
 
+// Middleware de subida de archivos
 const upload = multer({
   storage,
   limits: { fileSize: MAX_FILE_SIZE },
