@@ -853,3 +853,10 @@
 {"level":"info","message":"MySQL initialized","timestamp":"2024-11-11T04:34:04.681Z"}
 {"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-11T04:34:04.682Z"}
 {"level":"info","message":"MySQL closed","timestamp":"2024-11-11T04:34:58.861Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-11T06:21:23.954Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-11T06:21:23.956Z"}
+{"level":"info","message":"::1 - - [11/Nov/2024:06:21:30 +0000] \"POST /api/productos HTTP/1.1\" 201 42 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-11T06:21:30.862Z"}
+{"level":"info","message":"Generated Dropbox link: https://www.dropbox.com/scl/fi/73j1zmq6rtby7gev37brr/producto_38_1731306089317.jpeg?rlkey=9rm4p854a4803glqpeve1dmtw&dl=0","timestamp":"2024-11-11T06:21:35.506Z"}
+{"level":"info","message":"::1 - - [11/Nov/2024:06:21:35 +0000] \"GET /api/productos HTTP/1.1\" 200 330 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-11T06:21:35.509Z"}
+{"level":"info","message":"Existing Dropbox link: https://www.dropbox.com/scl/fi/73j1zmq6rtby7gev37brr/producto_38_1731306089317.jpeg?rlkey=9rm4p854a4803glqpeve1dmtw&dl=0","timestamp":"2024-11-11T06:21:40.068Z"}
+{"level":"info","message":"::1 - - [11/Nov/2024:06:21:40 +0000] \"GET /api/productos HTTP/1.1\" 200 330 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-11T06:21:40.070Z"}
