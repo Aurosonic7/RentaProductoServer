@@ -40,10 +40,7 @@ export const getUsuarioById = async (usuario_id) => {
 
     if (statusMessage === 'User not found') return { statusMessage };
 
-    return {
-      statusMessage,
-      usuario: result[0][0],
-    };
+    return { statusMessage, usuario: result[0][0],};
   } catch (error) {
     logger.error(`Error fetching user by ID: ${error.message}`);
     throw new CustomError('Database Error', 'DB_ERROR', 500, { originalError: error.message });
@@ -68,33 +65,6 @@ export const getAllUsuarios = async () => {
   }
 };
 
-export const update_usuario = async (usuarioData) => {
-  let connection;
-  try {
-    connection = await mysql.pool.getConnection();
-    const query = `CALL update_usuario(?, ?, ?, ?, ?, ?, ?, ?, ?, @status_message);`;
-    await connection.query(query, [
-      usuarioData.usuario_id,
-      usuarioData.admin_id,
-      usuarioData.nombre,
-      usuarioData.apellido_pat,
-      usuarioData.apellido_mat,
-      usuarioData.telefono,
-      usuarioData.email,
-      usuarioData.password,
-      usuarioData.avatar,
-    ]);
-
-    const [output] = await connection.query('SELECT @status_message AS statusMessage');
-    return output[0]?.statusMessage;
-  } catch (error) {
-    logger.error(`Error updating user: ${error.message}`);
-    throw new CustomError('Database Error', 'DB_ERROR', 500, { originalError: error.message });
-  } finally {
-    if (connection) connection.release();
-  }
-};
-
 export const delete_usuario = async (usuario_id) => {
   let connection;
   try {
@@ -108,6 +78,35 @@ export const delete_usuario = async (usuario_id) => {
     return statusMessage;
   } catch (error) {
     logger.error(`Error deleting user: ${error.message}`);
+    throw new CustomError('Database Error', 'DB_ERROR', 500, { originalError: error.message });
+  } finally {
+    if (connection) connection.release();
+  }
+};
+
+export const update_usuario = async (usuarioData) => {
+  let connection;
+  try {
+    connection = await mysql.pool.getConnection();
+    
+    const query = `CALL update_usuario(?, ?, ?, ?, ?, ?, ?, ?, ?, @status_message);`;
+    const params = [
+      usuarioData.usuario_id,
+      usuarioData.admin_id,
+      usuarioData.nombre,
+      usuarioData.apellido_pat,
+      usuarioData.apellido_mat,
+      usuarioData.telefono,
+      usuarioData.email,
+      usuarioData.password,
+      usuarioData.avatar,
+    ];
+
+    await connection.query(query, params);
+    const [output] = await connection.query('SELECT @status_message AS statusMessage');
+    return output[0]?.statusMessage;
+  } catch (error) {
+    logger.error(`Error updating user: ${error.message}`);
     throw new CustomError('Database Error', 'DB_ERROR', 500, { originalError: error.message });
   } finally {
     if (connection) connection.release();

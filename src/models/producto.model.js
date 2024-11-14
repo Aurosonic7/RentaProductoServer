@@ -17,6 +17,7 @@ export const create_producto = async (producto) => {
       producto.usuario_id,
       producto.categoria_id,
     ]);
+
     const [output] = await connection.query('SELECT @status_message AS statusMessage');
     return output[0]?.statusMessage;
   } catch (error) {
@@ -33,9 +34,12 @@ export const getProductoById = async (producto_id) => {
     connection = await mysql.pool.getConnection();
     const query = `CALL get_producto_by_id(?, @status_message);`;
     const [result] = await connection.query(query, [producto_id]);
+
     const [statusOutput] = await connection.query('SELECT @status_message AS statusMessage');
     const statusMessage = statusOutput[0].statusMessage;
+
     if (statusMessage === 'Product not found') return { statusMessage };
+
     return { statusMessage, producto: result[0][0],};
   } catch (error) {
     logger.error(`Error fetching product by ID: ${error.message}`);
@@ -67,6 +71,7 @@ export const delete_producto = async (producto_id) => {
     connection = await mysql.pool.getConnection();
     const query = `CALL delete_producto(?, @status_message);`;
     await connection.query(query, [producto_id]);
+    
     const [output] = await connection.query('SELECT @status_message AS statusMessage');
     const statusMessage = output[0]?.statusMessage;
     logger.info(`Delete status message: ${statusMessage}`);
