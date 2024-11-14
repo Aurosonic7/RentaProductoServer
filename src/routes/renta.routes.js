@@ -5,5 +5,6 @@ import verifyToken from '../middlewares/auth.js';
 const router = Router();
 
 router.route('/')
+  .post(verifyToken, rentaController.create_renta);
 
 export default router;
