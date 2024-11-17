@@ -1,13 +1,13 @@
 ### Crear una renta
 POST https://localhost:8443/api/rentas
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNocmlzQGhvdG1haWwuY29tIiwiaWF0IjoxNzMxNjA4NjY1LCJleHAiOjE3MzE2NTE4NjV9.f0_dCmU3s7oL88i7-dH3A7Z69gzKaeDJ_WMtpIEEEbw
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNocmlzQGhvdG1haWwuY29tIiwidXN1YXJpb19pZCI6NiwiaWF0IjoxNzMxODc4NjQzLCJleHAiOjE3MzE5MjE4NDN9.pNjS_KtHazWuxsMJBNWlBBbI2SNHowkuTVRYOQCQrpE
 Content-Type: application/json
   
   {
-      "usuario_id": 6,
+      "usuario_id": 5,
       "fecha_inicio": "2024-11-14 12:22:41",
       "fecha_fin": "2024-11-15 12:22:41",
-      "total": 1000,
+      "total": 500,
       "estado": "pendiente",
       "fecha_devolucion": "2024-11-16 12:22:41"
   }

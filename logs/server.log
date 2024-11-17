@@ -87,3 +87,87 @@
 {"level":"info","message":"MySQL initialized","timestamp":"2024-11-14T18:26:46.529Z"}
 {"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-14T18:26:46.533Z"}
 {"level":"info","message":"MySQL closed","timestamp":"2024-11-14T18:26:46.952Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-17T20:12:43.543Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-17T20:12:43.545Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-17T20:13:24.070Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-17T20:13:24.072Z"}
+{"level":"error","message":"Error creating user: Incorrect number of arguments for PROCEDURE db_rentaproductos.register_user; expected 7, got 6","timestamp":"2024-11-17T20:13:33.771Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [17/Nov/2024:20:13:33 +0000] \"POST /api/auth/register HTTP/1.1\" 500 59 \"-\" \"vscode-restclient\"","timestamp":"2024-11-17T20:13:33.774Z"}
+{"level":"error","message":"Error creating user: Incorrect number of arguments for PROCEDURE db_rentaproductos.register_user; expected 7, got 6","timestamp":"2024-11-17T20:13:42.385Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [17/Nov/2024:20:13:42 +0000] \"POST /api/auth/register HTTP/1.1\" 500 59 \"-\" \"vscode-restclient\"","timestamp":"2024-11-17T20:13:42.386Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-17T20:14:25.183Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-17T20:14:25.186Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-17T20:14:36.615Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-17T20:14:36.618Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-17T20:14:38.242Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-17T20:14:38.244Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-17T20:14:53.806Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-17T20:14:53.808Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-17T20:14:56.658Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-17T20:14:56.661Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [17/Nov/2024:20:14:57 +0000] \"POST /api/auth/register HTTP/1.1\" 409 56 \"-\" \"vscode-restclient\"","timestamp":"2024-11-17T20:14:57.770Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [17/Nov/2024:20:17:09 +0000] \"POST /api/usuarios HTTP/1.1\" 400 1461 \"-\" \"vscode-restclient\"","timestamp":"2024-11-17T20:17:09.668Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [17/Nov/2024:20:17:20 +0000] \"POST /api/usuarios HTTP/1.1\" 403 45 \"-\" \"vscode-restclient\"","timestamp":"2024-11-17T20:17:20.326Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [17/Nov/2024:20:17:28 +0000] \"POST /api/auth/register HTTP/1.1\" 409 56 \"-\" \"vscode-restclient\"","timestamp":"2024-11-17T20:17:28.176Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-17T20:20:50.415Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-17T20:20:50.420Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [17/Nov/2024:20:21:11 +0000] \"POST /api/auth/register HTTP/1.1\" 201 61 \"-\" \"vscode-restclient\"","timestamp":"2024-11-17T20:21:11.804Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-17T20:21:41.236Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-17T20:21:41.238Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-17T20:21:42.727Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-17T20:21:42.730Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-17T20:25:54.178Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-17T20:25:54.182Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-17T20:26:19.884Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-17T20:26:19.885Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [17/Nov/2024:20:28:52 +0000] \"POST /api/auth/login HTTP/1.1\" 200 223 \"-\" \"vscode-restclient\"","timestamp":"2024-11-17T20:28:52.378Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [17/Nov/2024:20:28:57 +0000] \"POST /api/auth/login HTTP/1.1\" 401 42 \"-\" \"vscode-restclient\"","timestamp":"2024-11-17T20:28:57.960Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [17/Nov/2024:20:29:04 +0000] \"POST /api/auth/login HTTP/1.1\" 404 46 \"-\" \"vscode-restclient\"","timestamp":"2024-11-17T20:29:04.869Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [17/Nov/2024:20:29:09 +0000] \"POST /api/auth/login HTTP/1.1\" 200 223 \"-\" \"vscode-restclient\"","timestamp":"2024-11-17T20:29:09.812Z"}
+{"level":"info","message":"::1 - - [17/Nov/2024:20:30:56 +0000] \"PUT /api/usuarios/6 HTTP/1.1\" 401 56 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-17T20:30:56.528Z"}
+{"level":"error","message":"Error al actualizar el usuario: Response failed with a 401 code","timestamp":"2024-11-17T20:31:35.428Z"}
+{"level":"info","message":"::1 - - [17/Nov/2024:20:31:35 +0000] \"PUT /api/usuarios/15 HTTP/1.1\" 500 77 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-17T20:31:35.430Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-17T20:32:38.714Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-17T20:32:38.720Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-17T20:32:43.508Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-17T20:32:43.509Z"}
+{"level":"info","message":"::1 - - [17/Nov/2024:20:32:48 +0000] \"PUT /api/usuarios/15 HTTP/1.1\" 200 46 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-17T20:32:48.827Z"}
+{"level":"info","message":"::1 - - [17/Nov/2024:20:33:02 +0000] \"DELETE /api/usuarios/15 HTTP/1.1\" 401 56 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-17T20:33:02.621Z"}
+{"level":"info","message":"Delete status message: User deleted successfully","timestamp":"2024-11-17T20:33:14.404Z"}
+{"level":"info","message":"::1 - - [17/Nov/2024:20:33:14 +0000] \"DELETE /api/usuarios/15 HTTP/1.1\" 200 44 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-17T20:33:14.407Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-17T20:36:57.509Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-17T20:36:57.512Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-17T20:38:43.527Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-17T20:38:43.530Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-17T20:42:07.541Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-17T20:42:07.543Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-17T20:42:19.177Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-17T20:42:19.179Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-17T20:42:45.133Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-17T20:42:45.135Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-17T20:42:52.498Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-17T20:42:52.500Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-17T20:43:00.184Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-17T20:43:00.186Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-17T20:43:27.860Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-17T20:43:27.862Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-17T20:44:03.112Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-17T20:44:03.116Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-17T20:44:10.810Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-17T20:44:10.813Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-17T21:23:50.527Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-17T21:23:50.532Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-17T21:23:52.346Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-17T21:23:52.348Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [17/Nov/2024:21:24:03 +0000] \"POST /api/auth/login HTTP/1.1\" 200 223 \"-\" \"vscode-restclient\"","timestamp":"2024-11-17T21:24:03.735Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [17/Nov/2024:21:31:18 +0000] \"POST /api/rentas HTTP/1.1\" 201 52 \"-\" \"vscode-restclient\"","timestamp":"2024-11-17T21:31:18.041Z"}
+{"level":"error","message":"Input validation failed: \"fecha_devolucion\" is required","timestamp":"2024-11-17T21:32:13.553Z"}
+{"level":"error","message":"Error creating renta: Input validation failed","timestamp":"2024-11-17T21:32:13.554Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [17/Nov/2024:21:32:13 +0000] \"POST /api/rentas HTTP/1.1\" 500 65 \"-\" \"vscode-restclient\"","timestamp":"2024-11-17T21:32:13.556Z"}
+{"level":"error","message":"Input validation failed: \"usuario_id\" is required","timestamp":"2024-11-17T21:35:05.948Z"}
+{"level":"error","message":"Error creating renta: Input validation failed","timestamp":"2024-11-17T21:35:05.948Z"}
+{"level":"info","message":"::1 - - [17/Nov/2024:21:35:05 +0000] \"POST /api/rentas HTTP/1.1\" 500 65 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-17T21:35:05.950Z"}
+{"level":"error","message":"Input validation failed: \"usuario_id\" is required","timestamp":"2024-11-17T21:35:32.768Z"}
+{"level":"error","message":"Error creating renta: Input validation failed","timestamp":"2024-11-17T21:35:32.768Z"}
+{"level":"info","message":"::1 - - [17/Nov/2024:21:35:32 +0000] \"POST /api/rentas HTTP/1.1\" 500 65 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-17T21:35:32.769Z"}
+{"level":"info","message":"::1 - - [17/Nov/2024:21:36:22 +0000] \"POST /api/rentas HTTP/1.1\" 201 52 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-17T21:36:22.864Z"}
