@@ -170,3 +170,134 @@
 {"level":"info","message":"::ffff:127.0.0.1 - - [18/Nov/2024:05:14:27 +0000] \"HEAD /netbeans-tomcat-status-test HTTP/1.1\" 404 41 \"-\" \"-\"","timestamp":"2024-11-18T05:14:27.719Z"}
 {"level":"info","message":"::ffff:127.0.0.1 - - [18/Nov/2024:05:14:27 +0000] \"GET /manager/text/ HTTP/1.1\" 404 41 \"-\" \"Java/21.0.4\"","timestamp":"2024-11-18T05:14:27.724Z"}
 {"level":"info","message":"MySQL closed","timestamp":"2024-11-18T05:14:36.223Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-19T02:35:18.496Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-19T02:35:18.498Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-19T02:53:26.565Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-19T02:53:26.570Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:02:54:13 +0000] \"POST /api/auth/register HTTP/1.1\" 201 61 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T02:54:13.278Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:02:54:54 +0000] \"POST /api/auth/login HTTP/1.1\" 200 223 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T02:54:54.276Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:02:55:08 +0000] \"GET /api/categorias HTTP/1.1\" 200 462 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T02:55:08.385Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:02:55:33 +0000] \"POST /api/categorias HTTP/1.1\" 401 56 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T02:55:33.512Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:02:55:38 +0000] \"POST /api/categorias HTTP/1.1\" 201 44 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T02:55:38.051Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:02:55:44 +0000] \"GET /api/categorias HTTP/1.1\" 200 548 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T02:55:44.488Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:02:55:51 +0000] \"GET /api/categorias HTTP/1.1\" 200 548 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T02:55:51.833Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:02:56:14 +0000] \"PUT /api/categorias/8 HTTP/1.1\" 401 56 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T02:56:14.609Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:02:56:20 +0000] \"PUT /api/categorias/8 HTTP/1.1\" 200 49 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T02:56:20.319Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:02:56:23 +0000] \"GET /api/categorias HTTP/1.1\" 200 555 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T02:56:23.865Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:02:56:41 +0000] \"DELETE /api/categorias/7 HTTP/1.1\" 404 38 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T02:56:41.936Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:02:56:44 +0000] \"DELETE /api/categorias/8 HTTP/1.1\" 200 47 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T02:56:44.315Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:02:56:47 +0000] \"GET /api/categorias HTTP/1.1\" 200 478 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T02:56:47.944Z"}
+{"level":"error","message":"Error generating Dropbox link for path /productos/producto_38_1731557792747.jpeg: Response failed with a 401 code","timestamp":"2024-11-19T02:57:06.305Z"}
+{"level":"error","message":"Error generating Dropbox link for path /productos/producto_44_1731881648991.png: Response failed with a 401 code","timestamp":"2024-11-19T02:57:06.424Z"}
+{"level":"error","message":"Error generating Dropbox link for path /productos/producto_45_1731893790331.jpeg: Response failed with a 401 code","timestamp":"2024-11-19T02:57:06.533Z"}
+{"level":"error","message":"Error generating Dropbox link for path https://dropbox.com/path/to/bike.jpg: Response failed with a 401 code","timestamp":"2024-11-19T02:57:06.644Z"}
+{"level":"error","message":"Error generating Dropbox link for path https://dropbox.com/path/to/scooter.jpg: Response failed with a 401 code","timestamp":"2024-11-19T02:57:06.779Z"}
+{"level":"error","message":"Error generating Dropbox link for path https://dropbox.com/path/to/smartphone.jpg: Response failed with a 401 code","timestamp":"2024-11-19T02:57:06.894Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:02:57:06 +0000] \"GET /api/productos HTTP/1.1\" 200 1599 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T02:57:06.894Z"}
+{"level":"error","message":"Error generating Dropbox link for path /productos/producto_38_1731557792747.jpeg: Response failed with a 401 code","timestamp":"2024-11-19T02:57:19.482Z"}
+{"level":"error","message":"Error generating Dropbox link for path /productos/producto_44_1731881648991.png: Response failed with a 401 code","timestamp":"2024-11-19T02:57:19.592Z"}
+{"level":"error","message":"Error generating Dropbox link for path /productos/producto_45_1731893790331.jpeg: Response failed with a 401 code","timestamp":"2024-11-19T02:57:19.741Z"}
+{"level":"error","message":"Error generating Dropbox link for path https://dropbox.com/path/to/bike.jpg: Response failed with a 401 code","timestamp":"2024-11-19T02:57:19.854Z"}
+{"level":"error","message":"Error generating Dropbox link for path https://dropbox.com/path/to/scooter.jpg: Response failed with a 401 code","timestamp":"2024-11-19T02:57:19.978Z"}
+{"level":"error","message":"Error generating Dropbox link for path https://dropbox.com/path/to/smartphone.jpg: Response failed with a 401 code","timestamp":"2024-11-19T02:57:20.099Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:02:57:20 +0000] \"GET /api/productos HTTP/1.1\" 200 1599 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T02:57:20.101Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-19T02:58:44.060Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-19T02:58:44.067Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-19T02:58:47.049Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-19T02:58:47.051Z"}
+{"level":"info","message":"Existing Dropbox link: https://www.dropbox.com/scl/fi/frhxx18k8rmmqny08wmok/producto_38_1731557792747.jpeg?rlkey=tbtarzq960jfuwu95x0fcsrn5&dl=0","timestamp":"2024-11-19T02:58:53.734Z"}
+{"level":"info","message":"Existing Dropbox link: https://www.dropbox.com/scl/fi/ho6mr1fdvquww6p89hjkc/producto_44_1731881648991.png?rlkey=ve4zeh5xvjlew7afjkncu7xva&dl=0","timestamp":"2024-11-19T02:58:55.555Z"}
+{"level":"info","message":"Existing Dropbox link: https://www.dropbox.com/scl/fi/rme884gl3maj22q6ahgu1/producto_45_1731893790331.jpeg?rlkey=aewpxd3x8fgibyx363bh7jxkr&dl=0","timestamp":"2024-11-19T02:58:57.125Z"}
+{"level":"error","message":"Error generating Dropbox link for path https://dropbox.com/path/to/bike.jpg: Response failed with a 400 code","timestamp":"2024-11-19T02:58:57.262Z"}
+{"level":"error","message":"Error generating Dropbox link for path https://dropbox.com/path/to/scooter.jpg: Response failed with a 400 code","timestamp":"2024-11-19T02:58:57.409Z"}
+{"level":"error","message":"Error generating Dropbox link for path https://dropbox.com/path/to/smartphone.jpg: Response failed with a 400 code","timestamp":"2024-11-19T02:58:57.555Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:02:58:57 +0000] \"GET /api/productos HTTP/1.1\" 200 1836 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T02:58:57.561Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:03:01:40 +0000] \"POST /api/productos HTTP/1.1\" 201 42 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T03:01:40.551Z"}
+{"level":"info","message":"Existing Dropbox link: https://www.dropbox.com/scl/fi/frhxx18k8rmmqny08wmok/producto_38_1731557792747.jpeg?rlkey=tbtarzq960jfuwu95x0fcsrn5&dl=0","timestamp":"2024-11-19T03:01:51.479Z"}
+{"level":"info","message":"Existing Dropbox link: https://www.dropbox.com/scl/fi/ho6mr1fdvquww6p89hjkc/producto_44_1731881648991.png?rlkey=ve4zeh5xvjlew7afjkncu7xva&dl=0","timestamp":"2024-11-19T03:01:53.134Z"}
+{"level":"info","message":"Existing Dropbox link: https://www.dropbox.com/scl/fi/rme884gl3maj22q6ahgu1/producto_45_1731893790331.jpeg?rlkey=aewpxd3x8fgibyx363bh7jxkr&dl=0","timestamp":"2024-11-19T03:01:54.858Z"}
+{"level":"error","message":"Error generating Dropbox link for path https://dropbox.com/path/to/bike.jpg: Response failed with a 400 code","timestamp":"2024-11-19T03:01:55.018Z"}
+{"level":"error","message":"Error generating Dropbox link for path https://dropbox.com/path/to/scooter.jpg: Response failed with a 400 code","timestamp":"2024-11-19T03:01:55.148Z"}
+{"level":"error","message":"Error generating Dropbox link for path https://dropbox.com/path/to/smartphone.jpg: Response failed with a 400 code","timestamp":"2024-11-19T03:01:55.280Z"}
+{"level":"info","message":"Generated Dropbox link: https://www.dropbox.com/scl/fi/jnrkvlp4i4ni2sadpjlvw/computadora_1731985296248.jpeg?rlkey=ezajergaxdf9llozkwjkkr2qz&dl=0","timestamp":"2024-11-19T03:01:56.502Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:03:01:56 +0000] \"GET /api/productos HTTP/1.1\" 200 2184 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T03:01:56.504Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:03:02:53 +0000] \"PUT /api/productos/51 HTTP/1.1\" 401 56 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T03:02:53.722Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:03:03:17 +0000] \"PUT /api/productos/51 HTTP/1.1\" 200 47 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T03:03:17.548Z"}
+{"level":"info","message":"Delete status message: Producto eliminado exitosamente","timestamp":"2024-11-19T03:03:34.601Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:03:03:34 +0000] \"DELETE /api/productos/51 HTTP/1.1\" 200 45 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T03:03:34.604Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:03:03:42 +0000] \"GET /api/productos/41 HTTP/1.1\" 401 56 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T03:03:42.997Z"}
+{"level":"info","message":"Existing Dropbox link: https://www.dropbox.com/scl/fi/frhxx18k8rmmqny08wmok/producto_38_1731557792747.jpeg?rlkey=tbtarzq960jfuwu95x0fcsrn5&dl=0","timestamp":"2024-11-19T03:03:46.939Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:03:03:46 +0000] \"GET /api/productos/41 HTTP/1.1\" 200 351 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T03:03:46.941Z"}
+{"level":"info","message":"Existing Dropbox link: https://www.dropbox.com/scl/fi/gjotcpxoykohkuc78anem/christian_vicente_1731563339248.png?rlkey=50kzh40ofcw90q3cw03of113z&dl=0","timestamp":"2024-11-19T03:04:03.280Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:03:04:03 +0000] \"GET /api/usuarios HTTP/1.1\" 200 935 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T03:04:03.284Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-19T03:04:31.780Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-19T03:04:31.785Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:03:05:33 +0000] \"PUT /api/usuarios/16 HTTP/1.1\" 200 46 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T03:05:33.913Z"}
+{"level":"info","message":"Delete status message: User deleted successfully","timestamp":"2024-11-19T03:05:58.074Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:03:05:58 +0000] \"DELETE /api/usuarios/17 HTTP/1.1\" 200 44 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T03:05:58.076Z"}
+{"level":"info","message":"Existing Dropbox link: https://www.dropbox.com/scl/fi/gjotcpxoykohkuc78anem/christian_vicente_1731563339248.png?rlkey=50kzh40ofcw90q3cw03of113z&dl=0","timestamp":"2024-11-19T03:06:04.613Z"}
+{"level":"info","message":"Generated Dropbox link: https://www.dropbox.com/scl/fi/y0x0n434suhazs44kdfkg/carlos_gomez_1731985532479.jpeg?rlkey=8asxdikeswvz2pw38wbnk9vy3&dl=0","timestamp":"2024-11-19T03:06:10.041Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:03:06:10 +0000] \"GET /api/usuarios HTTP/1.1\" 200 859 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T03:06:10.043Z"}
+{"level":"info","message":"MySQL closed","timestamp":"2024-11-19T03:06:29.512Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-19T04:23:32.584Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-19T04:23:32.586Z"}
+{"level":"info","message":"Existing Dropbox link: https://www.dropbox.com/scl/fi/gjotcpxoykohkuc78anem/christian_vicente_1731563339248.png?rlkey=50kzh40ofcw90q3cw03of113z&dl=0","timestamp":"2024-11-19T04:24:57.206Z"}
+{"level":"info","message":"Existing Dropbox link: https://www.dropbox.com/scl/fi/y0x0n434suhazs44kdfkg/carlos_gomez_1731985532479.jpeg?rlkey=8asxdikeswvz2pw38wbnk9vy3&dl=0","timestamp":"2024-11-19T04:24:58.946Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:04:24:58 +0000] \"GET /api/usuarios HTTP/1.1\" 200 859 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T04:24:58.953Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:04:26:01 +0000] \"POST /api/rentas HTTP/1.1\" 401 56 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T04:26:01.899Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:04:26:09 +0000] \"POST /api/rentas HTTP/1.1\" 201 53 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T04:26:09.829Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:04:26:40 +0000] \"GET /api/rentas HTTP/1.1\" 403 45 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T04:26:40.994Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:04:26:51 +0000] \"GET /api/rentas HTTP/1.1\" 200 3013 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T04:26:51.573Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:04:27:09 +0000] \"GET /api/rentas HTTP/1.1\" 200 3013 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T04:27:09.092Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:04:27:56 +0000] \"GET /api/rentas/11 HTTP/1.1\" 403 45 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T04:27:56.099Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:04:28:01 +0000] \"GET /api/rentas/11 HTTP/1.1\" 200 272 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T04:28:01.750Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-19T04:28:47.627Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-19T04:28:47.631Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-19T04:28:56.717Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-19T04:28:56.720Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-19T04:29:02.832Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-19T04:29:02.834Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:04:29:13 +0000] \"GET /api/rentas/11 HTTP/1.1\" 200 272 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T04:29:13.386Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:05:56:21 +0000] \"GET /api/rentas HTTP/1.1\" 200 3013 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T05:56:21.493Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:05:56:28 +0000] \"GET /api/rentas/11 HTTP/1.1\" 200 272 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T05:56:28.242Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:05:57:48 +0000] \"PUT /api/rentas/11 HTTP/1.1\" 400 39 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T05:57:48.776Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:05:58:24 +0000] \"PUT /api/rentas/11 HTTP/1.1\" 400 39 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T05:58:24.433Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:05:58:58 +0000] \"PUT /api/rentas/11 HTTP/1.1\" 200 54 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T05:58:58.036Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:05:59:07 +0000] \"GET /api/rentas/11 HTTP/1.1\" 200 269 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T05:59:07.340Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:06:02:59 +0000] \"PUT /api/rentas/11 HTTP/1.1\" 400 39 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T06:02:59.226Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:06:03:26 +0000] \"PUT /api/rentas/finalize_renta/11 HTTP/1.1\" 500 68 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T06:03:26.434Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:06:03:42 +0000] \"GET /api/rentas/11 HTTP/1.1\" 200 269 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T06:03:42.328Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:06:03:49 +0000] \"PUT /api/rentas/11 HTTP/1.1\" 200 54 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T06:03:49.287Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:06:03:51 +0000] \"GET /api/rentas/11 HTTP/1.1\" 200 272 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T06:03:51.393Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:06:03:53 +0000] \"PUT /api/rentas/finalize_renta/11 HTTP/1.1\" 500 68 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T06:03:53.300Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:06:05:16 +0000] \"PUT /api/rentas/11 HTTP/1.1\" 200 54 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T06:05:16.717Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:06:05:18 +0000] \"GET /api/rentas/11 HTTP/1.1\" 200 272 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T06:05:18.576Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:06:05:20 +0000] \"PUT /api/rentas/finalize_renta/11 HTTP/1.1\" 500 68 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T06:05:20.842Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:06:05:26 +0000] \"PUT /api/rentas/finalize_renta/11 HTTP/1.1\" 500 68 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T06:05:26.559Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:06:05:38 +0000] \"PUT /api/rentas/11 HTTP/1.1\" 200 54 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T06:05:38.037Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:06:05:40 +0000] \"GET /api/rentas/11 HTTP/1.1\" 200 273 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T06:05:40.927Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:06:05:42 +0000] \"PUT /api/rentas/finalize_renta/11 HTTP/1.1\" 500 68 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T06:05:42.679Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-19T06:07:24.839Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-19T06:07:24.844Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-19T06:07:54.975Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-19T06:07:54.977Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:06:08:03 +0000] \"PUT /api/rentas/11/finalizar HTTP/1.1\" 500 68 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T06:08:03.429Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:06:08:13 +0000] \"PUT /api/rentas/12/finalizar HTTP/1.1\" 500 68 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T06:08:13.329Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:06:08:17 +0000] \"PUT /api/rentas/1/finalizar HTTP/1.1\" 500 68 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T06:08:17.084Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:06:08:33 +0000] \"PUT /api/rentas/11/finalizar HTTP/1.1\" 500 68 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T06:08:33.451Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-19T06:09:01.762Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-19T06:09:01.764Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:06:09:06 +0000] \"POST /api/rentas/11/finalizar HTTP/1.1\" 500 68 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T06:09:06.032Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:06:09:09 +0000] \"POST /api/rentas/11/finalizar HTTP/1.1\" 500 68 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T06:09:09.694Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:06:09:21 +0000] \"POST /api/rentas/11/finalizar HTTP/1.1\" 500 68 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T06:09:21.210Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:06:15:57 +0000] \"PUT /api/rentas/11 HTTP/1.1\" 200 54 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T06:15:57.564Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:06:15:59 +0000] \"GET /api/rentas/11 HTTP/1.1\" 200 269 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T06:15:59.173Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:06:16:11 +0000] \"GET /api/rentas/11 HTTP/1.1\" 200 273 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T06:16:11.837Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:06:16:18 +0000] \"PUT /api/rentas/11 HTTP/1.1\" 200 54 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T06:16:18.807Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:06:16:21 +0000] \"POST /api/rentas/11/finalizar HTTP/1.1\" 200 43 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T06:16:21.784Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:06:16:23 +0000] \"GET /api/rentas/11 HTTP/1.1\" 200 273 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T06:16:23.971Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-19T06:25:20.583Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-19T06:25:20.589Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-19T06:26:07.807Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-19T06:26:07.809Z"}
+{"level":"info","message":"MySQL closed","timestamp":"2024-11-19T06:27:06.153Z"}

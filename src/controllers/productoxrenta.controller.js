@@ -1,8 +1,8 @@
-import * as productxrentaModel from '../models/productoxrenta.model.js';
+import * as productoxrentaModel from '../models/productoxrenta.model.js';
 
 export const add_producto_to_renta = async (req, res) => {
   try {
-    const { renta_producto_id, statusMessage } = await productxrentaModel.add_producto_to_renta(req.body);
+    const { renta_producto_id, statusMessage } = await productoxrentaModel.add_producto_to_renta(req.body);
 
     if (statusMessage === 'Producto agregado exitosamente a la renta') return res.status(201).send({ message: statusMessage, renta_producto_id });
     else if (statusMessage === 'Renta no encontrada') return res.status(404).send({ message: 'La renta no existe' });
