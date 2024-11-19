@@ -10,7 +10,8 @@ import categoriaRoutes from './routes/categoria.routes.js';
 import productoRoutes from './routes/producto.routes.js';
 import usuarioRoutes from './routes/usuario.routes.js';
 import rentaRoutes from './routes/renta.routes.js';
-import productoxrentaRouter from './routes/productoxrenta.routes.js';
+import productoxrentaRoutes from './routes/productoxrenta.routes.js';
+import metodoPagoRoutes from './routes/metodoPago.routes.js';
 
 //! Crear la instancia de Express
 const server = express();
@@ -31,7 +32,8 @@ server.use('/api/categorias', categoriaRoutes);
 server.use('/api/productos', productoRoutes);
 server.use('/api/usuarios', usuarioRoutes);
 server.use('/api/rentas', rentaRoutes);
-server.use('/api/productoxrenta', productoxrentaRouter);
+server.use('/api/productoxrenta', productoxrentaRoutes);
+server.use('/api/metodopago', metodoPagoRoutes);
 
 //! Agregar un middleware para manejar errores 404 y 500
 server.use(notFoundHandler);

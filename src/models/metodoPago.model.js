@@ -1,93 +1,170 @@
-// metodoPago.controller.js
-import * as metodoPagoModel from '../models/metodoPago.model.js';
+import mysql from '../config/databases/mysql.js';
+import Joi from 'joi';
+import CustomError from '../utils/error.js';
+import logger from '../utils/logger.js';
 
-export const create_metodoPago = async (req, res) => {
+const createMetodoPagoSchema = Joi.object({
+  renta_id: Joi.number().integer().positive().required(),
+  monto: Joi.number().precision(2).positive().required(),
+  fecha_pago: Joi.date().iso().required(),
+  metodo: Joi.string().valid('tarjeta', 'efectivo', 'transferencia').required(),
+  estado: Joi.string().valid('pendiente', 'completado', 'fallido').required()
+});
+
+const updateMetodoPagoSchema = Joi.object({
+  monto: Joi.number().precision(2).positive(),
+  fecha_pago: Joi.date().iso(),
+  metodo: Joi.string().valid('tarjeta', 'efectivo', 'transferencia'),
+  estado: Joi.string().valid('pendiente', 'completado', 'fallido')
+}).min(1);
+
+const getMetodoPagoByIdSchema = Joi.object({
+  metodopago_id: Joi.number().integer().positive().required()
+});
+
+export const create_metodoPago = async (data) => {
+  let connection;
   try {
-    const { renta_id, monto, fecha_pago, metodo, estado } = req.body;
-    const { metodopago_id, statusMessage } = await metodoPagoModel.create_metodoPago({
-      renta_id,
-      monto,
-      fecha_pago,
-      metodo,
-      estado
-    });
+    // Validar los datos de entrada
+    const { error } = createMetodoPagoSchema.validate(data);
+    if (error) {
+      logger.error(`Validación de entrada fallida: ${error.details[0].message}`);
+      throw new CustomError('Validación de entrada fallida', 'VALIDATION_ERROR', 400, { validationError: error.details[0].message });
+    }
+
+    connection = await mysql.pool.getConnection();
+
+    // Llamar al procedimiento almacenado
+    const query = `CALL create_metodoPago(?, ?, ?, ?, ?, @p_metodopago_id, @p_status_message);`;
+    await connection.query(query, [
+      data.renta_id,
+      data.monto,
+      data.fecha_pago,
+      data.metodo,
+      data.estado
+    ]);
+
+    const [output] = await connection.query('SELECT @p_metodopago_id AS metodopago_id, @p_status_message AS statusMessage;');
+    const { metodopago_id, statusMessage } = output[0] || {};
 
     if (statusMessage === 'Pago procesado exitosamente') {
-      return res.status(201).json({ message: 'Pago procesado exitosamente', metodopago_id });
-    } else if (
-      statusMessage === 'Método de pago inválido' ||
-      statusMessage === 'Estado de pago inválido' ||
-      statusMessage === 'Renta no encontrada'
-    ) {
-      return res.status(400).json({ message: statusMessage });
+      logger.info(`Pago procesado: MetodoPagoID=${metodopago_id}, RentaID=${data.renta_id}, Monto=${data.monto}, Metodo=${data.metodo}, Estado=${data.estado}`);
     } else {
-      return res.status(500).json({ message: 'Error desconocido durante el procesamiento del pago' });
+      logger.warn(`Intento fallido de procesar pago: RentaID=${data.renta_id}, Monto=${data.monto}, Metodo=${data.metodo}, Estado=${data.estado}, Motivo=${statusMessage}`);
     }
+
+    return { metodopago_id, statusMessage };
   } catch (error) {
-    res.status(500).json({ message: `Error durante el procesamiento del pago: ${error.message}` });
+    logger.error(`Error creando método de pago: ${error.message}`);
+    throw error instanceof CustomError ? error : new CustomError('Error en la base de datos', 'DB_ERROR', 500, { originalError: error.message });
+  } finally {
+    if (connection) connection.release();
   }
 };
 
-export const get_all_metodosPago = async (req, res) => {
+export const get_all_metodosPago = async () => {
+  let connection;
   try {
-    const metodosPago = await metodoPagoModel.get_all_metodosPago();
-    res.status(200).json(metodosPago);
+    connection = await mysql.pool.getConnection();
+
+    const query = `CALL get_all_metodosPago();`;
+    const [results] = await connection.query(query);
+
+    const metodosPago = results[0];
+
+    logger.info(`Obtenidos ${metodosPago.length} métodos de pago`);
+
+    return metodosPago;
   } catch (error) {
-    res.status(500).json({ message: `Error al obtener métodos de pago: ${error.message}` });
+    logger.error(`Error obteniendo métodos de pago: ${error.message}`);
+    throw new CustomError('Error en la base de datos', 'DB_ERROR', 500, { originalError: error.message });
+  } finally {
+    if (connection) connection.release();
   }
 };
 
-export const get_metodoPago_by_id = async (req, res) => {
+export const get_metodoPago_by_id = async (metodopago_id) => {
+  let connection;
   try {
-    const { statusMessage, data } = await metodoPagoModel.get_metodoPago_by_id(req.params.id);
+    const { error } = getMetodoPagoByIdSchema.validate({ metodopago_id });
+    if (error) {
+      logger.error(`Validación de entrada fallida: ${error.details[0].message}`);
+      throw new CustomError('Validación de entrada fallida', 'VALIDATION_ERROR', 400, { validationError: error.details[0].message });
+    }
+
+    connection = await mysql.pool.getConnection();
+
+    const query = `CALL get_metodoPago_by_id(?, @p_status_message);`;
+    await connection.query(query, [metodopago_id]);
+
+    const [output] = await connection.query('SELECT @p_status_message AS statusMessage;');
+    const { statusMessage } = output[0] || {};
+
     if (statusMessage === 'Método de pago encontrado') {
-      return res.status(200).json(data);
-    } else if (statusMessage === 'Método de pago no encontrado') {
-      return res.status(404).json({ message: 'Método de pago no encontrado' });
+      const [resultSet] = await connection.query(`SELECT 
+          m.metodopago_id,
+          m.renta_id,
+          r.usuario_id,
+          u.nombre AS nombre_usuario,
+          u.apellido_pat AS apellido_paterno,
+          u.apellido_mat AS apellido_materno,
+          m.monto,
+          m.fecha_pago,
+          m.metodo,
+          m.estado
+        FROM metodoPago m
+        JOIN Rentas r ON m.renta_id = r.renta_id
+        JOIN Usuarios u ON r.usuario_id = u.usuario_id
+        WHERE m.metodopago_id = ?;`, [metodopago_id]);
+
+      const metodoPago = resultSet[0] || null;
+
+      logger.info(`Método de pago encontrado: MetodoPagoID=${metodopago_id}`);
+
+      return { metodoPago, statusMessage };
     } else {
-      return res.status(400).json({ message: statusMessage });
+      logger.warn(`Método de pago no encontrado: MetodoPagoID=${metodopago_id}`);
+      return { metodoPago: null, statusMessage };
     }
   } catch (error) {
-    res.status(500).json({ message: `Error al obtener el método de pago: ${error.message}` });
+    logger.error(`Error obteniendo método de pago por ID: ${error.message}`);
+    throw error instanceof CustomError ? error : new CustomError('Error en la base de datos', 'DB_ERROR', 500, { originalError: error.message });
+  } finally {
+    if (connection) connection.release();
   }
 };
 
-export const update_metodoPago = async (req, res) => {
+export const update_metodoPago = async (metodopago_id, data) => {
+  let connection;
   try {
-    const { monto, fecha_pago, metodo, estado } = req.body;
-    const { statusMessage } = await metodoPagoModel.update_metodoPago(req.params.id, {
-      monto,
-      fecha_pago,
-      metodo,
-      estado
-    });
-
-    if (statusMessage === 'Método de pago actualizado exitosamente') {
-      return res.status(200).json({ message: 'Método de pago actualizado exitosamente' });
-    } else if (statusMessage === 'Método de pago no encontrado') {
-      return res.status(404).json({ message: 'Método de pago no encontrado' });
-    } else if (statusMessage === 'Método de pago inválido' || statusMessage === 'Estado de pago inválido') {
-      return res.status(400).json({ message: statusMessage });
-    } else {
-      return res.status(500).json({ message: 'Error desconocido durante la actualización del método de pago' });
+    const { error } = updateMetodoPagoSchema.validate(data);
+    if (error) {
+      logger.error(`Validación de entrada fallida: ${error.details[0].message}`);
+      throw new CustomError('Validación de entrada fallida', 'VALIDATION_ERROR', 400, { validationError: error.details[0].message });
     }
-  } catch (error) {
-    res.status(500).json({ message: `Error al actualizar el método de pago: ${error.message}` });
-  }
-};
 
-export const delete_metodoPago = async (req, res) => {
-  try {
-    const { statusMessage } = await metodoPagoModel.delete_metodoPago(req.params.id);
+    connection = await mysql.pool.getConnection();
 
-    if (statusMessage === 'Método de pago eliminado exitosamente') {
-      return res.status(200).json({ message: 'Método de pago eliminado exitosamente' });
-    } else if (statusMessage === 'Método de pago no encontrado') {
-      return res.status(404).json({ message: 'Método de pago no encontrado' });
-    } else {
-      return res.status(400).json({ message: statusMessage });
-    }
+    const query = `CALL update_metodoPago(?, ?, ?, ?, ?, @p_status_message);`;
+    await connection.query(query, [
+      metodopago_id,
+      data.monto !== undefined ? data.monto : null,
+      data.fecha_pago !== undefined ? data.fecha_pago : null,
+      data.metodo !== undefined ? data.metodo : null,
+      data.estado !== undefined ? data.estado : null
+    ]);
+
+    const [output] = await connection.query('SELECT @p_status_message AS statusMessage;');
+    const { statusMessage } = output[0] || {};
+
+    if (statusMessage === 'Método de pago actualizado exitosamente') logger.info(`Método de pago actualizado: MetodoPagoID=${metodopago_id}, Datos Actualizados=${JSON.stringify(data)}`);
+    else logger.warn(`Intento fallido de actualizar método de pago: MetodoPagoID=${metodopago_id}, Motivo=${statusMessage}`);
+    
+    return { statusMessage };
   } catch (error) {
-    res.status(500).json({ message: `Error al eliminar el método de pago: ${error.message}` });
+    logger.error(`Error actualizando método de pago: ${error.message}`);
+    throw error instanceof CustomError ? error : new CustomError('Error en la base de datos', 'DB_ERROR', 500, { originalError: error.message });
+  } finally {
+    if (connection) connection.release();
   }
 };
