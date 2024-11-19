@@ -1,173 +1,172 @@
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-14T18:05:32.290Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-14T18:05:32.292Z"}
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-14T18:05:51.313Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-14T18:05:51.314Z"}
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-14T18:05:58.131Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-14T18:05:58.133Z"}
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-14T18:06:09.784Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-14T18:06:09.786Z"}
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-14T18:06:29.980Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-14T18:06:29.983Z"}
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-14T18:08:55.969Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-14T18:08:55.971Z"}
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-14T18:09:16.550Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-14T18:09:16.552Z"}
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-14T18:09:26.124Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-14T18:09:26.126Z"}
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-14T18:09:29.344Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-14T18:09:29.345Z"}
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-14T18:09:34.636Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-14T18:09:34.638Z"}
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-14T18:09:49.827Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-14T18:09:49.829Z"}
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-14T18:09:55.644Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-14T18:09:55.645Z"}
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-14T18:10:08.460Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-14T18:10:08.463Z"}
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-14T18:10:23.234Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-14T18:10:23.236Z"}
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-14T18:10:24.028Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-14T18:10:24.029Z"}
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-14T18:10:45.350Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-14T18:10:45.354Z"}
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-14T18:11:05.036Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-14T18:11:05.039Z"}
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-14T18:11:21.089Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-14T18:11:21.092Z"}
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-14T18:11:54.416Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-14T18:11:54.419Z"}
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-14T18:12:08.867Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-14T18:12:08.869Z"}
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-14T18:12:56.275Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-14T18:12:56.277Z"}
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-14T18:13:17.334Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-14T18:13:17.337Z"}
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-14T18:13:32.240Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-14T18:13:32.242Z"}
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-14T18:14:17.082Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-14T18:14:17.085Z"}
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-14T18:14:45.806Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-14T18:14:45.809Z"}
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-14T18:14:56.619Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-14T18:14:56.622Z"}
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-14T18:14:58.629Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-14T18:14:58.631Z"}
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-14T18:15:49.528Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-14T18:15:49.531Z"}
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-14T18:16:19.344Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-14T18:16:19.347Z"}
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-14T18:17:02.495Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-14T18:17:02.498Z"}
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-14T18:17:02.840Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-14T18:17:02.842Z"}
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-14T18:17:08.503Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-14T18:17:08.505Z"}
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-14T18:17:53.355Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-14T18:17:53.358Z"}
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-14T18:18:14.973Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-14T18:18:14.976Z"}
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-14T18:18:16.430Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-14T18:18:16.432Z"}
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-14T18:18:41.612Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-14T18:18:41.616Z"}
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-14T18:19:42.947Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-14T18:19:42.949Z"}
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-14T18:19:43.644Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-14T18:19:43.645Z"}
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-14T18:20:16.683Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-14T18:20:16.686Z"}
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-14T18:20:19.649Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-14T18:20:19.650Z"}
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-14T18:20:31.549Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-14T18:20:31.551Z"}
-{"level":"info","message":"::ffff:127.0.0.1 - - [14/Nov/2024:18:23:44 +0000] \"POST /api/rentas HTTP/1.1\" 403 45 \"-\" \"vscode-restclient\"","timestamp":"2024-11-14T18:23:44.344Z"}
-{"level":"info","message":"::ffff:127.0.0.1 - - [14/Nov/2024:18:24:25 +0000] \"POST /api/auth/login HTTP/1.1\" 200 203 \"-\" \"vscode-restclient\"","timestamp":"2024-11-14T18:24:25.065Z"}
-{"level":"info","message":"::ffff:127.0.0.1 - - [14/Nov/2024:18:24:35 +0000] \"POST /api/rentas HTTP/1.1\" 201 39 \"-\" \"vscode-restclient\"","timestamp":"2024-11-14T18:24:35.512Z"}
-{"level":"info","message":"::ffff:127.0.0.1 - - [14/Nov/2024:18:25:09 +0000] \"POST /api/rentas HTTP/1.1\" 201 39 \"-\" \"vscode-restclient\"","timestamp":"2024-11-14T18:25:09.719Z"}
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-14T18:26:46.529Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-14T18:26:46.533Z"}
-{"level":"info","message":"MySQL closed","timestamp":"2024-11-14T18:26:46.952Z"}
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-17T20:12:43.543Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-17T20:12:43.545Z"}
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-17T20:13:24.070Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-17T20:13:24.072Z"}
-{"level":"error","message":"Error creating user: Incorrect number of arguments for PROCEDURE db_rentaproductos.register_user; expected 7, got 6","timestamp":"2024-11-17T20:13:33.771Z"}
-{"level":"info","message":"::ffff:127.0.0.1 - - [17/Nov/2024:20:13:33 +0000] \"POST /api/auth/register HTTP/1.1\" 500 59 \"-\" \"vscode-restclient\"","timestamp":"2024-11-17T20:13:33.774Z"}
-{"level":"error","message":"Error creating user: Incorrect number of arguments for PROCEDURE db_rentaproductos.register_user; expected 7, got 6","timestamp":"2024-11-17T20:13:42.385Z"}
-{"level":"info","message":"::ffff:127.0.0.1 - - [17/Nov/2024:20:13:42 +0000] \"POST /api/auth/register HTTP/1.1\" 500 59 \"-\" \"vscode-restclient\"","timestamp":"2024-11-17T20:13:42.386Z"}
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-17T20:14:25.183Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-17T20:14:25.186Z"}
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-17T20:14:36.615Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-17T20:14:36.618Z"}
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-17T20:14:38.242Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-17T20:14:38.244Z"}
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-17T20:14:53.806Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-17T20:14:53.808Z"}
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-17T20:14:56.658Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-17T20:14:56.661Z"}
-{"level":"info","message":"::ffff:127.0.0.1 - - [17/Nov/2024:20:14:57 +0000] \"POST /api/auth/register HTTP/1.1\" 409 56 \"-\" \"vscode-restclient\"","timestamp":"2024-11-17T20:14:57.770Z"}
-{"level":"info","message":"::ffff:127.0.0.1 - - [17/Nov/2024:20:17:09 +0000] \"POST /api/usuarios HTTP/1.1\" 400 1461 \"-\" \"vscode-restclient\"","timestamp":"2024-11-17T20:17:09.668Z"}
-{"level":"info","message":"::ffff:127.0.0.1 - - [17/Nov/2024:20:17:20 +0000] \"POST /api/usuarios HTTP/1.1\" 403 45 \"-\" \"vscode-restclient\"","timestamp":"2024-11-17T20:17:20.326Z"}
-{"level":"info","message":"::ffff:127.0.0.1 - - [17/Nov/2024:20:17:28 +0000] \"POST /api/auth/register HTTP/1.1\" 409 56 \"-\" \"vscode-restclient\"","timestamp":"2024-11-17T20:17:28.176Z"}
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-17T20:20:50.415Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-17T20:20:50.420Z"}
-{"level":"info","message":"::ffff:127.0.0.1 - - [17/Nov/2024:20:21:11 +0000] \"POST /api/auth/register HTTP/1.1\" 201 61 \"-\" \"vscode-restclient\"","timestamp":"2024-11-17T20:21:11.804Z"}
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-17T20:21:41.236Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-17T20:21:41.238Z"}
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-17T20:21:42.727Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-17T20:21:42.730Z"}
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-17T20:25:54.178Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-17T20:25:54.182Z"}
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-17T20:26:19.884Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-17T20:26:19.885Z"}
-{"level":"info","message":"::ffff:127.0.0.1 - - [17/Nov/2024:20:28:52 +0000] \"POST /api/auth/login HTTP/1.1\" 200 223 \"-\" \"vscode-restclient\"","timestamp":"2024-11-17T20:28:52.378Z"}
-{"level":"info","message":"::ffff:127.0.0.1 - - [17/Nov/2024:20:28:57 +0000] \"POST /api/auth/login HTTP/1.1\" 401 42 \"-\" \"vscode-restclient\"","timestamp":"2024-11-17T20:28:57.960Z"}
-{"level":"info","message":"::ffff:127.0.0.1 - - [17/Nov/2024:20:29:04 +0000] \"POST /api/auth/login HTTP/1.1\" 404 46 \"-\" \"vscode-restclient\"","timestamp":"2024-11-17T20:29:04.869Z"}
-{"level":"info","message":"::ffff:127.0.0.1 - - [17/Nov/2024:20:29:09 +0000] \"POST /api/auth/login HTTP/1.1\" 200 223 \"-\" \"vscode-restclient\"","timestamp":"2024-11-17T20:29:09.812Z"}
-{"level":"info","message":"::1 - - [17/Nov/2024:20:30:56 +0000] \"PUT /api/usuarios/6 HTTP/1.1\" 401 56 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-17T20:30:56.528Z"}
-{"level":"error","message":"Error al actualizar el usuario: Response failed with a 401 code","timestamp":"2024-11-17T20:31:35.428Z"}
-{"level":"info","message":"::1 - - [17/Nov/2024:20:31:35 +0000] \"PUT /api/usuarios/15 HTTP/1.1\" 500 77 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-17T20:31:35.430Z"}
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-17T20:32:38.714Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-17T20:32:38.720Z"}
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-17T20:32:43.508Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-17T20:32:43.509Z"}
-{"level":"info","message":"::1 - - [17/Nov/2024:20:32:48 +0000] \"PUT /api/usuarios/15 HTTP/1.1\" 200 46 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-17T20:32:48.827Z"}
-{"level":"info","message":"::1 - - [17/Nov/2024:20:33:02 +0000] \"DELETE /api/usuarios/15 HTTP/1.1\" 401 56 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-17T20:33:02.621Z"}
-{"level":"info","message":"Delete status message: User deleted successfully","timestamp":"2024-11-17T20:33:14.404Z"}
-{"level":"info","message":"::1 - - [17/Nov/2024:20:33:14 +0000] \"DELETE /api/usuarios/15 HTTP/1.1\" 200 44 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-17T20:33:14.407Z"}
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-17T20:36:57.509Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-17T20:36:57.512Z"}
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-17T20:38:43.527Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-17T20:38:43.530Z"}
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-17T20:42:07.541Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-17T20:42:07.543Z"}
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-17T20:42:19.177Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-17T20:42:19.179Z"}
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-17T20:42:45.133Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-17T20:42:45.135Z"}
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-17T20:42:52.498Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-17T20:42:52.500Z"}
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-17T20:43:00.184Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-17T20:43:00.186Z"}
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-17T20:43:27.860Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-17T20:43:27.862Z"}
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-17T20:44:03.112Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-17T20:44:03.116Z"}
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-17T20:44:10.810Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-17T20:44:10.813Z"}
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-17T21:23:50.527Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-17T21:23:50.532Z"}
-{"level":"info","message":"MySQL initialized","timestamp":"2024-11-17T21:23:52.346Z"}
-{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-17T21:23:52.348Z"}
-{"level":"info","message":"::ffff:127.0.0.1 - - [17/Nov/2024:21:24:03 +0000] \"POST /api/auth/login HTTP/1.1\" 200 223 \"-\" \"vscode-restclient\"","timestamp":"2024-11-17T21:24:03.735Z"}
-{"level":"info","message":"::ffff:127.0.0.1 - - [17/Nov/2024:21:31:18 +0000] \"POST /api/rentas HTTP/1.1\" 201 52 \"-\" \"vscode-restclient\"","timestamp":"2024-11-17T21:31:18.041Z"}
-{"level":"error","message":"Input validation failed: \"fecha_devolucion\" is required","timestamp":"2024-11-17T21:32:13.553Z"}
-{"level":"error","message":"Error creating renta: Input validation failed","timestamp":"2024-11-17T21:32:13.554Z"}
-{"level":"info","message":"::ffff:127.0.0.1 - - [17/Nov/2024:21:32:13 +0000] \"POST /api/rentas HTTP/1.1\" 500 65 \"-\" \"vscode-restclient\"","timestamp":"2024-11-17T21:32:13.556Z"}
-{"level":"error","message":"Input validation failed: \"usuario_id\" is required","timestamp":"2024-11-17T21:35:05.948Z"}
-{"level":"error","message":"Error creating renta: Input validation failed","timestamp":"2024-11-17T21:35:05.948Z"}
-{"level":"info","message":"::1 - - [17/Nov/2024:21:35:05 +0000] \"POST /api/rentas HTTP/1.1\" 500 65 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-17T21:35:05.950Z"}
-{"level":"error","message":"Input validation failed: \"usuario_id\" is required","timestamp":"2024-11-17T21:35:32.768Z"}
-{"level":"error","message":"Error creating renta: Input validation failed","timestamp":"2024-11-17T21:35:32.768Z"}
-{"level":"info","message":"::1 - - [17/Nov/2024:21:35:32 +0000] \"POST /api/rentas HTTP/1.1\" 500 65 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-17T21:35:32.769Z"}
-{"level":"info","message":"::1 - - [17/Nov/2024:21:36:22 +0000] \"POST /api/rentas HTTP/1.1\" 201 52 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-17T21:36:22.864Z"}
+{"level":"info","message":"::1 - - [17/Nov/2024:22:17:13 +0000] \"POST /api/productoxrenta HTTP/1.1\" 500 62 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-17T22:17:13.878Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-18T01:03:18.634Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-18T01:03:18.640Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-18T01:03:29.935Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-18T01:03:29.937Z"}
+{"level":"error","message":"Error generating Dropbox link for path /productos/producto_38_1731557792747.jpeg: Response failed with a 401 code","timestamp":"2024-11-18T01:04:01.337Z"}
+{"level":"error","message":"Error generating Dropbox link for path /productos/producto_43_1731560190835.jpeg: Response failed with a 401 code","timestamp":"2024-11-18T01:04:01.460Z"}
+{"level":"error","message":"Error generating Dropbox link for path /productos/producto_44_1731881648991.png: Response failed with a 401 code","timestamp":"2024-11-18T01:04:01.569Z"}
+{"level":"error","message":"Error generating Dropbox link for path laptop.png: Response failed with a 401 code","timestamp":"2024-11-18T01:04:01.690Z"}
+{"level":"info","message":"::1 - - [18/Nov/2024:01:04:01 +0000] \"GET /api/productos HTTP/1.1\" 200 974 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-18T01:04:01.696Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-18T01:22:26.899Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-18T01:22:26.903Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-18T01:22:30.597Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-18T01:22:30.599Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-18T01:24:09.303Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-18T01:24:09.306Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-18T01:24:26.585Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-18T01:24:26.588Z"}
+{"level":"error","message":"Error generating Dropbox link for path /productos/producto_38_1731557792747.jpeg: Response failed with a 401 code","timestamp":"2024-11-18T01:26:54.958Z"}
+{"level":"error","message":"Error generating Dropbox link for path /productos/producto_43_1731560190835.jpeg: Response failed with a 401 code","timestamp":"2024-11-18T01:26:55.072Z"}
+{"level":"error","message":"Error generating Dropbox link for path /productos/producto_44_1731881648991.png: Response failed with a 401 code","timestamp":"2024-11-18T01:26:55.194Z"}
+{"level":"error","message":"Error generating Dropbox link for path laptop.png: Response failed with a 401 code","timestamp":"2024-11-18T01:26:55.340Z"}
+{"level":"info","message":"::1 - - [18/Nov/2024:01:26:55 +0000] \"GET /api/productos HTTP/1.1\" 200 1028 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-18T01:26:55.347Z"}
+{"level":"info","message":"::1 - - [18/Nov/2024:01:27:12 +0000] \"GET /productos/producto_38_1731557792747.jpeg HTTP/1.1\" 404 41 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.1 Safari/605.1.15\"","timestamp":"2024-11-18T01:27:12.983Z"}
+{"level":"info","message":"::1 - - [18/Nov/2024:01:27:13 +0000] \"GET /favicon.ico HTTP/1.1\" 404 41 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.1 Safari/605.1.15\"","timestamp":"2024-11-18T01:27:13.087Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-18T01:27:25.396Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-18T01:27:25.399Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-18T01:27:27.271Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-18T01:27:27.273Z"}
+{"level":"error","message":"Error generating Dropbox link for path /productos/producto_38_1731557792747.jpeg: Response failed with a 401 code","timestamp":"2024-11-18T01:27:30.612Z"}
+{"level":"error","message":"Error generating Dropbox link for path /productos/producto_43_1731560190835.jpeg: Response failed with a 401 code","timestamp":"2024-11-18T01:27:30.729Z"}
+{"level":"error","message":"Error generating Dropbox link for path /productos/producto_44_1731881648991.png: Response failed with a 401 code","timestamp":"2024-11-18T01:27:30.859Z"}
+{"level":"error","message":"Error generating Dropbox link for path laptop.png: Response failed with a 401 code","timestamp":"2024-11-18T01:27:30.968Z"}
+{"level":"info","message":"::1 - - [18/Nov/2024:01:27:30 +0000] \"GET /api/productos HTTP/1.1\" 200 1014 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-18T01:27:30.973Z"}
+{"level":"error","message":"Error generating Dropbox link for path /productos/producto_38_1731557792747.jpeg: Response failed with a 401 code","timestamp":"2024-11-18T01:27:35.993Z"}
+{"level":"error","message":"Error generating Dropbox link for path /productos/producto_43_1731560190835.jpeg: Response failed with a 401 code","timestamp":"2024-11-18T01:27:36.115Z"}
+{"level":"error","message":"Error generating Dropbox link for path /productos/producto_44_1731881648991.png: Response failed with a 401 code","timestamp":"2024-11-18T01:27:36.259Z"}
+{"level":"error","message":"Error generating Dropbox link for path laptop.png: Response failed with a 401 code","timestamp":"2024-11-18T01:27:36.376Z"}
+{"level":"info","message":"::1 - - [18/Nov/2024:01:27:36 +0000] \"GET /api/productos HTTP/1.1\" 200 1014 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-18T01:27:36.380Z"}
+{"level":"error","message":"Error generating Dropbox link for path /productos/producto_38_1731557792747.jpeg: Response failed with a 401 code","timestamp":"2024-11-18T01:27:37.276Z"}
+{"level":"error","message":"Error generating Dropbox link for path /productos/producto_43_1731560190835.jpeg: Response failed with a 401 code","timestamp":"2024-11-18T01:27:37.389Z"}
+{"level":"error","message":"Error generating Dropbox link for path /productos/producto_44_1731881648991.png: Response failed with a 401 code","timestamp":"2024-11-18T01:27:37.502Z"}
+{"level":"error","message":"Error generating Dropbox link for path laptop.png: Response failed with a 401 code","timestamp":"2024-11-18T01:27:37.616Z"}
+{"level":"info","message":"::1 - - [18/Nov/2024:01:27:37 +0000] \"GET /api/productos HTTP/1.1\" 200 1014 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-18T01:27:37.617Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-18T01:27:44.827Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-18T01:27:44.829Z"}
+{"level":"error","message":"Error generating Dropbox link for path /productos/producto_38_1731557792747.jpeg: Response failed with a 401 code","timestamp":"2024-11-18T01:27:50.314Z"}
+{"level":"error","message":"Error generating Dropbox link for path /productos/producto_43_1731560190835.jpeg: Response failed with a 401 code","timestamp":"2024-11-18T01:27:50.442Z"}
+{"level":"error","message":"Error generating Dropbox link for path /productos/producto_44_1731881648991.png: Response failed with a 401 code","timestamp":"2024-11-18T01:27:50.562Z"}
+{"level":"error","message":"Error generating Dropbox link for path laptop.png: Response failed with a 401 code","timestamp":"2024-11-18T01:27:50.674Z"}
+{"level":"info","message":"::1 - - [18/Nov/2024:01:27:50 +0000] \"GET /api/productos HTTP/1.1\" 200 1014 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-18T01:27:50.682Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-18T01:28:13.509Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-18T01:28:13.512Z"}
+{"level":"info","message":"Existing Dropbox link: https://www.dropbox.com/scl/fi/frhxx18k8rmmqny08wmok/producto_38_1731557792747.jpeg?rlkey=tbtarzq960jfuwu95x0fcsrn5&dl=0","timestamp":"2024-11-18T01:28:17.615Z"}
+{"level":"info","message":"Existing Dropbox link: https://www.dropbox.com/scl/fi/pgeqjodz1je0c8wrp9x22/producto_43_1731560190835.jpeg?rlkey=gohlemkijlk1sip7iy6na4718&dl=0","timestamp":"2024-11-18T01:28:19.251Z"}
+{"level":"info","message":"Existing Dropbox link: https://www.dropbox.com/scl/fi/ho6mr1fdvquww6p89hjkc/producto_44_1731881648991.png?rlkey=ve4zeh5xvjlew7afjkncu7xva&dl=0","timestamp":"2024-11-18T01:28:20.979Z"}
+{"level":"error","message":"Error generating Dropbox link for path laptop.png: Response failed with a 400 code","timestamp":"2024-11-18T01:28:21.136Z"}
+{"level":"info","message":"::1 - - [18/Nov/2024:01:28:21 +0000] \"GET /api/productos HTTP/1.1\" 200 1251 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-18T01:28:21.143Z"}
+{"level":"info","message":"Existing Dropbox link: https://www.dropbox.com/scl/fi/frhxx18k8rmmqny08wmok/producto_38_1731557792747.jpeg?rlkey=tbtarzq960jfuwu95x0fcsrn5&dl=0","timestamp":"2024-11-18T01:28:26.012Z"}
+{"level":"info","message":"Existing Dropbox link: https://www.dropbox.com/scl/fi/pgeqjodz1je0c8wrp9x22/producto_43_1731560190835.jpeg?rlkey=gohlemkijlk1sip7iy6na4718&dl=0","timestamp":"2024-11-18T01:28:27.545Z"}
+{"level":"info","message":"Existing Dropbox link: https://www.dropbox.com/scl/fi/ho6mr1fdvquww6p89hjkc/producto_44_1731881648991.png?rlkey=ve4zeh5xvjlew7afjkncu7xva&dl=0","timestamp":"2024-11-18T01:28:29.261Z"}
+{"level":"error","message":"Error generating Dropbox link for path laptop.png: Response failed with a 400 code","timestamp":"2024-11-18T01:28:29.444Z"}
+{"level":"info","message":"::1 - - [18/Nov/2024:01:28:29 +0000] \"GET /api/productos HTTP/1.1\" 200 1251 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-18T01:28:29.446Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-18T01:28:47.393Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-18T01:28:47.395Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-18T01:28:57.340Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-18T01:28:57.343Z"}
+{"level":"info","message":"Existing Dropbox link: https://www.dropbox.com/scl/fi/frhxx18k8rmmqny08wmok/producto_38_1731557792747.jpeg?rlkey=tbtarzq960jfuwu95x0fcsrn5&dl=0","timestamp":"2024-11-18T01:29:05.741Z"}
+{"level":"info","message":"Existing Dropbox link: https://www.dropbox.com/scl/fi/pgeqjodz1je0c8wrp9x22/producto_43_1731560190835.jpeg?rlkey=gohlemkijlk1sip7iy6na4718&dl=0","timestamp":"2024-11-18T01:29:07.941Z"}
+{"level":"info","message":"Existing Dropbox link: https://www.dropbox.com/scl/fi/ho6mr1fdvquww6p89hjkc/producto_44_1731881648991.png?rlkey=ve4zeh5xvjlew7afjkncu7xva&dl=0","timestamp":"2024-11-18T01:29:09.529Z"}
+{"level":"error","message":"Error generating Dropbox link for path laptop.png: Response failed with a 400 code","timestamp":"2024-11-18T01:29:09.718Z"}
+{"level":"info","message":"::1 - - [18/Nov/2024:01:29:09 +0000] \"GET /api/productos HTTP/1.1\" 200 1265 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-18T01:29:09.725Z"}
+{"level":"info","message":"Existing Dropbox link: https://www.dropbox.com/scl/fi/frhxx18k8rmmqny08wmok/producto_38_1731557792747.jpeg?rlkey=tbtarzq960jfuwu95x0fcsrn5&dl=0","timestamp":"2024-11-18T01:29:16.803Z"}
+{"level":"info","message":"Existing Dropbox link: https://www.dropbox.com/scl/fi/pgeqjodz1je0c8wrp9x22/producto_43_1731560190835.jpeg?rlkey=gohlemkijlk1sip7iy6na4718&dl=0","timestamp":"2024-11-18T01:29:18.439Z"}
+{"level":"info","message":"Existing Dropbox link: https://www.dropbox.com/scl/fi/ho6mr1fdvquww6p89hjkc/producto_44_1731881648991.png?rlkey=ve4zeh5xvjlew7afjkncu7xva&dl=0","timestamp":"2024-11-18T01:29:20.190Z"}
+{"level":"error","message":"Error generating Dropbox link for path laptop.png: Response failed with a 400 code","timestamp":"2024-11-18T01:29:20.346Z"}
+{"level":"info","message":"::1 - - [18/Nov/2024:01:29:20 +0000] \"GET /api/productos HTTP/1.1\" 200 1265 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-18T01:29:20.349Z"}
+{"level":"info","message":"::1 - - [18/Nov/2024:01:29:36 +0000] \"DELETE /api/productos/46 HTTP/1.1\" 401 56 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-18T01:29:36.642Z"}
+{"level":"warn","message":"No se pudo eliminar la imagen de Dropbox: Response failed with a 400 code","timestamp":"2024-11-18T01:29:50.486Z"}
+{"level":"info","message":"Delete status message: Producto eliminado exitosamente","timestamp":"2024-11-18T01:29:50.497Z"}
+{"level":"info","message":"::1 - - [18/Nov/2024:01:29:50 +0000] \"DELETE /api/productos/46 HTTP/1.1\" 200 45 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-18T01:29:50.499Z"}
+{"level":"info","message":"Delete status message: Producto eliminado exitosamente","timestamp":"2024-11-18T01:30:18.145Z"}
+{"level":"info","message":"::1 - - [18/Nov/2024:01:30:18 +0000] \"DELETE /api/productos/43 HTTP/1.1\" 200 45 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-18T01:30:18.148Z"}
+{"level":"info","message":"Existing Dropbox link: https://www.dropbox.com/scl/fi/frhxx18k8rmmqny08wmok/producto_38_1731557792747.jpeg?rlkey=tbtarzq960jfuwu95x0fcsrn5&dl=0","timestamp":"2024-11-18T01:31:16.197Z"}
+{"level":"info","message":"Existing Dropbox link: https://www.dropbox.com/scl/fi/ho6mr1fdvquww6p89hjkc/producto_44_1731881648991.png?rlkey=ve4zeh5xvjlew7afjkncu7xva&dl=0","timestamp":"2024-11-18T01:31:17.528Z"}
+{"level":"info","message":"::1 - - [18/Nov/2024:01:31:17 +0000] \"GET /api/productos HTTP/1.1\" 200 692 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-18T01:31:17.529Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-18T01:32:22.772Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-18T01:32:22.775Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-18T01:32:38.729Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-18T01:32:38.731Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-18T01:33:08.585Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-18T01:33:08.588Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-18T01:33:15.531Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-18T01:33:15.532Z"}
+{"level":"info","message":"::1 - - [18/Nov/2024:01:33:40 +0000] \"PUT /api/productos/44 HTTP/1.1\" 200 47 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-18T01:33:40.838Z"}
+{"level":"info","message":"Existing Dropbox link: https://www.dropbox.com/scl/fi/frhxx18k8rmmqny08wmok/producto_38_1731557792747.jpeg?rlkey=tbtarzq960jfuwu95x0fcsrn5&dl=0","timestamp":"2024-11-18T01:33:47.159Z"}
+{"level":"info","message":"Existing Dropbox link: https://www.dropbox.com/scl/fi/ho6mr1fdvquww6p89hjkc/producto_44_1731881648991.png?rlkey=ve4zeh5xvjlew7afjkncu7xva&dl=0","timestamp":"2024-11-18T01:33:49.351Z"}
+{"level":"info","message":"::1 - - [18/Nov/2024:01:33:49 +0000] \"GET /api/productos HTTP/1.1\" 200 693 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-18T01:33:49.354Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-18T01:34:03.320Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-18T01:34:03.323Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-18T01:34:21.442Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-18T01:34:21.444Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-18T01:34:28.462Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-18T01:34:28.465Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-18T01:34:33.902Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-18T01:34:33.904Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-18T01:34:36.918Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-18T01:34:36.921Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-18T01:34:49.119Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-18T01:34:49.123Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-18T01:35:00.344Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-18T01:35:00.346Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-18T01:35:14.111Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-18T01:35:14.113Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-18T01:35:22.465Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-18T01:35:22.467Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-18T01:35:23.885Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-18T01:35:23.887Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-18T01:35:25.343Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-18T01:35:25.347Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-18T01:35:26.935Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-18T01:35:26.938Z"}
+{"level":"info","message":"::1 - - [18/Nov/2024:01:35:55 +0000] \"POST /api/productos HTTP/1.1\" 400 53 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-18T01:35:55.147Z"}
+{"level":"info","message":"Existing Dropbox link: https://www.dropbox.com/scl/fi/frhxx18k8rmmqny08wmok/producto_38_1731557792747.jpeg?rlkey=tbtarzq960jfuwu95x0fcsrn5&dl=0","timestamp":"2024-11-18T01:36:05.760Z"}
+{"level":"info","message":"Existing Dropbox link: https://www.dropbox.com/scl/fi/ho6mr1fdvquww6p89hjkc/producto_44_1731881648991.png?rlkey=ve4zeh5xvjlew7afjkncu7xva&dl=0","timestamp":"2024-11-18T01:36:07.686Z"}
+{"level":"info","message":"::1 - - [18/Nov/2024:01:36:07 +0000] \"GET /api/productos HTTP/1.1\" 200 693 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-18T01:36:07.689Z"}
+{"level":"info","message":"::1 - - [18/Nov/2024:01:36:36 +0000] \"POST /api/productos HTTP/1.1\" 201 42 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-18T01:36:36.350Z"}
+{"level":"info","message":"Existing Dropbox link: https://www.dropbox.com/scl/fi/frhxx18k8rmmqny08wmok/producto_38_1731557792747.jpeg?rlkey=tbtarzq960jfuwu95x0fcsrn5&dl=0","timestamp":"2024-11-18T01:37:01.800Z"}
+{"level":"info","message":"Existing Dropbox link: https://www.dropbox.com/scl/fi/ho6mr1fdvquww6p89hjkc/producto_44_1731881648991.png?rlkey=ve4zeh5xvjlew7afjkncu7xva&dl=0","timestamp":"2024-11-18T01:37:03.235Z"}
+{"level":"info","message":"Generated Dropbox link: https://www.dropbox.com/scl/fi/rme884gl3maj22q6ahgu1/producto_45_1731893790331.jpeg?rlkey=aewpxd3x8fgibyx363bh7jxkr&dl=0","timestamp":"2024-11-18T01:37:04.330Z"}
+{"level":"info","message":"::1 - - [18/Nov/2024:01:37:04 +0000] \"GET /api/productos HTTP/1.1\" 200 1036 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-18T01:37:04.333Z"}
+{"level":"info","message":"Existing Dropbox link: https://www.dropbox.com/scl/fi/frhxx18k8rmmqny08wmok/producto_38_1731557792747.jpeg?rlkey=tbtarzq960jfuwu95x0fcsrn5&dl=0","timestamp":"2024-11-18T01:37:10.915Z"}
+{"level":"info","message":"Existing Dropbox link: https://www.dropbox.com/scl/fi/ho6mr1fdvquww6p89hjkc/producto_44_1731881648991.png?rlkey=ve4zeh5xvjlew7afjkncu7xva&dl=0","timestamp":"2024-11-18T01:37:12.655Z"}
+{"level":"info","message":"Existing Dropbox link: https://www.dropbox.com/scl/fi/rme884gl3maj22q6ahgu1/producto_45_1731893790331.jpeg?rlkey=aewpxd3x8fgibyx363bh7jxkr&dl=0","timestamp":"2024-11-18T01:37:14.600Z"}
+{"level":"info","message":"::1 - - [18/Nov/2024:01:37:14 +0000] \"GET /api/productos HTTP/1.1\" 200 1036 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-18T01:37:14.602Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-18T01:37:47.180Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-18T01:37:47.183Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-18T01:38:17.405Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-18T01:38:17.408Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-18T01:38:18.819Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-18T01:38:18.820Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-18T01:38:27.691Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-18T01:38:27.694Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-18T01:38:36.258Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-18T01:38:36.262Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-18T01:38:39.357Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-18T01:38:39.359Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-18T01:38:46.921Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-18T01:38:46.922Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-18T01:38:48.961Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-18T01:38:48.962Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-18T01:38:51.849Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-18T01:38:51.851Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-18T01:38:54.034Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-18T01:38:54.036Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-18T01:38:57.256Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-18T01:38:57.257Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-18T01:39:02.612Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-18T01:39:02.614Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-18T01:39:03.781Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-18T01:39:03.783Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-18T01:39:07.345Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-18T01:39:07.348Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [18/Nov/2024:05:14:27 +0000] \"HEAD /netbeans-tomcat-status-test HTTP/1.1\" 404 41 \"-\" \"-\"","timestamp":"2024-11-18T05:14:27.610Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [18/Nov/2024:05:14:27 +0000] \"GET /manager/text/ HTTP/1.1\" 404 41 \"-\" \"Java/21.0.4\"","timestamp":"2024-11-18T05:14:27.625Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [18/Nov/2024:05:14:27 +0000] \"HEAD /netbeans-tomcat-status-test HTTP/1.1\" 404 41 \"-\" \"-\"","timestamp":"2024-11-18T05:14:27.633Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [18/Nov/2024:05:14:27 +0000] \"GET /manager/text/ HTTP/1.1\" 404 41 \"-\" \"Java/21.0.4\"","timestamp":"2024-11-18T05:14:27.635Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [18/Nov/2024:05:14:27 +0000] \"HEAD /netbeans-tomcat-status-test HTTP/1.1\" 404 41 \"-\" \"-\"","timestamp":"2024-11-18T05:14:27.715Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [18/Nov/2024:05:14:27 +0000] \"GET /manager/text/ HTTP/1.1\" 404 41 \"-\" \"Java/21.0.4\"","timestamp":"2024-11-18T05:14:27.717Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [18/Nov/2024:05:14:27 +0000] \"HEAD /netbeans-tomcat-status-test HTTP/1.1\" 404 41 \"-\" \"-\"","timestamp":"2024-11-18T05:14:27.719Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [18/Nov/2024:05:14:27 +0000] \"GET /manager/text/ HTTP/1.1\" 404 41 \"-\" \"Java/21.0.4\"","timestamp":"2024-11-18T05:14:27.724Z"}
+{"level":"info","message":"MySQL closed","timestamp":"2024-11-18T05:14:36.223Z"}
