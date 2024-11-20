@@ -853,3 +853,66 @@
 {"level":"info","message":"MySQL initialized","timestamp":"2024-11-11T04:34:04.681Z"}
 {"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-11T04:34:04.682Z"}
 {"level":"info","message":"MySQL closed","timestamp":"2024-11-11T04:34:58.861Z"}
+{"level":"error","message":"Error initializing MySQL: AggregateError","timestamp":"2024-11-11T22:10:39.337Z"}
+{"level":"error","message":"MySQL database failed to initialize","reason":{"details":{},"errorCode":"DB_INIT_ERROR","message":"Failed to initialize MySQL","name":"CustomError","statusCode":500},"timestamp":"2024-11-11T22:10:39.349Z"}
+{"level":"error","message":"Error initializing MySQL: Error: Access denied for user 'usersProd'@'localhost' (using password: YES)","timestamp":"2024-11-11T22:13:16.787Z"}
+{"level":"error","message":"MySQL database failed to initialize","reason":{"details":{},"errorCode":"DB_INIT_ERROR","message":"Failed to initialize MySQL","name":"CustomError","statusCode":500},"timestamp":"2024-11-11T22:13:16.796Z"}
+{"level":"error","message":"Error initializing MySQL: Error: Unknown database 'db_rentaproductos'","timestamp":"2024-11-11T22:13:48.930Z"}
+{"level":"error","message":"MySQL database failed to initialize","reason":{"details":{},"errorCode":"DB_INIT_ERROR","message":"Failed to initialize MySQL","name":"CustomError","statusCode":500},"timestamp":"2024-11-11T22:13:48.936Z"}
+{"level":"error","message":"Error initializing MySQL: AggregateError","timestamp":"2024-11-17T03:35:12.963Z"}
+{"level":"error","message":"MySQL database failed to initialize","reason":{"details":{},"errorCode":"DB_INIT_ERROR","message":"Failed to initialize MySQL","name":"CustomError","statusCode":500},"timestamp":"2024-11-17T03:35:12.975Z"}
+{"level":"error","message":"Error initializing MySQL: AggregateError","timestamp":"2024-11-17T03:39:55.749Z"}
+{"level":"error","message":"MySQL database failed to initialize","reason":{"details":{},"errorCode":"DB_INIT_ERROR","message":"Failed to initialize MySQL","name":"CustomError","statusCode":500},"timestamp":"2024-11-17T03:39:55.765Z"}
+{"level":"error","message":"Error initializing MySQL: AggregateError","timestamp":"2024-11-17T03:40:34.419Z"}
+{"level":"error","message":"MySQL database failed to initialize","reason":{"details":{},"errorCode":"DB_INIT_ERROR","message":"Failed to initialize MySQL","name":"CustomError","statusCode":500},"timestamp":"2024-11-17T03:40:34.425Z"}
+{"level":"error","message":"Error initializing MySQL: AggregateError","timestamp":"2024-11-17T03:41:34.783Z"}
+{"level":"error","message":"MySQL database failed to initialize","reason":{"details":{},"errorCode":"DB_INIT_ERROR","message":"Failed to initialize MySQL","name":"CustomError","statusCode":500},"timestamp":"2024-11-17T03:41:34.796Z"}
+{"level":"error","message":"Error initializing MySQL: AggregateError","timestamp":"2024-11-17T03:42:46.107Z"}
+{"level":"error","message":"MySQL database failed to initialize","reason":{"details":{},"errorCode":"DB_INIT_ERROR","message":"Failed to initialize MySQL","name":"CustomError","statusCode":500},"timestamp":"2024-11-17T03:42:46.120Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-17T06:13:09.496Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-17T06:13:09.505Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-17T06:13:11.941Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-17T06:13:11.949Z"}
+{"level":"error","message":"Error initializing MySQL: AggregateError","timestamp":"2024-11-18T04:43:03.582Z"}
+{"level":"error","message":"MySQL database failed to initialize","reason":{"details":{},"errorCode":"DB_INIT_ERROR","message":"Failed to initialize MySQL","name":"CustomError","statusCode":500},"timestamp":"2024-11-18T04:43:03.600Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-18T04:49:05.398Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-18T04:49:05.413Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-18T04:49:07.887Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-18T04:49:07.903Z"}
+{"level":"error","message":"Error during login: PROCEDURE db_rentaproductos.login_user does not exist","timestamp":"2024-11-18T04:52:19.550Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [18/Nov/2024:04:52:19 +0000] \"POST /api/auth/login HTTP/1.1\" 500 64 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2024-11-18T04:52:19.566Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-18T04:52:21.292Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-18T04:52:21.301Z"}
+{"level":"error","message":"Error creating user: PROCEDURE db_rentaproductos.register_user does not exist","timestamp":"2024-11-18T04:52:30.477Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [18/Nov/2024:04:52:30 +0000] \"POST /api/auth/register HTTP/1.1\" 500 59 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2024-11-18T04:52:30.502Z"}
+{"level":"error","message":"Input validation failed: \"password\" must be a string","timestamp":"2024-11-18T04:52:50.135Z"}
+{"level":"error","message":"Error creating user: Input validation failed","timestamp":"2024-11-18T04:52:50.138Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [18/Nov/2024:04:52:50 +0000] \"POST /api/auth/register HTTP/1.1\" 500 59 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2024-11-18T04:52:50.144Z"}
+{"level":"error","message":"Error creating user: PROCEDURE db_rentaproductos.register_user does not exist","timestamp":"2024-11-18T04:52:56.697Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [18/Nov/2024:04:52:56 +0000] \"POST /api/auth/register HTTP/1.1\" 500 59 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2024-11-18T04:52:56.700Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [18/Nov/2024:04:57:27 +0000] \"POST /api/auth/register HTTP/1.1\" 201 46 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2024-11-18T04:57:27.943Z"}
+{"level":"error","message":"Error during login: PROCEDURE db_rentaproductos.login_user does not exist","timestamp":"2024-11-18T04:58:16.905Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [18/Nov/2024:04:58:16 +0000] \"POST /api/auth/login HTTP/1.1\" 500 64 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2024-11-18T04:58:16.910Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [18/Nov/2024:04:59:26 +0000] \"POST /api/auth/login HTTP/1.1\" 200 197 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2024-11-18T04:59:26.839Z"}
+{"level":"error","message":"Error during login: Illegal arguments: undefined, string","timestamp":"2024-11-18T04:59:50.111Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [18/Nov/2024:04:59:50 +0000] \"POST /api/auth/login HTTP/1.1\" 500 64 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2024-11-18T04:59:50.116Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [18/Nov/2024:04:59:58 +0000] \"POST /api/auth/login HTTP/1.1\" 200 197 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2024-11-18T04:59:58.733Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [18/Nov/2024:05:01:23 +0000] \"POST /api/auth/login HTTP/1.1\" 404 46 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2024-11-18T05:01:23.336Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [18/Nov/2024:05:05:14 +0000] \"POST /api/auth/login HTTP/1.1\" 200 197 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2024-11-18T05:05:14.211Z"}
+{"level":"info","message":"::1 - - [18/Nov/2024:05:17:14 +0000] \"OPTIONS /api/auth/login HTTP/1.1\" 200 0 \"http://localhost:8100/\" \"Mozilla/5.0 (iPhone; CPU iPhone OS 16_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1\"","timestamp":"2024-11-18T05:17:14.445Z"}
+{"level":"info","message":"::1 - - [18/Nov/2024:05:22:05 +0000] \"OPTIONS /api/auth/login HTTP/1.1\" 200 0 \"http://localhost:8100/\" \"Mozilla/5.0 (iPhone; CPU iPhone OS 16_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1\"","timestamp":"2024-11-18T05:22:05.070Z"}
+{"level":"error","message":"Error initializing MySQL: AggregateError","timestamp":"2024-11-19T21:42:42.161Z"}
+{"level":"error","message":"MySQL database failed to initialize","reason":{"details":{},"errorCode":"DB_INIT_ERROR","message":"Failed to initialize MySQL","name":"CustomError","statusCode":500},"timestamp":"2024-11-19T21:42:42.174Z"}
+{"level":"error","message":"Error initializing MySQL: AggregateError","timestamp":"2024-11-19T21:58:24.637Z"}
+{"level":"error","message":"MySQL database failed to initialize","reason":{"details":{},"errorCode":"DB_INIT_ERROR","message":"Failed to initialize MySQL","name":"CustomError","statusCode":500},"timestamp":"2024-11-19T21:58:24.642Z"}
+{"level":"error","message":"Error initializing MySQL: AggregateError","timestamp":"2024-11-19T22:10:39.630Z"}
+{"level":"error","message":"MySQL database failed to initialize","reason":{"details":{},"errorCode":"DB_INIT_ERROR","message":"Failed to initialize MySQL","name":"CustomError","statusCode":500},"timestamp":"2024-11-19T22:10:39.642Z"}
+{"level":"error","message":"Error initializing MySQL: AggregateError","timestamp":"2024-11-19T22:46:35.868Z"}
+{"level":"error","message":"Error initializing MySQL: AggregateError","timestamp":"2024-11-19T22:46:37.948Z"}
+{"level":"error","message":"MySQL database failed to initialize","reason":{"details":{},"errorCode":"DB_INIT_ERROR","message":"Failed to initialize MySQL","name":"CustomError","statusCode":500},"timestamp":"2024-11-19T22:46:37.958Z"}
+{"level":"error","message":"Error initializing MySQL: AggregateError","timestamp":"2024-11-19T22:52:20.442Z"}
+{"level":"error","message":"MySQL database failed to initialize","reason":{"details":{},"errorCode":"DB_INIT_ERROR","message":"Failed to initialize MySQL","name":"CustomError","statusCode":500},"timestamp":"2024-11-19T22:52:20.453Z"}
+{"level":"error","message":"Error initializing MySQL: AggregateError","timestamp":"2024-11-19T23:08:25.818Z"}
+{"level":"error","message":"MySQL database failed to initialize","reason":{"details":{},"errorCode":"DB_INIT_ERROR","message":"Failed to initialize MySQL","name":"CustomError","statusCode":500},"timestamp":"2024-11-19T23:08:25.829Z"}
+{"level":"error","message":"Error initializing MySQL: AggregateError","timestamp":"2024-11-19T23:12:04.594Z"}
+{"level":"error","message":"MySQL database failed to initialize","reason":{"details":{},"errorCode":"DB_INIT_ERROR","message":"Failed to initialize MySQL","name":"CustomError","statusCode":500},"timestamp":"2024-11-19T23:12:04.605Z"}
