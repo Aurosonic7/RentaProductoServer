@@ -1,3 +1,116 @@
 {"level":"info","message":"MySQL initialized","timestamp":"2024-11-19T07:02:15.453Z"}
 {"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-19T07:02:15.455Z"}
 {"level":"info","message":"MySQL closed","timestamp":"2024-11-19T07:02:25.632Z"}
+{"level":"error","message":"Error initializing MySQL: AggregateError","timestamp":"2024-11-19T21:17:13.548Z"}
+{"level":"error","message":"MySQL database failed to initialize","reason":{"details":{},"errorCode":"DB_INIT_ERROR","message":"Failed to initialize MySQL","name":"CustomError","statusCode":500},"timestamp":"2024-11-19T21:17:13.549Z"}
+{"level":"info","message":"MySQL closed","timestamp":"2024-11-19T21:17:19.072Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-19T21:17:29.591Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-19T21:17:29.593Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:21:20:36 +0000] \"POST /api/auth/register HTTP/1.1\" 201 61 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T21:20:36.863Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:21:20:57 +0000] \"POST /api/auth/login HTTP/1.1\" 200 226 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T21:20:57.455Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:21:21:05 +0000] \"POST /api/auth/login HTTP/1.1\" 401 42 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T21:21:05.073Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:21:21:09 +0000] \"POST /api/auth/login HTTP/1.1\" 401 42 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T21:21:09.518Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:21:21:13 +0000] \"POST /api/auth/login HTTP/1.1\" 200 226 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T21:21:13.080Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:21:21:30 +0000] \"GET /api/categorias HTTP/1.1\" 200 478 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T21:21:30.272Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:21:21:34 +0000] \"GET /api/categorias HTTP/1.1\" 401 56 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T21:21:34.507Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:21:21:40 +0000] \"GET /api/categorias HTTP/1.1\" 200 478 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T21:21:40.056Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:21:22:25 +0000] \"POST /api/categorias HTTP/1.1\" 401 56 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T21:22:25.947Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:21:22:30 +0000] \"POST /api/categorias HTTP/1.1\" 201 44 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T21:22:30.176Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:21:22:34 +0000] \"GET /api/categorias HTTP/1.1\" 200 559 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T21:22:34.493Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:21:22:46 +0000] \"PUT /api/categorias/12 HTTP/1.1\" 401 56 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T21:22:46.634Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:21:22:51 +0000] \"PUT /api/categorias/12 HTTP/1.1\" 200 49 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T21:22:51.210Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:21:22:55 +0000] \"GET /api/categorias HTTP/1.1\" 200 555 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T21:22:55.675Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:21:23:09 +0000] \"DELETE /api/categorias/6 HTTP/1.1\" 200 47 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T21:23:09.800Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:21:23:20 +0000] \"GET /api/categorias HTTP/1.1\" 200 438 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T21:23:20.821Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:21:23:30 +0000] \"GET /api/productos HTTP/1.1\" 401 56 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T21:23:30.451Z"}
+{"level":"info","message":"Existing Dropbox link: https://www.dropbox.com/scl/fi/frhxx18k8rmmqny08wmok/producto_38_1731557792747.jpeg?rlkey=tbtarzq960jfuwu95x0fcsrn5&dl=0","timestamp":"2024-11-19T21:23:37.295Z"}
+{"level":"info","message":"Existing Dropbox link: https://www.dropbox.com/scl/fi/ho6mr1fdvquww6p89hjkc/producto_44_1731881648991.png?rlkey=ve4zeh5xvjlew7afjkncu7xva&dl=0","timestamp":"2024-11-19T21:23:40.270Z"}
+{"level":"info","message":"Existing Dropbox link: https://www.dropbox.com/scl/fi/rme884gl3maj22q6ahgu1/producto_45_1731893790331.jpeg?rlkey=aewpxd3x8fgibyx363bh7jxkr&dl=0","timestamp":"2024-11-19T21:23:42.651Z"}
+{"level":"error","message":"Error generating Dropbox link for path https://dropbox.com/path/to/bike.jpg: Response failed with a 400 code","timestamp":"2024-11-19T21:23:42.885Z"}
+{"level":"error","message":"Error generating Dropbox link for path https://dropbox.com/path/to/scooter.jpg: Response failed with a 400 code","timestamp":"2024-11-19T21:23:43.128Z"}
+{"level":"error","message":"Error generating Dropbox link for path https://dropbox.com/path/to/smartphone.jpg: Response failed with a 400 code","timestamp":"2024-11-19T21:23:43.320Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:21:23:43 +0000] \"GET /api/productos HTTP/1.1\" 200 1836 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T21:23:43.320Z"}
+{"level":"info","message":"Existing Dropbox link: https://www.dropbox.com/scl/fi/frhxx18k8rmmqny08wmok/producto_38_1731557792747.jpeg?rlkey=tbtarzq960jfuwu95x0fcsrn5&dl=0","timestamp":"2024-11-19T21:25:57.177Z"}
+{"level":"info","message":"Existing Dropbox link: https://www.dropbox.com/scl/fi/ho6mr1fdvquww6p89hjkc/producto_44_1731881648991.png?rlkey=ve4zeh5xvjlew7afjkncu7xva&dl=0","timestamp":"2024-11-19T21:25:59.106Z"}
+{"level":"info","message":"Existing Dropbox link: https://www.dropbox.com/scl/fi/rme884gl3maj22q6ahgu1/producto_45_1731893790331.jpeg?rlkey=aewpxd3x8fgibyx363bh7jxkr&dl=0","timestamp":"2024-11-19T21:26:00.944Z"}
+{"level":"error","message":"Error generating Dropbox link for path https://dropbox.com/path/to/bike.jpg: Response failed with a 400 code","timestamp":"2024-11-19T21:26:01.123Z"}
+{"level":"error","message":"Error generating Dropbox link for path https://dropbox.com/path/to/scooter.jpg: Response failed with a 400 code","timestamp":"2024-11-19T21:26:01.294Z"}
+{"level":"error","message":"Error generating Dropbox link for path https://dropbox.com/path/to/smartphone.jpg: Response failed with a 400 code","timestamp":"2024-11-19T21:26:01.516Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:21:26:01 +0000] \"GET /api/productos HTTP/1.1\" 200 1836 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T21:26:01.518Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:21:27:37 +0000] \"GET /api/categorias HTTP/1.1\" 200 438 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T21:27:37.822Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:21:28:08 +0000] \"POST /api/productos HTTP/1.1\" 201 42 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T21:28:08.269Z"}
+{"level":"info","message":"Existing Dropbox link: https://www.dropbox.com/scl/fi/frhxx18k8rmmqny08wmok/producto_38_1731557792747.jpeg?rlkey=tbtarzq960jfuwu95x0fcsrn5&dl=0","timestamp":"2024-11-19T21:29:02.571Z"}
+{"level":"info","message":"Existing Dropbox link: https://www.dropbox.com/scl/fi/ho6mr1fdvquww6p89hjkc/producto_44_1731881648991.png?rlkey=ve4zeh5xvjlew7afjkncu7xva&dl=0","timestamp":"2024-11-19T21:29:04.869Z"}
+{"level":"info","message":"Existing Dropbox link: https://www.dropbox.com/scl/fi/rme884gl3maj22q6ahgu1/producto_45_1731893790331.jpeg?rlkey=aewpxd3x8fgibyx363bh7jxkr&dl=0","timestamp":"2024-11-19T21:29:06.970Z"}
+{"level":"error","message":"Error generating Dropbox link for path https://dropbox.com/path/to/bike.jpg: Response failed with a 400 code","timestamp":"2024-11-19T21:29:07.331Z"}
+{"level":"error","message":"Error generating Dropbox link for path https://dropbox.com/path/to/scooter.jpg: Response failed with a 400 code","timestamp":"2024-11-19T21:29:07.978Z"}
+{"level":"error","message":"Error generating Dropbox link for path https://dropbox.com/path/to/smartphone.jpg: Response failed with a 400 code","timestamp":"2024-11-19T21:29:08.503Z"}
+{"level":"info","message":"Generated Dropbox link: https://www.dropbox.com/scl/fi/yln2py7ag5hnr1q6rj72n/silla_premium_1732051686375.jpeg?rlkey=vgztrih48d9ai36gdmmutq5hz&dl=0","timestamp":"2024-11-19T21:29:10.186Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:21:29:10 +0000] \"GET /api/productos HTTP/1.1\" 200 2180 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T21:29:10.188Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:21:29:20 +0000] \"PUT /api/productos/52 HTTP/1.1\" 200 47 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T21:29:20.204Z"}
+{"level":"info","message":"Existing Dropbox link: https://www.dropbox.com/scl/fi/frhxx18k8rmmqny08wmok/producto_38_1731557792747.jpeg?rlkey=tbtarzq960jfuwu95x0fcsrn5&dl=0","timestamp":"2024-11-19T21:29:47.455Z"}
+{"level":"info","message":"Existing Dropbox link: https://www.dropbox.com/scl/fi/ho6mr1fdvquww6p89hjkc/producto_44_1731881648991.png?rlkey=ve4zeh5xvjlew7afjkncu7xva&dl=0","timestamp":"2024-11-19T21:29:52.471Z"}
+{"level":"info","message":"Existing Dropbox link: https://www.dropbox.com/scl/fi/rme884gl3maj22q6ahgu1/producto_45_1731893790331.jpeg?rlkey=aewpxd3x8fgibyx363bh7jxkr&dl=0","timestamp":"2024-11-19T21:29:54.759Z"}
+{"level":"error","message":"Error generating Dropbox link for path https://dropbox.com/path/to/bike.jpg: Response failed with a 400 code","timestamp":"2024-11-19T21:29:54.971Z"}
+{"level":"error","message":"Error generating Dropbox link for path https://dropbox.com/path/to/scooter.jpg: Response failed with a 400 code","timestamp":"2024-11-19T21:29:55.173Z"}
+{"level":"error","message":"Error generating Dropbox link for path https://dropbox.com/path/to/smartphone.jpg: Response failed with a 400 code","timestamp":"2024-11-19T21:29:55.397Z"}
+{"level":"info","message":"Generated Dropbox link: https://www.dropbox.com/scl/fi/n1q16j5xa1av3hgz45ugo/silla_premium_1732051757707.jpeg?rlkey=w6au2oumz6dey4csl24w9ovfs&dl=0","timestamp":"2024-11-19T21:29:57.661Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:21:29:57 +0000] \"GET /api/productos HTTP/1.1\" 200 2180 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T21:29:57.663Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:21:30:26 +0000] \"GET /api/usuarios HTTP/1.1\" 401 56 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T21:30:26.010Z"}
+{"level":"info","message":"Existing Dropbox link: https://www.dropbox.com/scl/fi/gjotcpxoykohkuc78anem/christian_vicente_1731563339248.png?rlkey=50kzh40ofcw90q3cw03of113z&dl=0","timestamp":"2024-11-19T21:30:33.118Z"}
+{"level":"info","message":"Existing Dropbox link: https://www.dropbox.com/scl/fi/y0x0n434suhazs44kdfkg/carlos_gomez_1731985532479.jpeg?rlkey=8asxdikeswvz2pw38wbnk9vy3&dl=0","timestamp":"2024-11-19T21:30:35.544Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:21:30:35 +0000] \"GET /api/usuarios HTTP/1.1\" 200 1063 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T21:30:35.547Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:21:32:15 +0000] \"POST /api/rentas HTTP/1.1\" 201 53 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T21:32:15.454Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:21:32:37 +0000] \"GET /api/rentas HTTP/1.1\" 200 3295 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T21:32:37.988Z"}
+{"level":"info","message":"Existing Dropbox link: https://www.dropbox.com/scl/fi/frhxx18k8rmmqny08wmok/producto_38_1731557792747.jpeg?rlkey=tbtarzq960jfuwu95x0fcsrn5&dl=0","timestamp":"2024-11-19T21:35:53.545Z"}
+{"level":"info","message":"Existing Dropbox link: https://www.dropbox.com/scl/fi/ho6mr1fdvquww6p89hjkc/producto_44_1731881648991.png?rlkey=ve4zeh5xvjlew7afjkncu7xva&dl=0","timestamp":"2024-11-19T21:35:55.805Z"}
+{"level":"info","message":"Existing Dropbox link: https://www.dropbox.com/scl/fi/rme884gl3maj22q6ahgu1/producto_45_1731893790331.jpeg?rlkey=aewpxd3x8fgibyx363bh7jxkr&dl=0","timestamp":"2024-11-19T21:36:00.603Z"}
+{"level":"error","message":"Error generating Dropbox link for path https://dropbox.com/path/to/bike.jpg: Response failed with a 400 code","timestamp":"2024-11-19T21:36:01.012Z"}
+{"level":"error","message":"Error generating Dropbox link for path https://dropbox.com/path/to/scooter.jpg: Response failed with a 400 code","timestamp":"2024-11-19T21:36:01.227Z"}
+{"level":"error","message":"Error generating Dropbox link for path https://dropbox.com/path/to/smartphone.jpg: Response failed with a 400 code","timestamp":"2024-11-19T21:36:01.523Z"}
+{"level":"info","message":"Existing Dropbox link: https://www.dropbox.com/scl/fi/n1q16j5xa1av3hgz45ugo/silla_premium_1732051757707.jpeg?rlkey=w6au2oumz6dey4csl24w9ovfs&dl=0","timestamp":"2024-11-19T21:36:04.094Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:21:36:04 +0000] \"GET /api/productos HTTP/1.1\" 200 2180 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T21:36:04.098Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:21:36:12 +0000] \"POST /api/productoxrenta HTTP/1.1\" 401 56 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T21:36:12.361Z"}
+{"level":"warn","message":"Intento fallido de agregar producto: RentaID=12, ProductoID=12, Cantidad=7, Motivo=Producto no encontrado","timestamp":"2024-11-19T21:36:23.939Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:21:36:23 +0000] \"POST /api/productoxrenta HTTP/1.1\" 404 35 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T21:36:23.940Z"}
+{"level":"warn","message":"Intento fallido de agregar producto: RentaID=12, ProductoID=52, Cantidad=7, Motivo=Cantidad solicitada excede el stock disponible: 5","timestamp":"2024-11-19T21:36:42.131Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:21:36:42 +0000] \"POST /api/productoxrenta HTTP/1.1\" 400 63 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T21:36:42.132Z"}
+{"level":"info","message":"Producto agregado: RentaID=12, ProductoID=52, Cantidad=2","timestamp":"2024-11-19T21:36:49.189Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:21:36:49 +0000] \"POST /api/productoxrenta HTTP/1.1\" 201 77 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T21:36:49.189Z"}
+{"level":"info","message":"Existing Dropbox link: https://www.dropbox.com/scl/fi/frhxx18k8rmmqny08wmok/producto_38_1731557792747.jpeg?rlkey=tbtarzq960jfuwu95x0fcsrn5&dl=0","timestamp":"2024-11-19T21:37:01.603Z"}
+{"level":"info","message":"Existing Dropbox link: https://www.dropbox.com/scl/fi/ho6mr1fdvquww6p89hjkc/producto_44_1731881648991.png?rlkey=ve4zeh5xvjlew7afjkncu7xva&dl=0","timestamp":"2024-11-19T21:37:04.294Z"}
+{"level":"info","message":"Existing Dropbox link: https://www.dropbox.com/scl/fi/rme884gl3maj22q6ahgu1/producto_45_1731893790331.jpeg?rlkey=aewpxd3x8fgibyx363bh7jxkr&dl=0","timestamp":"2024-11-19T21:37:08.437Z"}
+{"level":"error","message":"Error generating Dropbox link for path https://dropbox.com/path/to/bike.jpg: Response failed with a 400 code","timestamp":"2024-11-19T21:37:08.625Z"}
+{"level":"error","message":"Error generating Dropbox link for path https://dropbox.com/path/to/scooter.jpg: Response failed with a 400 code","timestamp":"2024-11-19T21:37:09.003Z"}
+{"level":"error","message":"Error generating Dropbox link for path https://dropbox.com/path/to/smartphone.jpg: Response failed with a 400 code","timestamp":"2024-11-19T21:37:09.250Z"}
+{"level":"info","message":"Existing Dropbox link: https://www.dropbox.com/scl/fi/n1q16j5xa1av3hgz45ugo/silla_premium_1732051757707.jpeg?rlkey=w6au2oumz6dey4csl24w9ovfs&dl=0","timestamp":"2024-11-19T21:37:11.174Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:21:37:11 +0000] \"GET /api/productos HTTP/1.1\" 200 2180 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T21:37:11.175Z"}
+{"level":"info","message":"MySQL closed","timestamp":"2024-11-19T22:08:57.304Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-19T22:59:22.510Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-19T22:59:22.511Z"}
+{"level":"info","message":"::ffff:175.1.42.181 - - [19/Nov/2024:23:02:25 +0000] \"POST /api/auth/login HTTP/1.1\" 200 226 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T23:02:25.862Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-19T23:03:01.608Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-19T23:03:01.610Z"}
+{"level":"error","message":"Error generating Dropbox link for path /productos/producto_38_1731557792747.jpeg: request to https://api.dropboxapi.com/2/sharing/create_shared_link_with_settings failed, reason: self-signed certificate in certificate chain","timestamp":"2024-11-19T23:15:11.907Z"}
+{"level":"error","message":"Error generating Dropbox link for path /productos/producto_44_1731881648991.png: request to https://api.dropboxapi.com/2/sharing/create_shared_link_with_settings failed, reason: self-signed certificate in certificate chain","timestamp":"2024-11-19T23:15:12.046Z"}
+{"level":"error","message":"Error generating Dropbox link for path /productos/producto_45_1731893790331.jpeg: request to https://api.dropboxapi.com/2/sharing/create_shared_link_with_settings failed, reason: self-signed certificate in certificate chain","timestamp":"2024-11-19T23:15:12.184Z"}
+{"level":"error","message":"Error generating Dropbox link for path https://dropbox.com/path/to/bike.jpg: request to https://api.dropboxapi.com/2/sharing/create_shared_link_with_settings failed, reason: self-signed certificate in certificate chain","timestamp":"2024-11-19T23:15:12.276Z"}
+{"level":"error","message":"Error generating Dropbox link for path https://dropbox.com/path/to/scooter.jpg: request to https://api.dropboxapi.com/2/sharing/create_shared_link_with_settings failed, reason: self-signed certificate in certificate chain","timestamp":"2024-11-19T23:15:12.377Z"}
+{"level":"error","message":"Error generating Dropbox link for path https://dropbox.com/path/to/smartphone.jpg: request to https://api.dropboxapi.com/2/sharing/create_shared_link_with_settings failed, reason: self-signed certificate in certificate chain","timestamp":"2024-11-19T23:15:12.469Z"}
+{"level":"error","message":"Error generating Dropbox link for path /productos/silla_premium_1732051757707.jpeg: request to https://api.dropboxapi.com/2/sharing/create_shared_link_with_settings failed, reason: self-signed certificate in certificate chain","timestamp":"2024-11-19T23:15:12.558Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:23:15:12 +0000] \"GET /api/productos HTTP/1.1\" 200 1864 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T23:15:12.567Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:23:16:47 +0000] \"PUT /api/rentas/12 HTTP/1.1\" 401 56 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T23:16:47.691Z"}
+{"level":"error","message":"Error generating Dropbox link for path /productos/christian_vicente_1731563339248.png: request to https://api.dropboxapi.com/2/sharing/create_shared_link_with_settings failed, reason: self-signed certificate in certificate chain","timestamp":"2024-11-19T23:17:02.932Z"}
+{"level":"error","message":"Error generating Dropbox link for path /productos/carlos_gomez_1731985532479.jpeg: request to https://api.dropboxapi.com/2/sharing/create_shared_link_with_settings failed, reason: self-signed certificate in certificate chain","timestamp":"2024-11-19T23:17:03.043Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:23:17:03 +0000] \"GET /api/usuarios HTTP/1.1\" 200 905 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T23:17:03.045Z"}
+{"level":"info","message":"::1 - - [19/Nov/2024:23:17:13 +0000] \"PUT /api/rentas/12 HTTP/1.1\" 200 54 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-19T23:17:13.082Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-20T00:14:43.694Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-20T00:14:43.700Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-20T01:03:03.937Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-20T01:03:03.943Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-20T01:45:09.872Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-20T01:45:09.878Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-20T04:46:04.153Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-20T04:46:04.159Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-20T04:46:12.452Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-20T04:46:12.453Z"}
