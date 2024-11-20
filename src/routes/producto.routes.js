@@ -14,5 +14,4 @@ router.route('/:id')
   .delete(verifyToken, productoController.delete_producto)
   .put(verifyToken, upload.single('imagen'), productoController.update_producto);
 
-
 export default router;

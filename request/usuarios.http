@@ -1,0 +1,13 @@
+### Crear un nuevo usuario
+POST https://localhost:8443/api/usuarios
+Content-Type: application/json
+
+{
+  "nombre": "Christian",
+  "apellido_pat": "Vicente",
+  "apellido_mat": "Juárez",
+  "email": "christian@hotmail.com",
+  "password": "chris123"
+}
+
+### Iniciar sesión con un usuario

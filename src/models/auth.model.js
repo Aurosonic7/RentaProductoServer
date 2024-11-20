@@ -14,6 +14,11 @@ const registerClientSchema = Joi.object({
   password: Joi.string().required()
 });
 
+const loginClientSchema = Joi.object({
+  email: Joi.string().email().required(),
+  password: Joi.string().required()
+});
+
 const hashPassword = async (password) => {
   const saltRounds = 10;
   const hashedPassword = await bcrypt.hash(password, saltRounds);
@@ -28,21 +33,24 @@ export const register_user = async (user) => {
       logger.error(`Input validation failed: ${error.details[0].message}`);
       throw new CustomError('Input validation failed', 'VALIDATION_ERROR', 400, { validationError: error.details[0].message });
     }
+
     user.password = await hashPassword(user.password);
 
     connection = await mysql.pool.getConnection();
 
-    const query = `CALL register_user(?, ?, ?, ?, ?, @status_message);`;
+    const query = `CALL register_user(?, ?, ?, ?, ?, @p_usuario_id, @p_status_message);`;
     await connection.query(query, [
       user.nombre,
       user.apellido_pat,
-      user.apellido_mat,
+      user.apellido_mat || null,
       user.email,
       user.password
     ]);
-    const [output] = await connection.query('SELECT @status_message AS statusMessage');
-    const statusMessage = output[0]?.statusMessage;
-    return { statusMessage };
+
+    const [output] = await connection.query('SELECT @p_usuario_id AS usuario_id, @p_status_message AS statusMessage;');
+    const { usuario_id, statusMessage } = output[0] || {};
+
+    return { usuario_id, statusMessage };
   } catch (error) {
     logger.error(`Error creating user: ${error.message}`);
     throw new CustomError('Database Error', 'DB_ERROR', 500, { originalError: error.message });
@@ -54,23 +62,26 @@ export const register_user = async (user) => {
 export const login_user = async (user) => {
   let connection;
   try {
+    const { error } = loginClientSchema.validate(user);
+    if (error) {
+      logger.error(`Input validation failed: ${error.details[0].message}`);
+      throw new CustomError('Input validation failed', 'VALIDATION_ERROR', 400, { validationError: error.details[0].message });
+    }
+
     connection = await mysql.pool.getConnection();
 
-    const query = `CALL login_user(?, @hashed_password, @status_message);`;
+    const query = `CALL login_user(?, @p_usuario_id, @p_hashed_password, @p_status_message);`;
     await connection.query(query, [user.email]);
 
-    const [output] = await connection.query('SELECT @hashed_password AS hashedPassword, @status_message AS statusMessage');
-    const hashedPassword = output[0]?.hashedPassword;
-    const statusMessage = output[0]?.statusMessage;
+    const [output] = await connection.query('SELECT @p_usuario_id AS usuario_id, @p_hashed_password AS hashedPassword, @p_status_message AS statusMessage;');
+    const { usuario_id, hashedPassword, statusMessage } = output[0] || {};
 
-    if (statusMessage === 'Email does not exist') return { statusMessage: 'Email does not exist' };
-    
-    // Comparar la contraseña ingresada con la contraseña hasheada almacenada
+    if (statusMessage === 'El correo electrónico no existe') return { statusMessage: 'Email does not exist' };
+
     const isPasswordValid = await bcrypt.compare(user.password, hashedPassword);
     if (!isPasswordValid) return { statusMessage: 'Incorrect password' };
-    
-    // Generar el token JWT si la autenticación es exitosa
-    const token = jwt.sign({ email: user.email }, process.env.JWT_SECRET, { expiresIn: process.env.JWT_EXPIRES_IN || '1h' });
+
+    const token = jwt.sign({ email: user.email, usuario_id }, process.env.JWT_SECRET, { expiresIn: process.env.JWT_EXPIRES_IN || '1h' });
     return { statusMessage: 'Login successful', token };
   } catch (error) {
     logger.error(`Error during login: ${error.message}`);

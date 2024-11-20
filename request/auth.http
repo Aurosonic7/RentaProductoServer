@@ -3,11 +3,11 @@ POST https://localhost:8443/api/auth/register
 Content-Type: application/json
 
 {
-  "nombre": "Christian",
-  "apellido_pat": "Vicente",
-  "apellido_mat": "Juárez",
-  "email": "chris@hotmail.com",
-  "password": "chris123"
+  "nombre": "Sebastian",
+  "apellido_pat": "Ramos",
+  "apellido_mat": "Vicente",
+  "email": "sebas@hotmail.com",
+  "password": "sebas123"
 }
 
 ### Iniciar sesión con un usuario
