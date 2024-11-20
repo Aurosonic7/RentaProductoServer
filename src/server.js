@@ -13,6 +13,8 @@ import rentaRoutes from './routes/renta.routes.js';
 import productoxrentaRoutes from './routes/productoxrenta.routes.js';
 import metodoPagoRoutes from './routes/metodoPago.routes.js';
 
+import { spawn } from 'child_process';
+
 //! Crear la instancia de Express
 const server = express();
 
@@ -38,5 +40,41 @@ server.use('/api/metodopago', metodoPagoRoutes);
 //! Agregar un middleware para manejar errores 404 y 500
 server.use(notFoundHandler);
 server.use(errorHandler);
+
+// Función para iniciar y escuchar un script Python
+function startPythonScript(scriptPath, scriptName) {
+  const venvPath = 'D:/La_salle_oaxaca/Ejercicios_de_Python/Proyectos_personales/flask-aws-rekognition/venv/Scripts/activate';
+  const pythonPath = 'D:/La_salle_oaxaca/Ejercicios_de_Python/Proyectos_personales/flask-aws-rekognition/venv/Scripts/python.exe';
+
+  // Ejecutar el script dentro del entorno virtual
+  const pythonProcess = spawn('cmd', ['/c', `call ${venvPath} && ${pythonPath} ${scriptPath}`]);
+
+  console.log(`Iniciando script Python: ${scriptName}`);
+
+  // Escuchar datos de salida
+  pythonProcess.stdout.on('data', (data) => {
+    console.log(`[${scriptName}] Salida: ${data.toString()}`);
+  });
+
+  // Escuchar errores
+  pythonProcess.stderr.on('data', (data) => {
+    console.error(`[${scriptName}] Error: ${data.toString()}`);
+  });
+
+  // Escuchar cuando el proceso finaliza
+  pythonProcess.on('close', (code) => {
+    console.log(`[${scriptName}] Proceso finalizado con código ${code}`);
+  });
+}
+
+//! Ejecutar ambos scripts Python al iniciar el servidor
+startPythonScript(
+  'D:/La_salle_oaxaca/Ejercicios_de_Python/Proyectos_personales/flask-aws-rekognition/backend.py',
+  'Backend Script'
+);
+startPythonScript(
+  'D:/La_salle_oaxaca/Ejercicios_de_Python/Proyectos_personales/flask-aws-rekognition/putimages.py',
+  'PutImages Script'
+);
 
 export default server;
