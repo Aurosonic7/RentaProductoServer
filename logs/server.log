@@ -1035,3 +1035,204 @@
 {"level":"error","message":"Error initializing MySQL: AggregateError","timestamp":"2024-11-19T23:12:04.594Z"}
 {"level":"error","message":"MySQL database failed to initialize","reason":{"details":{},"errorCode":"DB_INIT_ERROR","message":"Failed to initialize MySQL","name":"CustomError","statusCode":500},"timestamp":"2024-11-19T23:12:04.605Z"}
 >>>>>>> refs/remotes/origin/develop
+{"level":"error","message":"Error initializing MySQL: AggregateError","timestamp":"2024-11-21T22:01:57.741Z"}
+{"level":"error","message":"MySQL database failed to initialize","reason":{"details":{},"errorCode":"DB_INIT_ERROR","message":"Failed to initialize MySQL","name":"CustomError","statusCode":500},"timestamp":"2024-11-21T22:01:57.743Z"}
+{"level":"info","message":"MySQL closed","timestamp":"2024-11-21T22:01:59.560Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-21T22:02:19.904Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-21T22:02:19.906Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-21T22:02:42.531Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-21T22:02:42.534Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-21T22:02:59.883Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-21T22:02:59.885Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-21T22:03:03.388Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-21T22:03:03.389Z"}
+{"level":"info","message":"MySQL closed","timestamp":"2024-11-21T22:03:23.260Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-21T22:03:32.975Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-21T22:03:32.977Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-21T22:10:04.841Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-21T22:10:04.847Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-21T22:10:09.693Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-21T22:10:09.695Z"}
+{"level":"info","message":"::1 - - [21/Nov/2024:22:10:48 +0000] \"POST /api/auth/login HTTP/1.1\" 401 42 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-21T22:10:48.267Z"}
+{"level":"info","message":"::1 - - [21/Nov/2024:22:10:54 +0000] \"POST /api/auth/login HTTP/1.1\" 401 42 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-21T22:10:54.741Z"}
+{"level":"info","message":"::1 - - [21/Nov/2024:22:10:59 +0000] \"POST /api/auth/login HTTP/1.1\" 401 42 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-21T22:10:59.891Z"}
+{"level":"info","message":"::1 - - [21/Nov/2024:22:11:06 +0000] \"GET /api/usuarios HTTP/1.1\" 401 56 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-21T22:11:06.692Z"}
+{"level":"info","message":"::1 - - [21/Nov/2024:22:11:26 +0000] \"POST /api/auth/register HTTP/1.1\" 409 56 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-21T22:11:26.866Z"}
+{"level":"info","message":"::1 - - [21/Nov/2024:22:56:54 +0000] \"POST /api/auth/register HTTP/1.1\" 201 61 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-21T22:56:54.877Z"}
+{"level":"info","message":"::1 - - [21/Nov/2024:22:57:41 +0000] \"POST /api/auth/login HTTP/1.1\" 200 225 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-21T22:57:41.934Z"}
+{"level":"info","message":"::1 - - [21/Nov/2024:22:57:57 +0000] \"GET /api/categorias HTTP/1.1\" 200 95 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-21T22:57:57.669Z"}
+{"level":"info","message":"::1 - - [21/Nov/2024:22:58:27 +0000] \"GET /api/productos HTTP/1.1\" 200 16 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-21T22:58:27.811Z"}
+{"level":"info","message":"::1 - - [21/Nov/2024:23:02:01 +0000] \"POST /api/productos HTTP/1.1\" 401 56 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-21T23:02:01.122Z"}
+{"level":"info","message":"::1 - - [21/Nov/2024:23:02:06 +0000] \"GET /api/productos HTTP/1.1\" 200 16 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-21T23:02:06.844Z"}
+{"level":"error","message":"Error al crear el producto: request to https://content.dropboxapi.com/2/files/upload failed, reason: self-signed certificate in certificate chain","timestamp":"2024-11-21T23:02:16.247Z"}
+{"level":"info","message":"::1 - - [21/Nov/2024:23:02:16 +0000] \"POST /api/productos HTTP/1.1\" 500 159 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-21T23:02:16.249Z"}
+{"level":"info","message":"::1 - - [21/Nov/2024:23:03:19 +0000] \"POST /api/productos HTTP/1.1\" 201 42 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-21T23:03:19.603Z"}
+{"level":"info","message":"Generated Dropbox link: https://www.dropbox.com/scl/fi/qsc6lnln4a20xik3ols0i/silla_premium_1732230197553.jpeg?rlkey=xdakrhmkneu6rr3gpyfalt0yo&dl=0","timestamp":"2024-11-21T23:03:32.453Z"}
+{"level":"info","message":"::1 - - [21/Nov/2024:23:03:32 +0000] \"GET /api/productos HTTP/1.1\" 200 363 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-21T23:03:32.455Z"}
+{"level":"info","message":"Delete status message: Producto eliminado exitosamente","timestamp":"2024-11-21T23:03:48.837Z"}
+{"level":"info","message":"::1 - - [21/Nov/2024:23:03:48 +0000] \"DELETE /api/productos/56 HTTP/1.1\" 200 45 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-21T23:03:48.838Z"}
+{"level":"info","message":"::1 - - [21/Nov/2024:23:04:02 +0000] \"POST /api/productos HTTP/1.1\" 201 42 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-21T23:04:02.329Z"}
+{"level":"info","message":"Delete status message: Producto eliminado exitosamente","timestamp":"2024-11-21T23:04:26.903Z"}
+{"level":"info","message":"::1 - - [21/Nov/2024:23:04:26 +0000] \"DELETE /api/productos/57 HTTP/1.1\" 200 45 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-21T23:04:26.904Z"}
+{"level":"info","message":"::1 - - [21/Nov/2024:23:05:01 +0000] \"POST /api/productos HTTP/1.1\" 201 42 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-21T23:05:01.001Z"}
+{"level":"info","message":"::1 - - [21/Nov/2024:23:05:06 +0000] \"GET /api/productos/41 HTTP/1.1\" 401 56 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-21T23:05:06.116Z"}
+{"level":"info","message":"::1 - - [21/Nov/2024:23:05:11 +0000] \"GET /api/productos/57 HTTP/1.1\" 404 36 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-21T23:05:11.281Z"}
+{"level":"info","message":"Generated Dropbox link: https://www.dropbox.com/scl/fi/49jqwb0o3itwqy35v8sz7/iphone_13_pro_max_1732230299688.jpeg?rlkey=zlaf2fqr2futpgy3r07shngl2&dl=0","timestamp":"2024-11-21T23:05:14.970Z"}
+{"level":"info","message":"::1 - - [21/Nov/2024:23:05:14 +0000] \"GET /api/productos/58 HTTP/1.1\" 200 371 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-21T23:05:14.972Z"}
+{"level":"info","message":"::1 - - [21/Nov/2024:23:06:02 +0000] \"POST /api/auth/register HTTP/1.1\" 201 61 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-21T23:06:02.856Z"}
+{"level":"info","message":"::1 - - [21/Nov/2024:23:06:51 +0000] \"POST /api/rentas HTTP/1.1\" 401 56 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-21T23:06:51.894Z"}
+{"level":"error","message":"Validación de entrada fallida: \"fecha_devolucion\" is required","timestamp":"2024-11-21T23:06:55.604Z"}
+{"level":"error","message":"Error creando renta: Validación de entrada fallida","timestamp":"2024-11-21T23:06:55.605Z"}
+{"level":"info","message":"::1 - - [21/Nov/2024:23:06:55 +0000] \"POST /api/rentas HTTP/1.1\" 500 76 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-21T23:06:55.606Z"}
+{"level":"info","message":"::1 - - [21/Nov/2024:23:07:08 +0000] \"POST /api/rentas HTTP/1.1\" 201 53 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-21T23:07:08.392Z"}
+{"level":"info","message":"::1 - - [21/Nov/2024:23:08:30 +0000] \"POST /api/productoxrenta HTTP/1.1\" 401 56 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-21T23:08:30.251Z"}
+{"level":"warn","message":"Intento fallido de agregar producto: RentaID=16, ProductoID=58, Cantidad=10, Motivo=Cantidad solicitada excede el stock disponible: 5","timestamp":"2024-11-21T23:08:44.304Z"}
+{"level":"info","message":"::1 - - [21/Nov/2024:23:08:44 +0000] \"POST /api/productoxrenta HTTP/1.1\" 400 63 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-21T23:08:44.305Z"}
+{"level":"info","message":"Producto agregado: RentaID=16, ProductoID=58, Cantidad=5","timestamp":"2024-11-21T23:08:48.963Z"}
+{"level":"info","message":"::1 - - [21/Nov/2024:23:08:48 +0000] \"POST /api/productoxrenta HTTP/1.1\" 201 77 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-21T23:08:48.964Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-21T23:09:42.065Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-21T23:09:42.071Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-21T23:10:11.812Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-21T23:10:11.814Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-21T23:12:25.424Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-21T23:12:25.427Z"}
+{"level":"info","message":"::1 - - [21/Nov/2024:23:12:52 +0000] \"POST /api/rentas/finalizar_renta/9 HTTP/1.1\" 401 56 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-21T23:12:52.314Z"}
+{"level":"error","message":"Error finalizando renta: execute command denied to user 'usersProd'@'%' for routine 'db_rentaproductos.finalize_renta'","timestamp":"2024-11-21T23:13:00.041Z"}
+{"level":"info","message":"::1 - - [21/Nov/2024:23:13:00 +0000] \"POST /api/rentas/finalizar_renta/9 HTTP/1.1\" 500 68 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-21T23:13:00.042Z"}
+{"level":"info","message":"::1 - - [21/Nov/2024:23:13:25 +0000] \"POST /api/rentas/finalizar_renta/ HTTP/1.1\" 404 41 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-21T23:13:25.117Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-21T23:13:34.778Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-21T23:13:34.781Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-21T23:13:38.918Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-21T23:13:38.919Z"}
+{"level":"error","message":"Error finalizando renta: execute command denied to user 'usersProd'@'%' for routine 'db_rentaproductos.finalize_renta'","timestamp":"2024-11-21T23:14:14.860Z"}
+{"level":"info","message":"::1 - - [21/Nov/2024:23:14:14 +0000] \"POST /api/rentas/finalizar_renta/ HTTP/1.1\" 500 68 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-21T23:14:14.863Z"}
+{"level":"warn","message":"Intento fallido de agregar producto: RentaID=16, ProductoID=58, Cantidad=3, Motivo=El producto ya está asociado con esta renta","timestamp":"2024-11-21T23:16:47.561Z"}
+{"level":"info","message":"::1 - - [21/Nov/2024:23:16:47 +0000] \"POST /api/productoxrenta HTTP/1.1\" 409 58 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-21T23:16:47.564Z"}
+{"level":"warn","message":"Intento fallido de agregar producto: RentaID=16, ProductoID=58, Cantidad=3, Motivo=El producto ya está asociado con esta renta","timestamp":"2024-11-21T23:21:47.933Z"}
+{"level":"info","message":"::1 - - [21/Nov/2024:23:21:47 +0000] \"POST /api/productoxrenta HTTP/1.1\" 409 58 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-21T23:21:47.935Z"}
+{"level":"info","message":"Producto agregado: RentaID=16, ProductoID=58, Cantidad=3","timestamp":"2024-11-21T23:22:13.372Z"}
+{"level":"info","message":"::1 - - [21/Nov/2024:23:22:13 +0000] \"POST /api/productoxrenta HTTP/1.1\" 201 78 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-21T23:22:13.373Z"}
+{"level":"info","message":"::1 - - [21/Nov/2024:23:23:12 +0000] \"POST /api/rentas/finalizar_renta/ HTTP/1.1\" 404 33 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-21T23:23:12.401Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-21T23:25:36.301Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-21T23:25:36.307Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-21T23:26:52.037Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-21T23:26:52.040Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-21T23:27:30.471Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-21T23:27:30.476Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-21T23:29:26.277Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-21T23:29:26.279Z"}
+{"level":"info","message":"Existing Dropbox link: https://www.dropbox.com/scl/fi/49jqwb0o3itwqy35v8sz7/iphone_13_pro_max_1732230299688.jpeg?rlkey=zlaf2fqr2futpgy3r07shngl2&dl=0","timestamp":"2024-11-21T23:29:33.101Z"}
+{"level":"info","message":"::1 - - [21/Nov/2024:23:29:33 +0000] \"GET /api/productos HTTP/1.1\" 200 374 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-21T23:29:33.108Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-21T23:31:03.390Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-21T23:31:03.392Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-21T23:31:47.901Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-21T23:31:47.904Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-21T23:31:58.816Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-21T23:31:58.818Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-21T23:32:06.040Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-21T23:32:06.042Z"}
+{"date":"Thu Nov 21 2024 17:33:58 GMT-0600 (Central Standard Time)","error":{},"level":"error","message":"unhandledRejection: logger is not defined\nReferenceError: logger is not defined\n    at finalize_renta (file:///Users/christianvicente/Desktop/La%20Salle%20Oaxaca/7%C2%BA_Semestre/Movil/ProyectoMo%CC%81vilRentaProductos/server/src/controllers/renta.controller.js:90:5)\n    at Layer.handle [as handle_request] (/Users/christianvicente/Desktop/La Salle Oaxaca/7º_Semestre/Movil/ProyectoMóvilRentaProductos/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/christianvicente/Desktop/La Salle Oaxaca/7º_Semestre/Movil/ProyectoMóvilRentaProductos/server/node_modules/express/lib/router/route.js:149:13)\n    at file:///Users/christianvicente/Desktop/La%20Salle%20Oaxaca/7%C2%BA_Semestre/Movil/ProyectoMo%CC%81vilRentaProductos/server/src/middlewares/auth.js:15:5\n    at /Users/christianvicente/Desktop/La Salle Oaxaca/7º_Semestre/Movil/ProyectoMóvilRentaProductos/server/node_modules/jsonwebtoken/verify.js:261:12\n    at getSecret (/Users/christianvicente/Desktop/La Salle Oaxaca/7º_Semestre/Movil/ProyectoMóvilRentaProductos/server/node_modules/jsonwebtoken/verify.js:97:14)\n    at module.exports [as verify] (/Users/christianvicente/Desktop/La Salle Oaxaca/7º_Semestre/Movil/ProyectoMóvilRentaProductos/server/node_modules/jsonwebtoken/verify.js:101:10)\n    at verifyToken (file:///Users/christianvicente/Desktop/La%20Salle%20Oaxaca/7%C2%BA_Semestre/Movil/ProyectoMo%CC%81vilRentaProductos/server/src/middlewares/auth.js:10:7)\n    at Layer.handle [as handle_request] (/Users/christianvicente/Desktop/La Salle Oaxaca/7º_Semestre/Movil/ProyectoMóvilRentaProductos/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/christianvicente/Desktop/La Salle Oaxaca/7º_Semestre/Movil/ProyectoMóvilRentaProductos/server/node_modules/express/lib/router/route.js:149:13)","os":{"loadavg":[2.43701171875,2.50390625,2.26953125],"uptime":13212},"process":{"argv":["/opt/homebrew/Cellar/node/23.1.0_1/bin/node","/Users/christianvicente/Desktop/La Salle Oaxaca/7º_Semestre/Movil/ProyectoMóvilRentaProductos/server/src/index.js"],"cwd":"/Users/christianvicente/Desktop/La Salle Oaxaca/7º_Semestre/Movil/ProyectoMóvilRentaProductos/server","execPath":"/opt/homebrew/Cellar/node/23.1.0_1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":66002,"external":3560409,"heapTotal":23363584,"heapUsed":21792824,"rss":61784064},"pid":14542,"uid":501,"version":"v23.1.0"},"rejection":true,"stack":"ReferenceError: logger is not defined\n    at finalize_renta (file:///Users/christianvicente/Desktop/La%20Salle%20Oaxaca/7%C2%BA_Semestre/Movil/ProyectoMo%CC%81vilRentaProductos/server/src/controllers/renta.controller.js:90:5)\n    at Layer.handle [as handle_request] (/Users/christianvicente/Desktop/La Salle Oaxaca/7º_Semestre/Movil/ProyectoMóvilRentaProductos/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/christianvicente/Desktop/La Salle Oaxaca/7º_Semestre/Movil/ProyectoMóvilRentaProductos/server/node_modules/express/lib/router/route.js:149:13)\n    at file:///Users/christianvicente/Desktop/La%20Salle%20Oaxaca/7%C2%BA_Semestre/Movil/ProyectoMo%CC%81vilRentaProductos/server/src/middlewares/auth.js:15:5\n    at /Users/christianvicente/Desktop/La Salle Oaxaca/7º_Semestre/Movil/ProyectoMóvilRentaProductos/server/node_modules/jsonwebtoken/verify.js:261:12\n    at getSecret (/Users/christianvicente/Desktop/La Salle Oaxaca/7º_Semestre/Movil/ProyectoMóvilRentaProductos/server/node_modules/jsonwebtoken/verify.js:97:14)\n    at module.exports [as verify] (/Users/christianvicente/Desktop/La Salle Oaxaca/7º_Semestre/Movil/ProyectoMóvilRentaProductos/server/node_modules/jsonwebtoken/verify.js:101:10)\n    at verifyToken (file:///Users/christianvicente/Desktop/La%20Salle%20Oaxaca/7%C2%BA_Semestre/Movil/ProyectoMo%CC%81vilRentaProductos/server/src/middlewares/auth.js:10:7)\n    at Layer.handle [as handle_request] (/Users/christianvicente/Desktop/La Salle Oaxaca/7º_Semestre/Movil/ProyectoMóvilRentaProductos/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/christianvicente/Desktop/La Salle Oaxaca/7º_Semestre/Movil/ProyectoMóvilRentaProductos/server/node_modules/express/lib/router/route.js:149:13)","timestamp":"2024-11-21T23:33:58.034Z","trace":[{"column":5,"file":"file:///Users/christianvicente/Desktop/La%20Salle%20Oaxaca/7%C2%BA_Semestre/Movil/ProyectoMo%CC%81vilRentaProductos/server/src/controllers/renta.controller.js","function":"finalize_renta","line":90,"method":null,"native":false},{"column":5,"file":"/Users/christianvicente/Desktop/La Salle Oaxaca/7º_Semestre/Movil/ProyectoMóvilRentaProductos/server/node_modules/express/lib/router/layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"/Users/christianvicente/Desktop/La Salle Oaxaca/7º_Semestre/Movil/ProyectoMóvilRentaProductos/server/node_modules/express/lib/router/route.js","function":"next","line":149,"method":null,"native":false},{"column":5,"file":"file:///Users/christianvicente/Desktop/La%20Salle%20Oaxaca/7%C2%BA_Semestre/Movil/ProyectoMo%CC%81vilRentaProductos/server/src/middlewares/auth.js","function":null,"line":15,"method":null,"native":false},{"column":12,"file":"/Users/christianvicente/Desktop/La Salle Oaxaca/7º_Semestre/Movil/ProyectoMóvilRentaProductos/server/node_modules/jsonwebtoken/verify.js","function":null,"line":261,"method":null,"native":false},{"column":14,"file":"/Users/christianvicente/Desktop/La Salle Oaxaca/7º_Semestre/Movil/ProyectoMóvilRentaProductos/server/node_modules/jsonwebtoken/verify.js","function":"getSecret","line":97,"method":null,"native":false},{"column":10,"file":"/Users/christianvicente/Desktop/La Salle Oaxaca/7º_Semestre/Movil/ProyectoMóvilRentaProductos/server/node_modules/jsonwebtoken/verify.js","function":"module.exports [as verify]","line":101,"method":"exports [as verify]","native":false},{"column":7,"file":"file:///Users/christianvicente/Desktop/La%20Salle%20Oaxaca/7%C2%BA_Semestre/Movil/ProyectoMo%CC%81vilRentaProductos/server/src/middlewares/auth.js","function":"verifyToken","line":10,"method":null,"native":false},{"column":5,"file":"/Users/christianvicente/Desktop/La Salle Oaxaca/7º_Semestre/Movil/ProyectoMóvilRentaProductos/server/node_modules/express/lib/router/layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"/Users/christianvicente/Desktop/La Salle Oaxaca/7º_Semestre/Movil/ProyectoMóvilRentaProductos/server/node_modules/express/lib/router/route.js","function":"next","line":149,"method":null,"native":false}]}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-21T23:35:42.690Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-21T23:35:42.693Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-21T23:35:56.581Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-21T23:35:56.582Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-21T23:36:06.250Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-21T23:36:06.252Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-21T23:45:13.597Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-21T23:45:13.603Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-21T23:45:23.363Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-21T23:45:23.364Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-21T23:46:15.435Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-21T23:46:15.438Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-21T23:46:46.555Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-21T23:46:46.557Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-21T23:47:30.368Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-21T23:47:30.372Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-21T23:48:25.553Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-21T23:48:25.555Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-21T23:48:39.990Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-21T23:48:39.992Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-21T23:49:58.655Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-21T23:49:58.659Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-21T23:52:42.361Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-21T23:52:42.365Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-21T23:52:49.400Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-21T23:52:49.401Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-21T23:53:07.783Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-21T23:53:07.785Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-21T23:54:45.211Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-21T23:54:45.213Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-21T23:54:57.874Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-21T23:54:57.876Z"}
+{"level":"info","message":"::1 - - [21/Nov/2024:23:55:05 +0000] \"POST /api/rentas/finalizar_renta/ HTTP/1.1\" 500 68 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-21T23:55:05.896Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-22T00:02:23.316Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-22T00:02:23.323Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-22T00:02:38.006Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-22T00:02:38.008Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-22T00:02:52.727Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-22T00:02:52.729Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-22T00:03:01.521Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-22T00:03:01.524Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-22T00:03:03.560Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-22T00:03:03.562Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-22T00:06:11.041Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-22T00:06:11.043Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-22T00:06:13.776Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-22T00:06:13.778Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-22T00:06:16.092Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-22T00:06:16.093Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-22T00:06:43.891Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-22T00:06:43.893Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-22T00:07:04.422Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-22T00:07:04.425Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-22T00:07:21.477Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-22T00:07:21.480Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-22T00:07:24.904Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-22T00:07:24.906Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-22T00:07:26.024Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-22T00:07:26.026Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-22T00:07:27.267Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-22T00:07:27.269Z"}
+{"date":"Thu Nov 21 2024 18:08:01 GMT-0600 (Central Standard Time)","error":{},"level":"error","message":"unhandledRejection: logger is not defined\nReferenceError: logger is not defined\n    at finalize_renta (file:///Users/christianvicente/Desktop/La%20Salle%20Oaxaca/7%C2%BA_Semestre/Movil/ProyectoMo%CC%81vilRentaProductos/server/src/controllers/renta.controller.js:91:5)\n    at Layer.handle [as handle_request] (/Users/christianvicente/Desktop/La Salle Oaxaca/7º_Semestre/Movil/ProyectoMóvilRentaProductos/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/christianvicente/Desktop/La Salle Oaxaca/7º_Semestre/Movil/ProyectoMóvilRentaProductos/server/node_modules/express/lib/router/route.js:149:13)\n    at file:///Users/christianvicente/Desktop/La%20Salle%20Oaxaca/7%C2%BA_Semestre/Movil/ProyectoMo%CC%81vilRentaProductos/server/src/middlewares/auth.js:15:5\n    at /Users/christianvicente/Desktop/La Salle Oaxaca/7º_Semestre/Movil/ProyectoMóvilRentaProductos/server/node_modules/jsonwebtoken/verify.js:261:12\n    at getSecret (/Users/christianvicente/Desktop/La Salle Oaxaca/7º_Semestre/Movil/ProyectoMóvilRentaProductos/server/node_modules/jsonwebtoken/verify.js:97:14)\n    at module.exports [as verify] (/Users/christianvicente/Desktop/La Salle Oaxaca/7º_Semestre/Movil/ProyectoMóvilRentaProductos/server/node_modules/jsonwebtoken/verify.js:101:10)\n    at verifyToken (file:///Users/christianvicente/Desktop/La%20Salle%20Oaxaca/7%C2%BA_Semestre/Movil/ProyectoMo%CC%81vilRentaProductos/server/src/middlewares/auth.js:10:7)\n    at Layer.handle [as handle_request] (/Users/christianvicente/Desktop/La Salle Oaxaca/7º_Semestre/Movil/ProyectoMóvilRentaProductos/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/christianvicente/Desktop/La Salle Oaxaca/7º_Semestre/Movil/ProyectoMóvilRentaProductos/server/node_modules/express/lib/router/route.js:149:13)","os":{"loadavg":[2.03759765625,2.29345703125,2.3427734375],"uptime":15255},"process":{"argv":["/opt/homebrew/Cellar/node/23.1.0_1/bin/node","/Users/christianvicente/Desktop/La Salle Oaxaca/7º_Semestre/Movil/ProyectoMóvilRentaProductos/server/src/index.js"],"cwd":"/Users/christianvicente/Desktop/La Salle Oaxaca/7º_Semestre/Movil/ProyectoMóvilRentaProductos/server","execPath":"/opt/homebrew/Cellar/node/23.1.0_1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":65984,"external":3560391,"heapTotal":23363584,"heapUsed":21044520,"rss":58163200},"pid":20608,"uid":501,"version":"v23.1.0"},"rejection":true,"stack":"ReferenceError: logger is not defined\n    at finalize_renta (file:///Users/christianvicente/Desktop/La%20Salle%20Oaxaca/7%C2%BA_Semestre/Movil/ProyectoMo%CC%81vilRentaProductos/server/src/controllers/renta.controller.js:91:5)\n    at Layer.handle [as handle_request] (/Users/christianvicente/Desktop/La Salle Oaxaca/7º_Semestre/Movil/ProyectoMóvilRentaProductos/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/christianvicente/Desktop/La Salle Oaxaca/7º_Semestre/Movil/ProyectoMóvilRentaProductos/server/node_modules/express/lib/router/route.js:149:13)\n    at file:///Users/christianvicente/Desktop/La%20Salle%20Oaxaca/7%C2%BA_Semestre/Movil/ProyectoMo%CC%81vilRentaProductos/server/src/middlewares/auth.js:15:5\n    at /Users/christianvicente/Desktop/La Salle Oaxaca/7º_Semestre/Movil/ProyectoMóvilRentaProductos/server/node_modules/jsonwebtoken/verify.js:261:12\n    at getSecret (/Users/christianvicente/Desktop/La Salle Oaxaca/7º_Semestre/Movil/ProyectoMóvilRentaProductos/server/node_modules/jsonwebtoken/verify.js:97:14)\n    at module.exports [as verify] (/Users/christianvicente/Desktop/La Salle Oaxaca/7º_Semestre/Movil/ProyectoMóvilRentaProductos/server/node_modules/jsonwebtoken/verify.js:101:10)\n    at verifyToken (file:///Users/christianvicente/Desktop/La%20Salle%20Oaxaca/7%C2%BA_Semestre/Movil/ProyectoMo%CC%81vilRentaProductos/server/src/middlewares/auth.js:10:7)\n    at Layer.handle [as handle_request] (/Users/christianvicente/Desktop/La Salle Oaxaca/7º_Semestre/Movil/ProyectoMóvilRentaProductos/server/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/christianvicente/Desktop/La Salle Oaxaca/7º_Semestre/Movil/ProyectoMóvilRentaProductos/server/node_modules/express/lib/router/route.js:149:13)","timestamp":"2024-11-22T00:08:01.825Z","trace":[{"column":5,"file":"file:///Users/christianvicente/Desktop/La%20Salle%20Oaxaca/7%C2%BA_Semestre/Movil/ProyectoMo%CC%81vilRentaProductos/server/src/controllers/renta.controller.js","function":"finalize_renta","line":91,"method":null,"native":false},{"column":5,"file":"/Users/christianvicente/Desktop/La Salle Oaxaca/7º_Semestre/Movil/ProyectoMóvilRentaProductos/server/node_modules/express/lib/router/layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"/Users/christianvicente/Desktop/La Salle Oaxaca/7º_Semestre/Movil/ProyectoMóvilRentaProductos/server/node_modules/express/lib/router/route.js","function":"next","line":149,"method":null,"native":false},{"column":5,"file":"file:///Users/christianvicente/Desktop/La%20Salle%20Oaxaca/7%C2%BA_Semestre/Movil/ProyectoMo%CC%81vilRentaProductos/server/src/middlewares/auth.js","function":null,"line":15,"method":null,"native":false},{"column":12,"file":"/Users/christianvicente/Desktop/La Salle Oaxaca/7º_Semestre/Movil/ProyectoMóvilRentaProductos/server/node_modules/jsonwebtoken/verify.js","function":null,"line":261,"method":null,"native":false},{"column":14,"file":"/Users/christianvicente/Desktop/La Salle Oaxaca/7º_Semestre/Movil/ProyectoMóvilRentaProductos/server/node_modules/jsonwebtoken/verify.js","function":"getSecret","line":97,"method":null,"native":false},{"column":10,"file":"/Users/christianvicente/Desktop/La Salle Oaxaca/7º_Semestre/Movil/ProyectoMóvilRentaProductos/server/node_modules/jsonwebtoken/verify.js","function":"module.exports [as verify]","line":101,"method":"exports [as verify]","native":false},{"column":7,"file":"file:///Users/christianvicente/Desktop/La%20Salle%20Oaxaca/7%C2%BA_Semestre/Movil/ProyectoMo%CC%81vilRentaProductos/server/src/middlewares/auth.js","function":"verifyToken","line":10,"method":null,"native":false},{"column":5,"file":"/Users/christianvicente/Desktop/La Salle Oaxaca/7º_Semestre/Movil/ProyectoMóvilRentaProductos/server/node_modules/express/lib/router/layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"/Users/christianvicente/Desktop/La Salle Oaxaca/7º_Semestre/Movil/ProyectoMóvilRentaProductos/server/node_modules/express/lib/router/route.js","function":"next","line":149,"method":null,"native":false}]}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-22T00:09:24.113Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-22T00:09:24.116Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-22T00:09:32.398Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-22T00:09:32.401Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-22T00:09:41.151Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-22T00:09:41.154Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-22T00:09:54.908Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-22T00:09:54.911Z"}
+{"level":"info","message":"Procedimiento finalize_renta ejecutado para renta_id=16: La renta no está en un estado válido para finalizar","timestamp":"2024-11-22T00:10:02.265Z"}
+{"level":"info","message":"::1 - - [22/Nov/2024:00:10:02 +0000] \"POST /api/rentas/16/finalizar HTTP/1.1\" 400 81 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-22T00:10:02.269Z"}
+{"level":"info","message":"::1 - - [22/Nov/2024:00:16:08 +0000] \"POST /api/productos HTTP/1.1\" 201 42 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-22T00:16:08.285Z"}
+{"level":"info","message":"::1 - - [22/Nov/2024:00:16:38 +0000] \"POST /api/rentas HTTP/1.1\" 201 53 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-22T00:16:38.296Z"}
+{"level":"info","message":"Producto agregado: RentaID=17, ProductoID=59, Cantidad=3","timestamp":"2024-11-22T00:16:47.226Z"}
+{"level":"info","message":"::1 - - [22/Nov/2024:00:16:47 +0000] \"POST /api/productoxrenta HTTP/1.1\" 201 78 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-22T00:16:47.226Z"}
+{"level":"info","message":"Procedimiento finalize_renta ejecutado para renta_id=17: Renta finalizada exitosamente y productos devueltos al stock","timestamp":"2024-11-22T00:16:54.078Z"}
+{"level":"info","message":"::1 - - [22/Nov/2024:00:16:54 +0000] \"POST /api/rentas/17/finalizar HTTP/1.1\" 200 57 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-22T00:16:54.081Z"}
+{"level":"info","message":"::1 - - [22/Nov/2024:00:19:04 +0000] \"POST /api/productos HTTP/1.1\" 201 42 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-22T00:19:04.910Z"}
+{"level":"info","message":"::1 - - [22/Nov/2024:00:19:12 +0000] \"POST /api/rentas HTTP/1.1\" 201 53 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-22T00:19:12.924Z"}
+{"level":"info","message":"Producto agregado: RentaID=18, ProductoID=60, Cantidad=3","timestamp":"2024-11-22T00:19:55.792Z"}
+{"level":"info","message":"::1 - - [22/Nov/2024:00:19:55 +0000] \"POST /api/productoxrenta HTTP/1.1\" 201 78 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-22T00:19:55.794Z"}
+{"level":"info","message":"Procedimiento finalize_renta ejecutado para renta_id=18: Renta finalizada exitosamente y productos devueltos al stock","timestamp":"2024-11-22T00:20:27.540Z"}
+{"level":"info","message":"::1 - - [22/Nov/2024:00:20:27 +0000] \"POST /api/rentas/18/finalizar HTTP/1.1\" 200 57 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-22T00:20:27.541Z"}
+{"level":"error","message":"Error initializing MySQL: AggregateError","timestamp":"2024-11-22T20:10:24.566Z"}
+{"level":"error","message":"MySQL database failed to initialize","reason":{"details":{},"errorCode":"DB_INIT_ERROR","message":"Failed to initialize MySQL","name":"CustomError","statusCode":500},"timestamp":"2024-11-22T20:10:24.567Z"}
+{"level":"info","message":"MySQL closed","timestamp":"2024-11-22T20:10:25.940Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-22T20:10:43.728Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-22T20:10:43.730Z"}
+{"level":"info","message":"MySQL closed","timestamp":"2024-11-22T20:21:19.725Z"}
+{"level":"error","message":"Error initializing MySQL: AggregateError","timestamp":"2024-11-24T19:50:05.392Z"}
+{"level":"error","message":"MySQL database failed to initialize","reason":{"details":{},"errorCode":"DB_INIT_ERROR","message":"Failed to initialize MySQL","name":"CustomError","statusCode":500},"timestamp":"2024-11-24T19:50:05.393Z"}
+{"level":"info","message":"MySQL closed","timestamp":"2024-11-24T19:50:09.254Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-24T19:50:22.877Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-24T19:50:22.879Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-24T19:52:08.110Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-24T19:52:08.113Z"}
+{"level":"info","message":"::1 - - [24/Nov/2024:19:52:59 +0000] \"GET /api HTTP/1.1\" 404 41 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.1.1 Safari/605.1.15\"","timestamp":"2024-11-24T19:52:59.393Z"}
+{"level":"info","message":"::1 - - [24/Nov/2024:19:52:59 +0000] \"GET /favicon.ico HTTP/1.1\" 404 41 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.1.1 Safari/605.1.15\"","timestamp":"2024-11-24T19:52:59.533Z"}
+{"level":"info","message":"MySQL initialized","timestamp":"2024-11-24T19:53:15.502Z"}
+{"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-11-24T19:53:15.504Z"}
+{"level":"info","message":"::1 - - [24/Nov/2024:20:04:24 +0000] \"POST /api/auth/register HTTP/1.1\" 201 61 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-24T20:04:24.745Z"}
+{"level":"info","message":"::1 - - [24/Nov/2024:20:04:37 +0000] \"POST /api/auth/login HTTP/1.1\" 200 225 \"-\" \"PostmanRuntime/7.42.0\"","timestamp":"2024-11-24T20:04:37.351Z"}
+{"level":"info","message":"MySQL closed","timestamp":"2024-11-24T20:05:36.500Z"}

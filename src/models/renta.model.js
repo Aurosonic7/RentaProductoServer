@@ -130,16 +130,25 @@ export const finalize_renta = async (renta_id) => {
   try {
     connection = await mysql.pool.getConnection();
 
+    // Llamar al procedimiento almacenado finalize_renta
     const query = `CALL finalize_renta(?, @p_status_message);`;
     await connection.query(query, [renta_id]);
 
+    // Obtener el mensaje de estado de la variable de salida
     const [output] = await connection.query('SELECT @p_status_message AS statusMessage;');
     const { statusMessage } = output[0] || {};
 
+    logger.info(`Procedimiento finalize_renta ejecutado para renta_id=${renta_id}: ${statusMessage}`);
+
     return { statusMessage };
   } catch (error) {
-    logger.error(`Error finalizando renta: ${error.message}`);
-    throw new CustomError('Error en la base de datos', 'DB_ERROR', 500, { originalError: error.message });
+    logger.error(`Error finalizando renta (ID: ${renta_id}): ${error.message}`);
+    throw new CustomError(
+      'Error en la base de datos',
+      'DB_ERROR',
+      500,
+      { originalError: error.message }
+    );
   } finally {
     if (connection) connection.release();
   }
