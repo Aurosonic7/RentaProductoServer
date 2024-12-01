@@ -82,7 +82,7 @@ export const login_user = async (user) => {
     if (!isPasswordValid) return { statusMessage: 'Incorrect password' };
 
     const token = jwt.sign({ email: user.email, usuario_id }, process.env.JWT_SECRET, { expiresIn: process.env.JWT_EXPIRES_IN || '1h' });
-    return { statusMessage: 'Login successful', token };
+    return { statusMessage: 'Login successful', token, usuario_id };
   } catch (error) {
     logger.error(`Error during login: ${error.message}`);
     throw new CustomError('Database Error', 'DB_ERROR', 500, { originalError: error.message });

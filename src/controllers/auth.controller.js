@@ -20,9 +20,9 @@ export const register_user = async (req, res) => {
 
 export const login_user = async (req, res) => {
   try {
-    const { statusMessage, token } = await authModel.login_user(req.body);
+    const { statusMessage, token, usuario_id } = await authModel.login_user(req.body);
 
-    if (statusMessage === 'Login successful') return res.status(200).send({ message: 'Login exitoso', token });
+    if (statusMessage === 'Login successful') return res.status(200).send({ message: 'Login exitoso', token, usuario_id });
     else if (statusMessage === 'Email does not exist') return res.status(404).send({ message: 'El correo electrónico no existe' });
     else if (statusMessage === 'Incorrect password') return res.status(401).send({ message: 'La contraseña es incorrecta' });
     else return res.status(500).send({ message: 'Error desconocido durante el inicio de sesión' });

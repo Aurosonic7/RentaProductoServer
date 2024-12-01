@@ -65,7 +65,7 @@ export const get_usuario_by_id = async (req, res) => {
     if (usuario.avatar) {
       usuario.avatar = await getDropboxImageLink(usuario.avatar) || usuario.avatar;
     }
-    
+
     delete usuario.password;
 
     return res.status(200).json(usuario);
