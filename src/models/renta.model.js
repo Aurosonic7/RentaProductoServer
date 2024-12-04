@@ -130,11 +130,9 @@ export const finalize_renta = async (renta_id) => {
   try {
     connection = await mysql.pool.getConnection();
 
-    // Llamar al procedimiento almacenado finalize_renta
     const query = `CALL finalize_renta(?, @p_status_message);`;
     await connection.query(query, [renta_id]);
 
-    // Obtener el mensaje de estado de la variable de salida
     const [output] = await connection.query('SELECT @p_status_message AS statusMessage;');
     const { statusMessage } = output[0] || {};
 

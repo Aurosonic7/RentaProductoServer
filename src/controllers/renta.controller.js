@@ -77,10 +77,8 @@ export const delete_renta = async (req, res) => {
 };
 
 export const finalize_renta = async (req, res) => {
-  // Extraer renta_id de los parámetros de ruta y convertirlo a entero
   const renta_id = parseInt(req.params.id, 10);
 
-  // Validación básica del renta_id
   if (isNaN(renta_id) || renta_id <= 0) {
     logger.warn(`ID de renta inválido recibido: ${req.params.id}`);
     return res.status(400).json({ message: 'ID de renta inválido.' });
@@ -88,27 +86,25 @@ export const finalize_renta = async (req, res) => {
 
   try {
     const { statusMessage } = await rentaModel.finalize_renta(renta_id);
-
-    // Mapeo de mensajes de estado a códigos de estado HTTP
     let statusCode;
     let responseMessage;
 
     switch (statusMessage) {
       case 'Renta finalizada exitosamente y productos devueltos al stock':
       case 'Renta finalizada exitosamente':
-        statusCode = 200; // OK
+        statusCode = 200;
         responseMessage = 'Renta finalizada exitosamente';
         break;
       case 'Renta no encontrada':
-        statusCode = 404; // Not Found
+        statusCode = 404; 
         responseMessage = 'Renta no encontrada';
         break;
       case 'La renta no está en un estado válido para finalizar':
-        statusCode = 400; // Bad Request
+        statusCode = 400;
         responseMessage = 'La renta no está en un estado válido para finalizar';
         break;
       default:
-        statusCode = 500; // Internal Server Error
+        statusCode = 500; 
         responseMessage = 'Error desconocido durante la finalización de la renta';
         logger.error(`Mensaje de estado inesperado: ${statusMessage}`);
     }
@@ -116,11 +112,8 @@ export const finalize_renta = async (req, res) => {
     return res.status(statusCode).json({ message: responseMessage, renta_id });
   } catch (error) {
     if (error.code === 'VALIDATION_ERROR') {
-      // Manejo de errores de validación
       return res.status(error.status).json({ message: error.message, details: error.details });
     }
-
-    // Manejo de otros errores (DB_ERROR u otros)
     logger.error(`Error en finalize_renta controller: ${error.message}`);
     return res.status(500).json({ message: 'Error al finalizar la renta.' });
   }
