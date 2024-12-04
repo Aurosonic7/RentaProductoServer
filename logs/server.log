@@ -57,3 +57,7 @@
 {"level":"info","message":"MySQL initialized","timestamp":"2024-09-17T05:13:47.584Z"}
 {"level":"info","message":"MySQL database initializeed successfully","timestamp":"2024-09-17T05:13:47.586Z"}
 {"level":"info","message":"MySQL closed","timestamp":"2024-09-17T05:13:49.096Z"}
+{"level":"error","message":"Error initializing MySQL: AggregateError","timestamp":"2024-12-04T22:02:15.027Z"}
+{"level":"error","message":"MySQL database failed to initialize","reason":{"details":{},"errorCode":"DB_INIT_ERROR","message":"Failed to initialize MySQL","name":"CustomError","statusCode":500},"timestamp":"2024-12-04T22:02:15.031Z"}
+{"level":"error","message":"Error initializing MySQL: AggregateError","timestamp":"2024-12-04T22:02:15.883Z"}
+{"level":"error","message":"MySQL database failed to initialize","reason":{"details":{},"errorCode":"DB_INIT_ERROR","message":"Failed to initialize MySQL","name":"CustomError","statusCode":500},"timestamp":"2024-12-04T22:02:15.887Z"}
