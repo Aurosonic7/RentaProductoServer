@@ -6,7 +6,7 @@ const verifyToken = (req, res, next) => {
   let token = req.headers['x-access-token'] || req.headers['authorization']?.split(' ')[1]; //! Obtengo el token de la solicitud
 
   if (!token) return res.status(403).json({ auth: false, message: 'No token provided.' });
-
+  
   jwt.verify(token, config.jwt.secret, (err, decoded) => {
     //! Si el token no es válido, respondo con un error 401 (Unauthorized) y un mensaje de error adecuado
     if (err) return res.status(401).json({ auth: false, message: 'Failed to authenticate token.' });

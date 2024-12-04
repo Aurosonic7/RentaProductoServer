@@ -1,8 +1,9 @@
+// Importación de librerías y módulos necesarios para la configuración de la base de datos MySQL
 import mysql from 'mysql2/promise';
 import config from '../config.js';
 import logger from '../../utils/logger.js';
 import CustomError from '../../utils/error.js';
-
+// Creación de la conexión a la base de datos MySQL
 const pool = mysql.createPool({
   host: config.db.mysqlHost,
   port: config.db.mysqlPort,
@@ -10,7 +11,7 @@ const pool = mysql.createPool({
   password: config.db.mysqlPassword,
   database: config.db.mysqlDatabase
 });
-
+// Iniciar la conexión a la base de datos MySQL
 const initialize = async () => {
   try {
     const connection = await pool.getConnection();
@@ -21,7 +22,7 @@ const initialize = async () => {
     throw new CustomError('Failed to initialize MySQL', 'DB_INIT_ERROR');
   }
 };
-
+// Cerrar la conexión a la base de datos MySQL
 const close = async () => {
   try {
     await pool.end();
@@ -31,5 +32,5 @@ const close = async () => {
     throw new CustomError('Failed to close MySQL', 'DB_CLOSE_ERROR');
   }
 };
-
+// Exportar las funciones para iniciar y cerrar la conexión a la base de datos MySQL
 export default { pool, initialize, close };
