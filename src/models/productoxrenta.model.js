@@ -115,3 +115,23 @@ export const remove_producto_from_renta = async (data) => {
     if (connection) connection.release();
   }
 };
+
+export const get_productos_by_usuario = async (usuario_id) => {
+  let connection;
+  try {
+    connection = await mysql.pool.getConnection();
+    const query = `CALL get_productos_by_usuario(?, @p_status_message);`;
+
+    const [productos] = await connection.query(query, [usuario_id]);
+
+    const [statusOutput] = await connection.query('SELECT @p_status_message AS statusMessage;');
+    const statusMessage = statusOutput[0]?.statusMessage;
+
+    return { productos: productos[0], statusMessage };
+  } catch (error) {
+    logger.error(`Error obteniendo productos por usuario: ${error.message}`);
+    throw new CustomError('Database Error', 'DB_ERROR', 500, { originalError: error.message });
+  } finally {
+    if (connection) connection.release();
+  }
+};

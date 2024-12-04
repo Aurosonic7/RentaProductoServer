@@ -1,11 +1,7 @@
-// controllers/productoxrenta.controller.js
 import * as productoxrentaModel from '../models/productoxrenta.model.js';
+import { getDropboxImageLink } from '../middlewares/upload.js';
+import logger from '../utils/logger.js';
 
-/**
- * Agregar un producto a una renta
- * @param {Request} req - Objeto de solicitud de Express
- * @param {Response} res - Objeto de respuesta de Express
- */
 export const add_producto_to_renta = async (req, res) => {
   try {
     const { renta_producto_id, statusMessage } = await productoxrentaModel.add_producto_to_renta(req.body);
@@ -33,11 +29,6 @@ export const add_producto_to_renta = async (req, res) => {
   }
 };
 
-/**
- * Remover un producto de una renta
- * @param {Request} req - Objeto de solicitud de Express
- * @param {Response} res - Objeto de respuesta de Express
- */
 export const remove_producto_from_renta = async (req, res) => {
   try {
     const { renta_id, producto_id } = req.params;
@@ -53,5 +44,32 @@ export const remove_producto_from_renta = async (req, res) => {
     }
   } catch (error) {
     res.status(500).json({ message: `Error al remover el producto de la renta: ${error.message}` });
+  }
+};
+
+export const get_productos_by_usuario = async (req, res) => {
+  try {
+    const usuario_id = parseInt(req.params.usuario_id, 10);
+    if (isNaN(usuario_id) || usuario_id < 1) {
+      return res.status(400).json({ message: 'ID de usuario inválido' });
+    }
+
+    const { productos, statusMessage } = await productoxrentaModel.get_productos_by_usuario(usuario_id);
+
+    if (!productos || productos.length === 0) {
+      return res.status(404).json({ message: statusMessage || 'No hay productos asociados a este usuario.' });
+    }
+    
+    for (const producto of productos) {
+      if (producto.imagen) {
+        const imageLink = await getDropboxImageLink(producto.imagen);
+        producto.imagen = imageLink || producto.imagen;
+      }
+    }
+
+    return res.status(200).json({ message: statusMessage, productos });
+  } catch (error) {
+    logger.error(`Error al obtener productos por usuario: ${error.message}`);
+    res.status(500).json({ message: `Error al obtener productos por usuario: ${error.message}` });
   }
 };
