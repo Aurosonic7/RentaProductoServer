@@ -5,7 +5,7 @@ import bcrypt from 'bcryptjs';
 
 export const create_usuario = async (req, res) => {
   try {
-    const { admin_id, nombre, apellido_pat, apellido_mat, telefono, email, password, } = req.body;
+    const { admin_id, nombre, apellido_pat, apellido_mat, telefono, email, password, avatar} = req.body;
     
     const file = req.file;
     if (!nombre || !apellido_pat || !email || !password) return res.status(400).json({ message: 'Nombre, apellido paterno, email y contraseña son obligatorios' });
@@ -28,7 +28,7 @@ export const create_usuario = async (req, res) => {
       telefono: telefono || null,
       email,
       password: hashedPassword,
-      avatar: avatarPath,
+      avatar: avatar,
     });
 
     if (statusMessage === 'User created successfully') return res.status(201).json({ message: 'Usuario creado exitosamente' });

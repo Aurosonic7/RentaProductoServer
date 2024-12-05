@@ -41,40 +41,40 @@ server.use('/api/metodopago', metodoPagoRoutes);
 server.use(notFoundHandler);
 server.use(errorHandler);
 
-// // Función para iniciar y escuchar un script Python
-// function startPythonScript(scriptPath, scriptName) {
-//   const venvPath = 'D:/La_salle_oaxaca/Ejercicios_de_Python/Proyectos_personales/flask-aws-rekognition/venv/Scripts/activate';
-//   const pythonPath = 'D:/La_salle_oaxaca/Ejercicios_de_Python/Proyectos_personales/flask-aws-rekognition/venv/Scripts/python.exe';
+// Función para iniciar y escuchar un script Python
+function startPythonScript(scriptPath, scriptName) {
+  const venvPath = 'D:/La_salle_oaxaca/Ejercicios_de_Python/Proyectos_personales/flask-aws-rekognition/venv/Scripts/activate';
+  const pythonPath = 'D:/La_salle_oaxaca/Ejercicios_de_Python/Proyectos_personales/flask-aws-rekognition/venv/Scripts/python.exe';
 
-//   // Ejecutar el script dentro del entorno virtual
-//   const pythonProcess = spawn('cmd', ['/c', `call ${venvPath} && ${pythonPath} ${scriptPath}`]);
+  // Ejecutar el script dentro del entorno virtual
+  const pythonProcess = spawn('cmd', ['/c', `call ${venvPath} && ${pythonPath} ${scriptPath}`]);
 
-//   console.log(`Iniciando script Python: ${scriptName}`);
+  console.log(`Iniciando script Python: ${scriptName}`);
 
-//   // Escuchar datos de salida
-//   pythonProcess.stdout.on('data', (data) => {
-//     console.log(`[${scriptName}] Salida: ${data.toString()}`);
-//   });
+  // Escuchar datos de salida
+  pythonProcess.stdout.on('data', (data) => {
+    console.log(`[${scriptName}] Salida: ${data.toString()}`);
+  });
 
-//   // Escuchar errores
-//   pythonProcess.stderr.on('data', (data) => {
-//     console.error(`[${scriptName}] Error: ${data.toString()}`);
-//   });
+  // Escuchar errores
+  pythonProcess.stderr.on('data', (data) => {
+    console.error(`[${scriptName}] Error: ${data.toString()}`);
+  });
 
-//   // Escuchar cuando el proceso finaliza
-//   pythonProcess.on('close', (code) => {
-//     console.log(`[${scriptName}] Proceso finalizado con código ${code}`);
-//   });
-// }
+  // Escuchar cuando el proceso finaliza
+  pythonProcess.on('close', (code) => {
+    console.log(`[${scriptName}] Proceso finalizado con código ${code}`);
+  });
+}
 
-// //! Ejecutar ambos scripts Python al iniciar el servidor
-// startPythonScript(
-//   'D:/La_salle_oaxaca/Ejercicios_de_Python/Proyectos_personales/flask-aws-rekognition/backend.py',
-//   'Backend Script'
-// );
-// startPythonScript(
-//   'D:/La_salle_oaxaca/Ejercicios_de_Python/Proyectos_personales/flask-aws-rekognition/putimages.py',
-//   'PutImages Script'
-// );
+//! Ejecutar ambos scripts Python al iniciar el servidor
+startPythonScript(
+  'D:/La_salle_oaxaca/Ejercicios_de_Python/Proyectos_personales/flask-aws-rekognition/backend.py',
+  'Backend Script'
+);
+startPythonScript(
+  'D:/La_salle_oaxaca/Ejercicios_de_Python/Proyectos_personales/flask-aws-rekognition/putimages.py',
+  'PutImages Script'
+);
 
 export default server;

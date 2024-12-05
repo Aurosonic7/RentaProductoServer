@@ -10,6 +10,7 @@ CREATE PROCEDURE register_user(
     IN p_apellido_mat VARCHAR(55),
     IN p_email VARCHAR(50),
     IN p_password VARCHAR(255), -- Aumentada la longitud para soportar hashes
+    IN p_avatar VARCHAR(255),
     OUT p_usuario_id INT UNSIGNED,
     OUT p_status_message VARCHAR(255) 
 )
@@ -17,19 +18,16 @@ BEGIN
     DECLARE EXIT HANDLER FOR SQLEXCEPTION
     BEGIN
         -- Capturar el estado SQL y el mensaje de error
-        DECLARE v_sqlstate CHAR(5) DEFAULT '00000';
-        DECLARE v_message TEXT DEFAULT '';
-        GET DIAGNOSTICS CONDITION 1 v_sqlstate = RETURNED_SQLSTATE, v_message = MESSAGE_TEXT;
-        
         ROLLBACK;
         SET p_usuario_id = NULL;
-        SET p_status_message = CONCAT('Error durante el registro: ', v_sqlstate, ' - ', v_message);
+        SET p_status_message = 'Error durante el registro';
     END;
     -- Etiqueta para controlar el flujo en caso de errores
     proc_end: BEGIN
         -- Iniciar transacción
         START TRANSACTION;
-        -- Validación: Verificar que los campos obligatorios no estén vacíos
+
+        -- Validación: Campos obligatorios
         IF p_nombre IS NULL OR TRIM(p_nombre) = '' THEN
             SET p_status_message = 'El nombre es requerido';
             ROLLBACK;
@@ -47,36 +45,45 @@ BEGIN
             ROLLBACK;
             LEAVE proc_end;
         END IF;
+
         -- Validación: Formato de correo electrónico
         IF p_email NOT REGEXP '^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$' THEN
             SET p_status_message = 'Formato de correo electrónico inválido';
             ROLLBACK;
             LEAVE proc_end;
         END IF;
-        -- Validación: Fortaleza de la contraseña (mínimo 8 caracteres, al menos una letra y un número)
+
+        -- Validación: Fortaleza de la contraseña
         IF LENGTH(p_password) < 8 OR p_password NOT REGEXP '[A-Za-z]' OR p_password NOT REGEXP '[0-9]' THEN
             SET p_status_message = 'La contraseña debe tener al menos 8 caracteres, incluyendo letras y números';
             ROLLBACK;
             LEAVE proc_end;
         END IF;
+
         -- Validación: Verificar si el correo electrónico ya existe
         IF EXISTS (SELECT 1 FROM Usuarios WHERE email = p_email) THEN
             SET p_status_message = 'El correo electrónico ya está registrado';
             ROLLBACK;
             LEAVE proc_end;
         END IF;
-        -- Insertar el nuevo usuario (contraseña ya está hasheada en la aplicación)
-        INSERT INTO Usuarios (nombre, apellido_pat, apellido_mat, email, password, createdAt) 
-        VALUES (p_nombre, p_apellido_pat, p_apellido_mat, p_email, p_password, NOW());
+
+        -- Insertar el nuevo usuario
+        INSERT INTO Usuarios (nombre, apellido_pat, apellido_mat, email, password, avatar, createdAt) 
+        VALUES (p_nombre, p_apellido_pat, p_apellido_mat, p_email, p_password, 
+                IFNULL(p_avatar, 'default_avatar.png'), NOW());
+
         -- Obtener el ID del usuario recién registrado
         SET p_usuario_id = LAST_INSERT_ID();
+
         -- Confirmar la transacción
         COMMIT;
+
         -- Establecer mensaje de éxito
         SET p_status_message = 'Usuario registrado exitosamente';
     END proc_end;
 END$$
 DELIMITER ;
+
 -- Procedimiento almacenado para loguear un usuario
 DELIMITER $$
 CREATE PROCEDURE login_user( 

@@ -31,3 +31,17 @@ export const login_user = async (req, res) => {
     res.status(500).json({ message: `Error durante el inicio de sesión: ${error.message}` });
   }
 };
+
+export const login_user_name = async (req, res) => {
+  try {
+    console.log(req.body)
+    const { statusMessage, token, usuario_id, returnedName } = await authModel.login_user_name(req.body);
+
+    if (statusMessage === 'Login successful') return res.status(200).send({ message: 'Login exitoso', token, usuario_id, returnedName });
+    else if (statusMessage === 'Nombre does not exist') return res.status(404).send({ message: 'El nombre no existe' });
+    else return res.status(500).send({ message: 'Error desconocido durante el inicio de sesión' });
+  
+  } catch (error) {
+    res.status(500).json({ message: `Error durante el inicio de sesión by name: ${error.message}` });
+  }
+}
